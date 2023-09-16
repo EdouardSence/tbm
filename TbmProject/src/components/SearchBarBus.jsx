@@ -11,16 +11,32 @@ function SearchBarBus() {
   function handleInputChange(event) {
     const newSearchTerm = event.target.value;
     setSearchTerm(newSearchTerm);
+
     if (newSearchTerm.length < 1) {
       setSearchResults([]);
       return;
     }
-    const filteredResults = NouveauTbmData.filter((item) =>
-      item.libelle.toLowerCase().includes(newSearchTerm.toLowerCase())
-    ).slice(0, 10);
+
+    // Split the input by space
+    const searchTerms = newSearchTerm.split(' ');
+
+    const filteredResults = NouveauTbmData.filter((item) => {
+      // Check if any of the search terms match libelle or lineId
+      return searchTerms.every((term) => {
+        term = term.toLowerCase();
+        return (
+          item.libelle.toLowerCase().includes(term) ||
+          (item.transport?.BUS?.some(
+            (destination) =>
+              destination.lineId.toString() === term 
+          ) ?? false)
+        );
+      });
+    }).slice(0, 10);
 
     setSearchResults(filteredResults);
   }
+
 
   // function handleResultClick(result) {
   //   navigate(`/tbm/viewBus?numero=${result.numero}&ligne=${result.transport?.BUS?.[0]?.lineId}`);
