@@ -41,13 +41,13 @@ function SearchBarBus() {
             <div key={result.numero}>
               {result.transport?.BUS?.length > 0 && (
                 <Link
-                  to={`./tbm/viewBus?numero=${result.numero}&ligne=${result.transport?.BUS?.[0]?.lineId}`}
+                  to={`viewBus?numero=${result.numero}&ligne=${result.transport?.BUS?.[0]?.lineId}`}
                   style={{ color: "white" }}
-                  // onClick={() => handleResultClick(result)}
+                // onClick={() => handleResultClick(result)}
                 >
                   {result.transport?.["BUS"]?.[0]?.image && (
                     <img
-                      src={`/${result.transport["BUS"][0].image}`}
+                      src={`./${result.transport["BUS"][0].image}`}
                       alt="logo"
                       style={{ width: 50, height: 50, verticalAlign: "middle", padding: 10 }}
                     />
