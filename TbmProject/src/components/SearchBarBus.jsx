@@ -34,18 +34,19 @@ function SearchBarBus() {
         <div className="listBus">
           {searchResults.map((result) => (
             <div key={result.numero}>
-              {result.transport?.["BUS"]?.[0]?.image && (
-                <img
-                  src={`/${result.transport[result.vehicule][0].image}`}
-                  alt="logo"
-                  style={{ width: 50, height: 50 }}
-                />)}
-              <p>
+
+              <a href='#' style={{ color: "white" }}>
+                {result.transport?.["BUS"]?.[0]?.image && (
+                  <img
+                    src={`/${result.transport["BUS"][0].image}`}
+                    alt="logo"
+                    style={{ width: 50, height: 50, verticalAlign: "middle", padding: 10 }}
+                  />)}
                 {result.transport?.BUS?.[0]?.destination_name && (
                   <>
-                    {result.libelle} ({result.vehicule} {result.transport["BUS"][0].lineId}) - {result.transport["BUS"][0].destination_name}</>
+                    {result.libelle} - {result.transport["BUS"][0].destination_name}</>
                 )}
-              </p>
+              </a>
               {/* Display other relevant information */}
             </div>
           ))}
