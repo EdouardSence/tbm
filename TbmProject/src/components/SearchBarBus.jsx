@@ -38,6 +38,7 @@ function SearchBarBus() {
                 <img
                   src={`/${result.transport[result.vehicule][0].image}`}
                   alt="logo"
+                  style={{ width: 50, height: 50 }}
                 />)}
               <p>
                 {result.transport?.BUS?.[0]?.destination_name && (
