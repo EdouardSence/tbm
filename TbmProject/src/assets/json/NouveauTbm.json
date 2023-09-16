@@ -106,7 +106,7 @@
   },
   {
     "numero": 9,
-    "libelle": "Clos des Bruyères",
+    "libelle": "Clos des Bruyeres",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -125,7 +125,7 @@
   },
   {
     "numero": 10,
-    "libelle": "Mairie du Taillan Médoc",
+    "libelle": "Mairie du Taillan Medoc",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -172,7 +172,7 @@
   },
   {
     "numero": 16,
-    "libelle": "La Morandière",
+    "libelle": "La Morandiere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -272,7 +272,7 @@
   },
   {
     "numero": 31,
-    "libelle": "Gare Routière",
+    "libelle": "Gare Routiere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -306,7 +306,7 @@
   },
   {
     "numero": 32,
-    "libelle": "Château Rouquey",
+    "libelle": "Chateau Rouquey",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -382,7 +382,7 @@
   },
   {
     "numero": 39,
-    "libelle": "Fraternité",
+    "libelle": "Fraternite",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -462,7 +462,7 @@
   },
   {
     "numero": 46,
-    "libelle": "Avenue de Léognan",
+    "libelle": "Avenue de Leognan",
     "vehicule": "BUS"
   },
   {
@@ -496,7 +496,7 @@
   },
   {
     "numero": 50,
-    "libelle": "Clavé",
+    "libelle": "Clave",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -548,7 +548,7 @@
   },
   {
     "numero": 54,
-    "libelle": "Ambès Eglise",
+    "libelle": "Ambes Eglise",
     "vehicule": "BUS"
   },
   {
@@ -567,7 +567,7 @@
   },
   {
     "numero": 61,
-    "libelle": "Bernède",
+    "libelle": "Bernede",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -643,7 +643,7 @@
   },
   {
     "numero": 69,
-    "libelle": "Poincaré",
+    "libelle": "Poincare",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -682,7 +682,7 @@
   },
   {
     "numero": 75,
-    "libelle": "Square Prévert",
+    "libelle": "Square Prevert",
     "vehicule": "BUS"
   },
   {
@@ -807,7 +807,7 @@
   },
   {
     "numero": 93,
-    "libelle": "La Paillère",
+    "libelle": "La Paillere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -911,7 +911,7 @@
   },
   {
     "numero": 106,
-    "libelle": "La Grave d'Ambarès",
+    "libelle": "La Grave d'Ambares",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -1034,7 +1034,7 @@
   },
   {
     "numero": 115,
-    "libelle": "Lycée Elie Faure",
+    "libelle": "Lycee Elie Faure",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -1091,7 +1091,7 @@
   },
   {
     "numero": 123,
-    "libelle": "Gabriel Fauré",
+    "libelle": "Gabriel Faure",
     "vehicule": "BUS"
   },
   {
@@ -1229,7 +1229,7 @@
   },
   {
     "numero": 139,
-    "libelle": "André Eustache",
+    "libelle": "Andre Eustache",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -1381,12 +1381,12 @@
   },
   {
     "numero": 150,
-    "libelle": "Gare d'Orléans",
+    "libelle": "Gare d'Orleans",
     "vehicule": "BUS"
   },
   {
     "numero": 151,
-    "libelle": "Lycée Sud Médoc",
+    "libelle": "Lycee Sud Medoc",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -1476,7 +1476,7 @@
   },
   {
     "numero": 159,
-    "libelle": "Mendès France",
+    "libelle": "Mendes France",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -1523,12 +1523,12 @@
   },
   {
     "numero": 164,
-    "libelle": "Port Lopès",
+    "libelle": "Port Lopes",
     "vehicule": "BUS"
   },
   {
     "numero": 165,
-    "libelle": "Mahéla",
+    "libelle": "Mahela",
     "vehicule": "BUS"
   },
   {
@@ -1604,12 +1604,12 @@
   },
   {
     "numero": 174,
-    "libelle": "Route de Canéjan",
+    "libelle": "Route de Canejan",
     "vehicule": "BUS"
   },
   {
     "numero": 175,
-    "libelle": "La Sablière",
+    "libelle": "La Sabliere",
     "vehicule": "BUS"
   },
   {
@@ -1633,7 +1633,7 @@
   },
   {
     "numero": 177,
-    "libelle": "Côte de Monrepos",
+    "libelle": "Cote de Monrepos",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -1694,12 +1694,12 @@
   },
   {
     "numero": 182,
-    "libelle": "Mahéla",
+    "libelle": "Mahela",
     "vehicule": "BUS"
   },
   {
     "numero": 184,
-    "libelle": "Les Chênes",
+    "libelle": "Les Chenes",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -1761,7 +1761,7 @@
   },
   {
     "numero": 187,
-    "libelle": "Réservoir Lavardens",
+    "libelle": "Reservoir Lavardens",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -1955,7 +1955,7 @@
   },
   {
     "numero": 207,
-    "libelle": "Le Béquet",
+    "libelle": "Le Bequet",
     "vehicule": "BUS"
   },
   {
@@ -2112,7 +2112,7 @@
   },
   {
     "numero": 219,
-    "libelle": "Hôpital Haut Lévêque",
+    "libelle": "Hopital Haut Leveque",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -2207,7 +2207,7 @@
   },
   {
     "numero": 230,
-    "libelle": "Jean Jaurès",
+    "libelle": "Jean Jaures",
     "vehicule": "BUS"
   },
   {
@@ -2288,7 +2288,7 @@
   },
   {
     "numero": 239,
-    "libelle": "Collège Lapierre",
+    "libelle": "College Lapierre",
     "vehicule": "BUS"
   },
   {
@@ -2412,12 +2412,12 @@
   },
   {
     "numero": 249,
-    "libelle": "Brémontier",
+    "libelle": "Bremontier",
     "vehicule": "BUS"
   },
   {
     "numero": 250,
-    "libelle": "Gelès",
+    "libelle": "Geles",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -2431,7 +2431,7 @@
   },
   {
     "numero": 252,
-    "libelle": "Clavé",
+    "libelle": "Clave",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -2616,7 +2616,7 @@
   },
   {
     "numero": 276,
-    "libelle": "Béraldi",
+    "libelle": "Beraldi",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -2630,7 +2630,7 @@
   },
   {
     "numero": 279,
-    "libelle": "Manège",
+    "libelle": "Manege",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -2654,7 +2654,7 @@
   },
   {
     "numero": 281,
-    "libelle": "Fauré",
+    "libelle": "Faure",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -2696,7 +2696,7 @@
   },
   {
     "numero": 284,
-    "libelle": "Pérès",
+    "libelle": "Peres",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -2825,7 +2825,7 @@
   },
   {
     "numero": 294,
-    "libelle": "Le Dôme",
+    "libelle": "Le Dome",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -2882,7 +2882,7 @@
   },
   {
     "numero": 299,
-    "libelle": "Place Mondésir",
+    "libelle": "Place Mondesir",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -2906,7 +2906,7 @@
   },
   {
     "numero": 300,
-    "libelle": "Hôpital Pellegrin (Grand Maurian)",
+    "libelle": "Hopital Pellegrin (Grand Maurian)",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -2996,7 +2996,7 @@
   },
   {
     "numero": 312,
-    "libelle": "La Morandière",
+    "libelle": "La Morandiere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -3043,7 +3043,7 @@
   },
   {
     "numero": 317,
-    "libelle": "Collège L. Lenoir",
+    "libelle": "College L. Lenoir",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -3139,7 +3139,7 @@
   },
   {
     "numero": 323,
-    "libelle": "Sévène",
+    "libelle": "Sevene",
     "vehicule": "BUS"
   },
   {
@@ -3267,7 +3267,7 @@
   },
   {
     "numero": 333,
-    "libelle": "Cité SNCF",
+    "libelle": "Cite SNCF",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -3384,7 +3384,7 @@
   },
   {
     "numero": 346,
-    "libelle": "45ème Parallèle",
+    "libelle": "45eme Parallele",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -3422,7 +3422,7 @@
   },
   {
     "numero": 348,
-    "libelle": "Rue Jean Jaurès",
+    "libelle": "Rue Jean Jaures",
     "vehicule": "BUS"
   },
   {
@@ -3559,7 +3559,7 @@
   },
   {
     "numero": 364,
-    "libelle": "Périnot",
+    "libelle": "Perinot",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -3630,7 +3630,7 @@
   },
   {
     "numero": 369,
-    "libelle": "Léon Blum",
+    "libelle": "Leon Blum",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -3842,12 +3842,12 @@
   },
   {
     "numero": 383,
-    "libelle": "Béchade",
+    "libelle": "Bechade",
     "vehicule": "BUS"
   },
   {
     "numero": 384,
-    "libelle": "Parc Rivière",
+    "libelle": "Parc Riviere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -3861,7 +3861,7 @@
   },
   {
     "numero": 385,
-    "libelle": "Léon Blum",
+    "libelle": "Leon Blum",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -3927,7 +3927,7 @@
   },
   {
     "numero": 390,
-    "libelle": "Primevères",
+    "libelle": "Primeveres",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -4026,7 +4026,7 @@
   },
   {
     "numero": 400,
-    "libelle": "Hôpital Pellegrin (Grand Maurian)",
+    "libelle": "Hopital Pellegrin (Grand Maurian)",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -4111,7 +4111,7 @@
   },
   {
     "numero": 407,
-    "libelle": "Côte de Caumont",
+    "libelle": "Cote de Caumont",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -4317,7 +4317,7 @@
   },
   {
     "numero": 422,
-    "libelle": "Mendès France",
+    "libelle": "Mendes France",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -4446,7 +4446,7 @@
   },
   {
     "numero": 433,
-    "libelle": "Frères Robinson",
+    "libelle": "Freres Robinson",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -4465,7 +4465,7 @@
   },
   {
     "numero": 436,
-    "libelle": "Sévène",
+    "libelle": "Sevene",
     "vehicule": "BUS"
   },
   {
@@ -4708,7 +4708,7 @@
   },
   {
     "numero": 461,
-    "libelle": "Cenon Marègue",
+    "libelle": "Cenon Maregue",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -4741,7 +4741,7 @@
   },
   {
     "numero": 464,
-    "libelle": "Quatre Castéra",
+    "libelle": "Quatre Castera",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -4836,7 +4836,7 @@
   },
   {
     "numero": 472,
-    "libelle": "Maréchal Foch",
+    "libelle": "Marechal Foch",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -5121,7 +5121,7 @@
   },
   {
     "numero": 504,
-    "libelle": "Cèdres",
+    "libelle": "Cedres",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -5145,7 +5145,7 @@
   },
   {
     "numero": 508,
-    "libelle": "Métairie",
+    "libelle": "Metairie",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -5169,12 +5169,12 @@
   },
   {
     "numero": 511,
-    "libelle": "Avenue de Léognan",
+    "libelle": "Avenue de Leognan",
     "vehicule": "BUS"
   },
   {
     "numero": 512,
-    "libelle": "Bruges Hôtel de Ville",
+    "libelle": "Bruges Hotel de Ville",
     "vehicule": "BUS"
   },
   {
@@ -5212,7 +5212,7 @@
   },
   {
     "numero": 515,
-    "libelle": "Rue du Réduit",
+    "libelle": "Rue du Reduit",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -5250,7 +5250,7 @@
   },
   {
     "numero": 518,
-    "libelle": "La Générale",
+    "libelle": "La Generale",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -5264,7 +5264,7 @@
   },
   {
     "numero": 520,
-    "libelle": "Cimetière Nord",
+    "libelle": "Cimetiere Nord",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -5283,7 +5283,7 @@
   },
   {
     "numero": 522,
-    "libelle": "Collège Gérard Philipe",
+    "libelle": "College Gerard Philipe",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -5297,7 +5297,7 @@
   },
   {
     "numero": 524,
-    "libelle": "Forêt du Bourgailh",
+    "libelle": "Foret du Bourgailh",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -5434,7 +5434,7 @@
   },
   {
     "numero": 538,
-    "libelle": "Barthès",
+    "libelle": "Barthes",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -5462,7 +5462,7 @@
   },
   {
     "numero": 541,
-    "libelle": "Frères Lumière",
+    "libelle": "Freres Lumiere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -5660,7 +5660,7 @@
   },
   {
     "numero": 557,
-    "libelle": "Rébédech",
+    "libelle": "Rebedech",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -5674,7 +5674,7 @@
   },
   {
     "numero": 560,
-    "libelle": "Côte de Caumont",
+    "libelle": "Cote de Caumont",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -5731,7 +5731,7 @@
   },
   {
     "numero": 563,
-    "libelle": "La Gravière",
+    "libelle": "La Graviere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -5802,7 +5802,7 @@
   },
   {
     "numero": 572,
-    "libelle": "Castés",
+    "libelle": "Castes",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -5935,7 +5935,7 @@
   },
   {
     "numero": 580,
-    "libelle": "Rue de l'Amitié",
+    "libelle": "Rue de l'Amitie",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -6197,7 +6197,7 @@
   },
   {
     "numero": 605,
-    "libelle": "Gelès",
+    "libelle": "Geles",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -6400,7 +6400,7 @@
   },
   {
     "numero": 623,
-    "libelle": "Métairie",
+    "libelle": "Metairie",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -6533,7 +6533,7 @@
   },
   {
     "numero": 635,
-    "libelle": "Jean Jaurès",
+    "libelle": "Jean Jaures",
     "vehicule": "BUS"
   },
   {
@@ -6614,7 +6614,7 @@
   },
   {
     "numero": 641,
-    "libelle": "Cité Administrative",
+    "libelle": "Cite Administrative",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -6681,7 +6681,7 @@
   },
   {
     "numero": 645,
-    "libelle": "La Générale",
+    "libelle": "La Generale",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -6738,7 +6738,7 @@
   },
   {
     "numero": 649,
-    "libelle": "Lycée des Graves",
+    "libelle": "Lycee des Graves",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -6757,7 +6757,7 @@
   },
   {
     "numero": 650,
-    "libelle": "Les Chênes",
+    "libelle": "Les Chenes",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -6790,7 +6790,7 @@
   },
   {
     "numero": 654,
-    "libelle": "Dotézac",
+    "libelle": "Dotezac",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -6804,7 +6804,7 @@
   },
   {
     "numero": 655,
-    "libelle": "Rue de la Réole",
+    "libelle": "Rue de la Reole",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -6833,7 +6833,7 @@
   },
   {
     "numero": 657,
-    "libelle": "Périnot",
+    "libelle": "Perinot",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -6862,7 +6862,7 @@
   },
   {
     "numero": 663,
-    "libelle": "Barrière de Bègles",
+    "libelle": "Barriere de Begles",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -6948,7 +6948,7 @@
   },
   {
     "numero": 670,
-    "libelle": "Forêt du Bourgailh",
+    "libelle": "Foret du Bourgailh",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -6976,7 +6976,7 @@
   },
   {
     "numero": 673,
-    "libelle": "Pressensé",
+    "libelle": "Pressense",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -7014,7 +7014,7 @@
   },
   {
     "numero": 677,
-    "libelle": "R.P.A La Bérengère",
+    "libelle": "R.P.A La Berengere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -7057,7 +7057,7 @@
   },
   {
     "numero": 681,
-    "libelle": "Hôpital Pellegrin (entrée Est)",
+    "libelle": "Hopital Pellegrin (entree Est)",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -7133,7 +7133,7 @@
   },
   {
     "numero": 687,
-    "libelle": "La Forêt",
+    "libelle": "La Foret",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -7152,7 +7152,7 @@
   },
   {
     "numero": 688,
-    "libelle": "Président Wilson",
+    "libelle": "President Wilson",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -7222,7 +7222,7 @@
   },
   {
     "numero": 693,
-    "libelle": "Réservoir Lavardens",
+    "libelle": "Reservoir Lavardens",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -7250,7 +7250,7 @@
   },
   {
     "numero": 695,
-    "libelle": "Cité SNCF",
+    "libelle": "Cite SNCF",
     "vehicule": "BUS"
   },
   {
@@ -7345,7 +7345,7 @@
   },
   {
     "numero": 704,
-    "libelle": "Le Béquet",
+    "libelle": "Le Bequet",
     "vehicule": "BUS"
   },
   {
@@ -7474,7 +7474,7 @@
   },
   {
     "numero": 717,
-    "libelle": "Crébadin",
+    "libelle": "Crebadin",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -7540,7 +7540,7 @@
   },
   {
     "numero": 723,
-    "libelle": "Lycée Jean Monnet",
+    "libelle": "Lycee Jean Monnet",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -7559,7 +7559,7 @@
   },
   {
     "numero": 725,
-    "libelle": "Président Wilson",
+    "libelle": "President Wilson",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -7592,7 +7592,7 @@
   },
   {
     "numero": 730,
-    "libelle": "Mondésir Poste",
+    "libelle": "Mondesir Poste",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -7658,7 +7658,7 @@
   },
   {
     "numero": 735,
-    "libelle": "Piscine Judaïque",
+    "libelle": "Piscine Judaique",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -7739,7 +7739,7 @@
   },
   {
     "numero": 743,
-    "libelle": "Collège Gérard Philipe",
+    "libelle": "College Gerard Philipe",
     "vehicule": "BUS"
   },
   {
@@ -7763,7 +7763,7 @@
   },
   {
     "numero": 748,
-    "libelle": "Béraldi",
+    "libelle": "Beraldi",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -7820,7 +7820,7 @@
   },
   {
     "numero": 754,
-    "libelle": "Nouzarède",
+    "libelle": "Nouzarede",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -7853,7 +7853,7 @@
   },
   {
     "numero": 756,
-    "libelle": "Bibliothèque",
+    "libelle": "Bibliotheque",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -7919,7 +7919,7 @@
   },
   {
     "numero": 767,
-    "libelle": "Les Méridiennes",
+    "libelle": "Les Meridiennes",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -8099,7 +8099,7 @@
   },
   {
     "numero": 785,
-    "libelle": "République",
+    "libelle": "Republique",
     "vehicule": "BUS"
   },
   {
@@ -8161,7 +8161,7 @@
   },
   {
     "numero": 793,
-    "libelle": "Bibliothèque",
+    "libelle": "Bibliotheque",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -8194,7 +8194,7 @@
   },
   {
     "numero": 795,
-    "libelle": "Barrière de Bègles",
+    "libelle": "Barriere de Begles",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -8236,7 +8236,7 @@
   },
   {
     "numero": 801,
-    "libelle": "Maréchal Niel",
+    "libelle": "Marechal Niel",
     "vehicule": "BUS"
   },
   {
@@ -8279,7 +8279,7 @@
   },
   {
     "numero": 806,
-    "libelle": "Palais des Congrès",
+    "libelle": "Palais des Congres",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -8293,7 +8293,7 @@
   },
   {
     "numero": 807,
-    "libelle": "Agrières",
+    "libelle": "Agrieres",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -8331,7 +8331,7 @@
   },
   {
     "numero": 809,
-    "libelle": "Demosthène",
+    "libelle": "Demosthene",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -8350,7 +8350,7 @@
   },
   {
     "numero": 810,
-    "libelle": "Dotézac",
+    "libelle": "Dotezac",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -8364,7 +8364,7 @@
   },
   {
     "numero": 811,
-    "libelle": "Hameau du Château",
+    "libelle": "Hameau du Chateau",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -8397,7 +8397,7 @@
   },
   {
     "numero": 815,
-    "libelle": "Fauré",
+    "libelle": "Faure",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -8554,7 +8554,7 @@
   },
   {
     "numero": 827,
-    "libelle": "Route du Médoc",
+    "libelle": "Route du Medoc",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -8588,7 +8588,7 @@
   },
   {
     "numero": 830,
-    "libelle": "Lycées de Mérignac",
+    "libelle": "Lycees de Merignac",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -8817,7 +8817,7 @@
   },
   {
     "numero": 849,
-    "libelle": "Libération",
+    "libelle": "Liberation",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -8949,7 +8949,7 @@
   },
   {
     "numero": 865,
-    "libelle": "Pierre Mendès France",
+    "libelle": "Pierre Mendes France",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -9072,7 +9072,7 @@
   },
   {
     "numero": 877,
-    "libelle": "Mairie de Bègles",
+    "libelle": "Mairie de Begles",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -9086,7 +9086,7 @@
   },
   {
     "numero": 880,
-    "libelle": "Fénelon",
+    "libelle": "Fenelon",
     "vehicule": "BUS"
   },
   {
@@ -9177,7 +9177,7 @@
   },
   {
     "numero": 887,
-    "libelle": "Collège Pont de la Maye",
+    "libelle": "College Pont de la Maye",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -9196,7 +9196,7 @@
   },
   {
     "numero": 889,
-    "libelle": "Dorgelès",
+    "libelle": "Dorgeles",
     "vehicule": "BUS"
   },
   {
@@ -9206,7 +9206,7 @@
   },
   {
     "numero": 892,
-    "libelle": "La Boétie",
+    "libelle": "La Boetie",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -9272,7 +9272,7 @@
   },
   {
     "numero": 898,
-    "libelle": "Pressensé",
+    "libelle": "Pressense",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -9371,7 +9371,7 @@
   },
   {
     "numero": 909,
-    "libelle": "Fénelon",
+    "libelle": "Fenelon",
     "vehicule": "BUS"
   },
   {
@@ -9423,7 +9423,7 @@
   },
   {
     "numero": 915,
-    "libelle": "Piscine Judaïque",
+    "libelle": "Piscine Judaique",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -9504,7 +9504,7 @@
   },
   {
     "numero": 919,
-    "libelle": "Vélodrome",
+    "libelle": "Velodrome",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -9785,7 +9785,7 @@
   },
   {
     "numero": 949,
-    "libelle": "Libération",
+    "libelle": "Liberation",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -10089,7 +10089,7 @@
   },
   {
     "numero": 972,
-    "libelle": "Crébadin",
+    "libelle": "Crebadin",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -10103,7 +10103,7 @@
   },
   {
     "numero": 973,
-    "libelle": "Lycée Elie Faure",
+    "libelle": "Lycee Elie Faure",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -10117,7 +10117,7 @@
   },
   {
     "numero": 974,
-    "libelle": "Lycée Václav Havel",
+    "libelle": "Lycee Vaclav Havel",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -10226,7 +10226,7 @@
   },
   {
     "numero": 983,
-    "libelle": "Ampère",
+    "libelle": "Ampere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -10349,7 +10349,7 @@
   },
   {
     "numero": 996,
-    "libelle": "Euromédoc",
+    "libelle": "Euromedoc",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -10387,7 +10387,7 @@
   },
   {
     "numero": 998,
-    "libelle": "Ampère",
+    "libelle": "Ampere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -10448,7 +10448,7 @@
   },
   {
     "numero": 1005,
-    "libelle": "Liberté",
+    "libelle": "Liberte",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -10462,7 +10462,7 @@
   },
   {
     "numero": 1006,
-    "libelle": "Forêt du Bourgailh",
+    "libelle": "Foret du Bourgailh",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -10542,7 +10542,7 @@
   },
   {
     "numero": 1012,
-    "libelle": "Bernède",
+    "libelle": "Bernede",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -10637,7 +10637,7 @@
   },
   {
     "numero": 1021,
-    "libelle": "Lisière du Vignoble",
+    "libelle": "Lisiere du Vignoble",
     "vehicule": "BUS"
   },
   {
@@ -10671,7 +10671,7 @@
   },
   {
     "numero": 1027,
-    "libelle": "Pierre Mendès France",
+    "libelle": "Pierre Mendes France",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -10685,7 +10685,7 @@
   },
   {
     "numero": 1028,
-    "libelle": "Frères Robinson",
+    "libelle": "Freres Robinson",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -10818,7 +10818,7 @@
   },
   {
     "numero": 1042,
-    "libelle": "Lièges",
+    "libelle": "Lieges",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -10884,7 +10884,7 @@
   },
   {
     "numero": 1051,
-    "libelle": "Collège Emile Zola",
+    "libelle": "College Emile Zola",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -11006,7 +11006,7 @@
   },
   {
     "numero": 1064,
-    "libelle": "Nancel Pénard",
+    "libelle": "Nancel Penard",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -11020,7 +11020,7 @@
   },
   {
     "numero": 1065,
-    "libelle": "Vélodrome",
+    "libelle": "Velodrome",
     "vehicule": "BUS"
   },
   {
@@ -11097,7 +11097,7 @@
   },
   {
     "numero": 1076,
-    "libelle": "Rivière",
+    "libelle": "Riviere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -11149,7 +11149,7 @@
   },
   {
     "numero": 1081,
-    "libelle": "Bruges Hôtel de Ville",
+    "libelle": "Bruges Hotel de Ville",
     "vehicule": "BUS"
   },
   {
@@ -11168,7 +11168,7 @@
   },
   {
     "numero": 1086,
-    "libelle": "Demosthène",
+    "libelle": "Demosthene",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -11286,7 +11286,7 @@
   },
   {
     "numero": 1094,
-    "libelle": "Barrière St Augustin",
+    "libelle": "Barriere St Augustin",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -11300,7 +11300,7 @@
   },
   {
     "numero": 1095,
-    "libelle": "Côte de la Garonne",
+    "libelle": "Cote de la Garonne",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -11343,7 +11343,7 @@
   },
   {
     "numero": 1101,
-    "libelle": "Pôle emploi Bastide",
+    "libelle": "Pole emploi Bastide",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -11362,7 +11362,7 @@
   },
   {
     "numero": 1102,
-    "libelle": "Kyrié",
+    "libelle": "Kyrie",
     "vehicule": "BUS"
   },
   {
@@ -11485,7 +11485,7 @@
   },
   {
     "numero": 1113,
-    "libelle": "Collège Victor Louis",
+    "libelle": "College Victor Louis",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -11499,7 +11499,7 @@
   },
   {
     "numero": 1116,
-    "libelle": "R.P.A La Bérengère",
+    "libelle": "R.P.A La Berengere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -11513,7 +11513,7 @@
   },
   {
     "numero": 1117,
-    "libelle": "Gérard Philipe",
+    "libelle": "Gerard Philipe",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -11560,7 +11560,7 @@
   },
   {
     "numero": 1121,
-    "libelle": "St Exupéry",
+    "libelle": "St Exupery",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -11665,7 +11665,7 @@
   },
   {
     "numero": 1133,
-    "libelle": "Molière",
+    "libelle": "Moliere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -11713,7 +11713,7 @@
   },
   {
     "numero": 1136,
-    "libelle": "Fraternité",
+    "libelle": "Fraternite",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -11727,7 +11727,7 @@
   },
   {
     "numero": 1137,
-    "libelle": "Dehès",
+    "libelle": "Dehes",
     "vehicule": "BUS"
   },
   {
@@ -11850,7 +11850,7 @@
   },
   {
     "numero": 1147,
-    "libelle": "Nouzarède",
+    "libelle": "Nouzarede",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -11894,7 +11894,7 @@
   },
   {
     "numero": 1153,
-    "libelle": "Pape Clément (Place Sellier)",
+    "libelle": "Pape Clement (Place Sellier)",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -12003,7 +12003,7 @@
   },
   {
     "numero": 1162,
-    "libelle": "Docteur Férié",
+    "libelle": "Docteur Ferie",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -12079,7 +12079,7 @@
   },
   {
     "numero": 1169,
-    "libelle": "Mattéoti",
+    "libelle": "Matteoti",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -12145,7 +12145,7 @@
   },
   {
     "numero": 1176,
-    "libelle": "Libération",
+    "libelle": "Liberation",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -12215,7 +12215,7 @@
   },
   {
     "numero": 1183,
-    "libelle": "Jean Jaurès",
+    "libelle": "Jean Jaures",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -12267,7 +12267,7 @@
   },
   {
     "numero": 1191,
-    "libelle": "Castés",
+    "libelle": "Castes",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -12281,7 +12281,7 @@
   },
   {
     "numero": 1192,
-    "libelle": "André Ricard",
+    "libelle": "Andre Ricard",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -12300,12 +12300,12 @@
   },
   {
     "numero": 1193,
-    "libelle": "Saïgon",
+    "libelle": "Saigon",
     "vehicule": "BUS"
   },
   {
     "numero": 1194,
-    "libelle": "Hôpital Haut Lévêque",
+    "libelle": "Hopital Haut Leveque",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -12671,7 +12671,7 @@
   },
   {
     "numero": 1230,
-    "libelle": "Les Hôtels",
+    "libelle": "Les Hotels",
     "vehicule": "BUS"
   },
   {
@@ -12789,7 +12789,7 @@
   },
   {
     "numero": 1244,
-    "libelle": "Dauphiné",
+    "libelle": "Dauphine",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -12983,7 +12983,7 @@
   },
   {
     "numero": 1268,
-    "libelle": "Tillède",
+    "libelle": "Tillede",
     "vehicule": "BUS"
   },
   {
@@ -13040,7 +13040,7 @@
   },
   {
     "numero": 1276,
-    "libelle": "Maréchal Niel",
+    "libelle": "Marechal Niel",
     "vehicule": "BUS"
   },
   {
@@ -13192,7 +13192,7 @@
   },
   {
     "numero": 1289,
-    "libelle": "Charles Péguy",
+    "libelle": "Charles Peguy",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -13206,7 +13206,7 @@
   },
   {
     "numero": 1290,
-    "libelle": "Cité Chaigneau",
+    "libelle": "Cite Chaigneau",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -13361,7 +13361,7 @@
   },
   {
     "numero": 1304,
-    "libelle": "Fraternité",
+    "libelle": "Fraternite",
     "vehicule": "BUS"
   },
   {
@@ -13479,7 +13479,7 @@
   },
   {
     "numero": 1317,
-    "libelle": "La Forêt",
+    "libelle": "La Foret",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -13521,7 +13521,7 @@
   },
   {
     "numero": 1320,
-    "libelle": "Gérard Philipe",
+    "libelle": "Gerard Philipe",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -13554,7 +13554,7 @@
   },
   {
     "numero": 1323,
-    "libelle": "Barrière d'Arès",
+    "libelle": "Barriere d'Ares",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -13625,7 +13625,7 @@
   },
   {
     "numero": 1333,
-    "libelle": "Trégey",
+    "libelle": "Tregey",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -13644,7 +13644,7 @@
   },
   {
     "numero": 1337,
-    "libelle": "Rébédech",
+    "libelle": "Rebedech",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -13749,7 +13749,7 @@
   },
   {
     "numero": 1345,
-    "libelle": "Bibliothèque",
+    "libelle": "Bibliotheque",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -13763,7 +13763,7 @@
   },
   {
     "numero": 1346,
-    "libelle": "Malbrède",
+    "libelle": "Malbrede",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -13782,7 +13782,7 @@
   },
   {
     "numero": 1348,
-    "libelle": "Primevères",
+    "libelle": "Primeveres",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -13810,7 +13810,7 @@
   },
   {
     "numero": 1350,
-    "libelle": "Prieuré de Cayac",
+    "libelle": "Prieure de Cayac",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -13886,7 +13886,7 @@
   },
   {
     "numero": 1357,
-    "libelle": "Jean Jaurès",
+    "libelle": "Jean Jaures",
     "vehicule": "BUS"
   },
   {
@@ -14021,7 +14021,7 @@
   },
   {
     "numero": 1373,
-    "libelle": "Frères Lumière",
+    "libelle": "Freres Lumiere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -14035,7 +14035,7 @@
   },
   {
     "numero": 1374,
-    "libelle": "Prieuré de Cayac",
+    "libelle": "Prieure de Cayac",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -14054,7 +14054,7 @@
   },
   {
     "numero": 1376,
-    "libelle": "Cimetière d'Ambès",
+    "libelle": "Cimetiere d'Ambes",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -14103,7 +14103,7 @@
   },
   {
     "numero": 1381,
-    "libelle": "Lièges",
+    "libelle": "Lieges",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -14169,7 +14169,7 @@
   },
   {
     "numero": 1391,
-    "libelle": "Béchade",
+    "libelle": "Bechade",
     "vehicule": "BUS"
   },
   {
@@ -14203,7 +14203,7 @@
   },
   {
     "numero": 1399,
-    "libelle": "Célibatorium",
+    "libelle": "Celibatorium",
     "vehicule": "BUS"
   },
   {
@@ -14270,7 +14270,7 @@
   },
   {
     "numero": 1409,
-    "libelle": "Clos des Bruyères",
+    "libelle": "Clos des Bruyeres",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -14332,7 +14332,7 @@
   },
   {
     "numero": 1418,
-    "libelle": "Cèdres",
+    "libelle": "Cedres",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -14658,7 +14658,7 @@
   },
   {
     "numero": 1456,
-    "libelle": "Mendès France",
+    "libelle": "Mendes France",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -14733,7 +14733,7 @@
   },
   {
     "numero": 1464,
-    "libelle": "Côte de Monrepos",
+    "libelle": "Cote de Monrepos",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -14955,7 +14955,7 @@
   },
   {
     "numero": 1489,
-    "libelle": "Mairie du Taillan Médoc",
+    "libelle": "Mairie du Taillan Medoc",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -15007,7 +15007,7 @@
   },
   {
     "numero": 1495,
-    "libelle": "Tillède",
+    "libelle": "Tillede",
     "vehicule": "BUS"
   },
   {
@@ -15126,7 +15126,7 @@
   },
   {
     "numero": 1508,
-    "libelle": "St Bruno - Hôtel de Région",
+    "libelle": "St Bruno - Hotel de Region",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -15255,7 +15255,7 @@
   },
   {
     "numero": 1522,
-    "libelle": "Archimède",
+    "libelle": "Archimede",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -15298,7 +15298,7 @@
   },
   {
     "numero": 1524,
-    "libelle": "Cimetière d'Ambès",
+    "libelle": "Cimetiere d'Ambes",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -15317,7 +15317,7 @@
   },
   {
     "numero": 1525,
-    "libelle": "Cimetière de Gradignan",
+    "libelle": "Cimetiere de Gradignan",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -15345,7 +15345,7 @@
   },
   {
     "numero": 1529,
-    "libelle": "Macédo",
+    "libelle": "Macedo",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -15369,7 +15369,7 @@
   },
   {
     "numero": 1530,
-    "libelle": "Liberté",
+    "libelle": "Liberte",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -15402,7 +15402,7 @@
   },
   {
     "numero": 1533,
-    "libelle": "Barrès",
+    "libelle": "Barres",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -15478,12 +15478,12 @@
   },
   {
     "numero": 1543,
-    "libelle": "Hôpital Xavier Arnozan",
+    "libelle": "Hopital Xavier Arnozan",
     "vehicule": "BUS"
   },
   {
     "numero": 1544,
-    "libelle": "Route de Canéjan",
+    "libelle": "Route de Canejan",
     "vehicule": "BUS"
   },
   {
@@ -15540,7 +15540,7 @@
   },
   {
     "numero": 1551,
-    "libelle": "Le Télégraphe",
+    "libelle": "Le Telegraphe",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -15554,7 +15554,7 @@
   },
   {
     "numero": 1552,
-    "libelle": "Hameau du Château",
+    "libelle": "Hameau du Chateau",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -15568,7 +15568,7 @@
   },
   {
     "numero": 1553,
-    "libelle": "Château Dillon",
+    "libelle": "Chateau Dillon",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -15615,7 +15615,7 @@
   },
   {
     "numero": 1562,
-    "libelle": "Cenon Marègue",
+    "libelle": "Cenon Maregue",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -15696,7 +15696,7 @@
   },
   {
     "numero": 1569,
-    "libelle": "Nancel Pénard",
+    "libelle": "Nancel Penard",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -15735,7 +15735,7 @@
   },
   {
     "numero": 1571,
-    "libelle": "Malbrède",
+    "libelle": "Malbrede",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -15763,7 +15763,7 @@
   },
   {
     "numero": 1576,
-    "libelle": "Avenue de Canéjan",
+    "libelle": "Avenue de Canejan",
     "vehicule": "BUS"
   },
   {
@@ -15806,7 +15806,7 @@
   },
   {
     "numero": 1581,
-    "libelle": "Barrès",
+    "libelle": "Barres",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -15834,7 +15834,7 @@
   },
   {
     "numero": 1583,
-    "libelle": "Maréchal Joffre",
+    "libelle": "Marechal Joffre",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -15972,7 +15972,7 @@
   },
   {
     "numero": 1594,
-    "libelle": "Cité Cairon",
+    "libelle": "Cite Cairon",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -15986,7 +15986,7 @@
   },
   {
     "numero": 1595,
-    "libelle": "Barrière d'Ornano",
+    "libelle": "Barriere d'Ornano",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -16048,7 +16048,7 @@
   },
   {
     "numero": 1610,
-    "libelle": "Barrière Judaïque",
+    "libelle": "Barriere Judaique",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -16110,7 +16110,7 @@
   },
   {
     "numero": 1614,
-    "libelle": "Lycée Victor Louis",
+    "libelle": "Lycee Victor Louis",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -16177,7 +16177,7 @@
   },
   {
     "numero": 1617,
-    "libelle": "Le Télégraphe",
+    "libelle": "Le Telegraphe",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -16216,7 +16216,7 @@
   },
   {
     "numero": 1621,
-    "libelle": "Cimetière de Gradignan",
+    "libelle": "Cimetiere de Gradignan",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -16249,7 +16249,7 @@
   },
   {
     "numero": 1628,
-    "libelle": "Allée de Curé",
+    "libelle": "Allee de Cure",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -16273,7 +16273,7 @@
   },
   {
     "numero": 1629,
-    "libelle": "Résidences du Domaine",
+    "libelle": "Residences du Domaine",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -16344,7 +16344,7 @@
   },
   {
     "numero": 1633,
-    "libelle": "Lycée Kastler",
+    "libelle": "Lycee Kastler",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -16373,7 +16373,7 @@
   },
   {
     "numero": 1634,
-    "libelle": "Lycée Victor Louis",
+    "libelle": "Lycee Victor Louis",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -16449,7 +16449,7 @@
   },
   {
     "numero": 1647,
-    "libelle": "Hôpital Robert Picqué",
+    "libelle": "Hopital Robert Picque",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -16463,7 +16463,7 @@
   },
   {
     "numero": 1648,
-    "libelle": "Lycée des Graves",
+    "libelle": "Lycee des Graves",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -16501,7 +16501,7 @@
   },
   {
     "numero": 1653,
-    "libelle": "Labottière",
+    "libelle": "Labottiere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -16520,7 +16520,7 @@
   },
   {
     "numero": 1654,
-    "libelle": "Pérès",
+    "libelle": "Peres",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -16534,7 +16534,7 @@
   },
   {
     "numero": 1656,
-    "libelle": "Lycée Kastler",
+    "libelle": "Lycee Kastler",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -16596,7 +16596,7 @@
   },
   {
     "numero": 1663,
-    "libelle": "Mérignac Centre",
+    "libelle": "Merignac Centre",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -16634,7 +16634,7 @@
   },
   {
     "numero": 1666,
-    "libelle": "Collège G.Rayet",
+    "libelle": "College G.Rayet",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -16691,7 +16691,7 @@
   },
   {
     "numero": 1671,
-    "libelle": "Avenue de l'Université",
+    "libelle": "Avenue de l'Universite",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -16735,7 +16735,7 @@
   },
   {
     "numero": 1672,
-    "libelle": "Résidence Meignan",
+    "libelle": "Residence Meignan",
     "vehicule": "BUS"
   },
   {
@@ -16960,7 +16960,7 @@
   },
   {
     "numero": 1697,
-    "libelle": "Martyrs de la Libération",
+    "libelle": "Martyrs de la Liberation",
     "vehicule": "BUS"
   },
   {
@@ -16970,7 +16970,7 @@
   },
   {
     "numero": 1699,
-    "libelle": "Jean Macé",
+    "libelle": "Jean Mace",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -17008,7 +17008,7 @@
   },
   {
     "numero": 1702,
-    "libelle": "Château Rouquey",
+    "libelle": "Chateau Rouquey",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -17027,7 +17027,7 @@
   },
   {
     "numero": 1703,
-    "libelle": "Allée Vieille",
+    "libelle": "Allee Vieille",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -17046,7 +17046,7 @@
   },
   {
     "numero": 1706,
-    "libelle": "La Chênaie",
+    "libelle": "La Chenaie",
     "vehicule": "BUS"
   },
   {
@@ -17089,7 +17089,7 @@
   },
   {
     "numero": 1713,
-    "libelle": "Maréchal Foch",
+    "libelle": "Marechal Foch",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -17103,7 +17103,7 @@
   },
   {
     "numero": 1715,
-    "libelle": "Hôpital Pellegrin (entrée Est)",
+    "libelle": "Hopital Pellegrin (entree Est)",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -17156,7 +17156,7 @@
   },
   {
     "numero": 1718,
-    "libelle": "Floirac Libération",
+    "libelle": "Floirac Liberation",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -17236,7 +17236,7 @@
   },
   {
     "numero": 1726,
-    "libelle": "André Ricard",
+    "libelle": "Andre Ricard",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -17412,7 +17412,7 @@
   },
   {
     "numero": 1747,
-    "libelle": "Mérignac Soleil (Porte 4)",
+    "libelle": "Merignac Soleil (Porte 4)",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -17436,7 +17436,7 @@
   },
   {
     "numero": 1749,
-    "libelle": "Barrière d'Ornano",
+    "libelle": "Barriere d'Ornano",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -17502,7 +17502,7 @@
   },
   {
     "numero": 1756,
-    "libelle": "Barrière St Médard",
+    "libelle": "Barriere St Medard",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -17526,7 +17526,7 @@
   },
   {
     "numero": 1757,
-    "libelle": "Barrière de Pessac",
+    "libelle": "Barriere de Pessac",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -17545,7 +17545,7 @@
   },
   {
     "numero": 1758,
-    "libelle": "Barrière St Augustin",
+    "libelle": "Barriere St Augustin",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -17559,7 +17559,7 @@
   },
   {
     "numero": 1760,
-    "libelle": "Stade Stéhélin",
+    "libelle": "Stade Stehelin",
     "vehicule": "BUS"
   },
   {
@@ -17569,7 +17569,7 @@
   },
   {
     "numero": 1763,
-    "libelle": "Château Dillon",
+    "libelle": "Chateau Dillon",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -17745,7 +17745,7 @@
   },
   {
     "numero": 1774,
-    "libelle": "Mickaëlis",
+    "libelle": "Mickaelis",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -17778,7 +17778,7 @@
   },
   {
     "numero": 1776,
-    "libelle": "Mickaëlis",
+    "libelle": "Mickaelis",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -18091,7 +18091,7 @@
   },
   {
     "numero": 1807,
-    "libelle": "Mattéoti",
+    "libelle": "Matteoti",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -18191,7 +18191,7 @@
   },
   {
     "numero": 1818,
-    "libelle": "Collège Claude Massé",
+    "libelle": "College Claude Masse",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -18205,12 +18205,12 @@
   },
   {
     "numero": 1820,
-    "libelle": "René Coty",
+    "libelle": "Rene Coty",
     "vehicule": "BUS"
   },
   {
     "numero": 1821,
-    "libelle": "Mairie d'Ambarès",
+    "libelle": "Mairie d'Ambares",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -18263,7 +18263,7 @@
   },
   {
     "numero": 1823,
-    "libelle": "Sabarèges",
+    "libelle": "Sabareges",
     "vehicule": "BUS"
   },
   {
@@ -18363,7 +18363,7 @@
   },
   {
     "numero": 1831,
-    "libelle": "Collège Claude Massé",
+    "libelle": "College Claude Masse",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -18509,7 +18509,7 @@
   },
   {
     "numero": 1850,
-    "libelle": "Maréchal Juin",
+    "libelle": "Marechal Juin",
     "vehicule": "BUS"
   },
   {
@@ -18519,7 +18519,7 @@
   },
   {
     "numero": 1853,
-    "libelle": "Ambarès Eglise",
+    "libelle": "Ambares Eglise",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -18543,7 +18543,7 @@
   },
   {
     "numero": 1860,
-    "libelle": "Clairière de Lormont",
+    "libelle": "Clairiere de Lormont",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -18671,7 +18671,7 @@
   },
   {
     "numero": 1875,
-    "libelle": "Martyrs de la Résistance",
+    "libelle": "Martyrs de la Resistance",
     "vehicule": "BUS"
   },
   {
@@ -18710,7 +18710,7 @@
   },
   {
     "numero": 1881,
-    "libelle": "Mélac",
+    "libelle": "Melac",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -18738,7 +18738,7 @@
   },
   {
     "numero": 1883,
-    "libelle": "Ambès Eglise",
+    "libelle": "Ambes Eglise",
     "vehicule": "BUS"
   },
   {
@@ -18810,7 +18810,7 @@
   },
   {
     "numero": 1896,
-    "libelle": "Les Prés de Jourdanne",
+    "libelle": "Les Pres de Jourdanne",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -18834,12 +18834,12 @@
   },
   {
     "numero": 1903,
-    "libelle": "Célibatorium",
+    "libelle": "Celibatorium",
     "vehicule": "BUS"
   },
   {
     "numero": 1906,
-    "libelle": "Les Prés de Jourdanne",
+    "libelle": "Les Pres de Jourdanne",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -18858,7 +18858,7 @@
   },
   {
     "numero": 1908,
-    "libelle": "Péguy",
+    "libelle": "Peguy",
     "vehicule": "BUS"
   },
   {
@@ -18892,7 +18892,7 @@
   },
   {
     "numero": 1914,
-    "libelle": "Chemin de Piétru",
+    "libelle": "Chemin de Pietru",
     "vehicule": "BUS"
   },
   {
@@ -18916,7 +18916,7 @@
   },
   {
     "numero": 1917,
-    "libelle": "Lycée Sud Médoc",
+    "libelle": "Lycee Sud Medoc",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -18983,7 +18983,7 @@
   },
   {
     "numero": 1929,
-    "libelle": "St Bruno - Hôtel de Région",
+    "libelle": "St Bruno - Hotel de Region",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -19012,7 +19012,7 @@
   },
   {
     "numero": 1932,
-    "libelle": "Résidence Meignan",
+    "libelle": "Residence Meignan",
     "vehicule": "BUS"
   },
   {
@@ -19104,7 +19104,7 @@
   },
   {
     "numero": 1944,
-    "libelle": "Stade Stéhélin",
+    "libelle": "Stade Stehelin",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -19390,7 +19390,7 @@
   },
   {
     "numero": 1976,
-    "libelle": "Château Pomerol",
+    "libelle": "Chateau Pomerol",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -19485,7 +19485,7 @@
   },
   {
     "numero": 1987,
-    "libelle": "Maréchal Gallieni",
+    "libelle": "Marechal Gallieni",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -19632,7 +19632,7 @@
   },
   {
     "numero": 2006,
-    "libelle": "Ambarès Centre",
+    "libelle": "Ambares Centre",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -19661,7 +19661,7 @@
   },
   {
     "numero": 2009,
-    "libelle": "Liberté",
+    "libelle": "Liberte",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -19675,7 +19675,7 @@
   },
   {
     "numero": 2010,
-    "libelle": "République",
+    "libelle": "Republique",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -19708,7 +19708,7 @@
   },
   {
     "numero": 2012,
-    "libelle": "Collège de Blanquefort",
+    "libelle": "College de Blanquefort",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -19751,7 +19751,7 @@
   },
   {
     "numero": 2020,
-    "libelle": "Docteur Férié",
+    "libelle": "Docteur Ferie",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -19822,7 +19822,7 @@
   },
   {
     "numero": 2032,
-    "libelle": "Cimetière de St Médard",
+    "libelle": "Cimetiere de St Medard",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -19841,7 +19841,7 @@
   },
   {
     "numero": 2034,
-    "libelle": "Commandant Mollière",
+    "libelle": "Commandant Molliere",
     "vehicule": "BUS"
   },
   {
@@ -19880,7 +19880,7 @@
   },
   {
     "numero": 2046,
-    "libelle": "Maréchal Joffre",
+    "libelle": "Marechal Joffre",
     "vehicule": "BUS"
   },
   {
@@ -19904,7 +19904,7 @@
   },
   {
     "numero": 2050,
-    "libelle": "Rue de l'Amitié",
+    "libelle": "Rue de l'Amitie",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -19923,7 +19923,7 @@
   },
   {
     "numero": 2053,
-    "libelle": "Général de Gaulle",
+    "libelle": "General de Gaulle",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -20108,7 +20108,7 @@
   },
   {
     "numero": 2078,
-    "libelle": "Côte de la Garonne",
+    "libelle": "Cote de la Garonne",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -20132,7 +20132,7 @@
   },
   {
     "numero": 2080,
-    "libelle": "Collège Manon Cormier",
+    "libelle": "College Manon Cormier",
     "vehicule": "BUS"
   },
   {
@@ -20176,7 +20176,7 @@
   },
   {
     "numero": 2093,
-    "libelle": "St Exupéry",
+    "libelle": "St Exupery",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -20200,7 +20200,7 @@
   },
   {
     "numero": 2094,
-    "libelle": "Collège Jean Jaurès",
+    "libelle": "College Jean Jaures",
     "vehicule": "BUS"
   },
   {
@@ -20291,7 +20291,7 @@
   },
   {
     "numero": 2105,
-    "libelle": "Cimetière Intercommunal",
+    "libelle": "Cimetiere Intercommunal",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -20310,7 +20310,7 @@
   },
   {
     "numero": 2108,
-    "libelle": "Préceinte",
+    "libelle": "Preceinte",
     "vehicule": "BUS"
   },
   {
@@ -20344,7 +20344,7 @@
   },
   {
     "numero": 2117,
-    "libelle": "Dorgelès",
+    "libelle": "Dorgeles",
     "vehicule": "BUS"
   },
   {
@@ -20468,12 +20468,12 @@
   },
   {
     "numero": 2134,
-    "libelle": "Jean Jaurès",
+    "libelle": "Jean Jaures",
     "vehicule": "BUS"
   },
   {
     "numero": 2136,
-    "libelle": "Liberté",
+    "libelle": "Liberte",
     "vehicule": "BUS"
   },
   {
@@ -20511,7 +20511,7 @@
   },
   {
     "numero": 2142,
-    "libelle": "Collège Manon Cormier",
+    "libelle": "College Manon Cormier",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -20525,7 +20525,7 @@
   },
   {
     "numero": 2143,
-    "libelle": "Maréchal Foch",
+    "libelle": "Marechal Foch",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -20572,7 +20572,7 @@
   },
   {
     "numero": 2146,
-    "libelle": "Ambarès Centre",
+    "libelle": "Ambares Centre",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -20625,7 +20625,7 @@
   },
   {
     "numero": 2148,
-    "libelle": "Maréchal Foch",
+    "libelle": "Marechal Foch",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -20658,7 +20658,7 @@
   },
   {
     "numero": 2151,
-    "libelle": "La Grave d'Ambarès",
+    "libelle": "La Grave d'Ambares",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -20682,7 +20682,7 @@
   },
   {
     "numero": 2157,
-    "libelle": "Maréchal Joffre",
+    "libelle": "Marechal Joffre",
     "vehicule": "BUS"
   },
   {
@@ -20701,7 +20701,7 @@
   },
   {
     "numero": 2159,
-    "libelle": "Frères Lumière",
+    "libelle": "Freres Lumiere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -20729,17 +20729,17 @@
   },
   {
     "numero": 2161,
-    "libelle": "Gare d'Orléans",
+    "libelle": "Gare d'Orleans",
     "vehicule": "BUS"
   },
   {
     "numero": 2163,
-    "libelle": "Centre Commercial Mériadeck",
+    "libelle": "Centre Commercial Meriadeck",
     "vehicule": "BUS"
   },
   {
     "numero": 2164,
-    "libelle": "Fonfrède",
+    "libelle": "Fonfrede",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -20815,7 +20815,7 @@
   },
   {
     "numero": 2171,
-    "libelle": "Maréchal Gallieni",
+    "libelle": "Marechal Gallieni",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -20881,12 +20881,12 @@
   },
   {
     "numero": 2177,
-    "libelle": "Collège Manon Cormier",
+    "libelle": "College Manon Cormier",
     "vehicule": "BUS"
   },
   {
     "numero": 2178,
-    "libelle": "Collège Gérard Philipe",
+    "libelle": "College Gerard Philipe",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -20933,7 +20933,7 @@
   },
   {
     "numero": 2181,
-    "libelle": "Collège Manon Cormier",
+    "libelle": "College Manon Cormier",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -20947,12 +20947,12 @@
   },
   {
     "numero": 2183,
-    "libelle": "Maréchal Joffre",
+    "libelle": "Marechal Joffre",
     "vehicule": "BUS"
   },
   {
     "numero": 2184,
-    "libelle": "Mendès France",
+    "libelle": "Mendes France",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -21013,12 +21013,12 @@
   },
   {
     "numero": 2191,
-    "libelle": "Maréchal Joffre",
+    "libelle": "Marechal Joffre",
     "vehicule": "BUS"
   },
   {
     "numero": 2192,
-    "libelle": "Préceinte",
+    "libelle": "Preceinte",
     "vehicule": "BUS"
   },
   {
@@ -21105,7 +21105,7 @@
   },
   {
     "numero": 2198,
-    "libelle": "Dorgelès",
+    "libelle": "Dorgeles",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -21215,7 +21215,7 @@
   },
   {
     "numero": 2209,
-    "libelle": "Martyrs de la Résistance",
+    "libelle": "Martyrs de la Resistance",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -21290,7 +21290,7 @@
   },
   {
     "numero": 2214,
-    "libelle": "Gabriel Fauré",
+    "libelle": "Gabriel Faure",
     "vehicule": "BUS"
   },
   {
@@ -21309,7 +21309,7 @@
   },
   {
     "numero": 2216,
-    "libelle": "Poincaré",
+    "libelle": "Poincare",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -21323,7 +21323,7 @@
   },
   {
     "numero": 2218,
-    "libelle": "Carrière de Bos",
+    "libelle": "Carriere de Bos",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -21356,7 +21356,7 @@
   },
   {
     "numero": 2222,
-    "libelle": "Carrière de Bos",
+    "libelle": "Carriere de Bos",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -21370,7 +21370,7 @@
   },
   {
     "numero": 2223,
-    "libelle": "Liberté",
+    "libelle": "Liberte",
     "vehicule": "BUS"
   },
   {
@@ -21480,7 +21480,7 @@
   },
   {
     "numero": 2235,
-    "libelle": "Jean Jaurès",
+    "libelle": "Jean Jaures",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -21523,7 +21523,7 @@
   },
   {
     "numero": 2239,
-    "libelle": "Beaudésert",
+    "libelle": "Beaudesert",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -21594,7 +21594,7 @@
   },
   {
     "numero": 2247,
-    "libelle": "Salinières",
+    "libelle": "Salinieres",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -21623,7 +21623,7 @@
   },
   {
     "numero": 2248,
-    "libelle": "Mairie d'Ambarès",
+    "libelle": "Mairie d'Ambares",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -21667,7 +21667,7 @@
   },
   {
     "numero": 2251,
-    "libelle": "Mendès France",
+    "libelle": "Mendes France",
     "vehicule": "BUS"
   },
   {
@@ -21720,12 +21720,12 @@
   },
   {
     "numero": 2255,
-    "libelle": "Martyrs de la Libération",
+    "libelle": "Martyrs de la Liberation",
     "vehicule": "BUS"
   },
   {
     "numero": 2256,
-    "libelle": "Clos du Prieuré",
+    "libelle": "Clos du Prieure",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -21744,7 +21744,7 @@
   },
   {
     "numero": 2263,
-    "libelle": "Pôle emploi Bastide",
+    "libelle": "Pole emploi Bastide",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -21768,7 +21768,7 @@
   },
   {
     "numero": 2265,
-    "libelle": "Sabarèges",
+    "libelle": "Sabareges",
     "vehicule": "BUS"
   },
   {
@@ -21778,7 +21778,7 @@
   },
   {
     "numero": 2268,
-    "libelle": "Floirac Libération",
+    "libelle": "Floirac Liberation",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -21792,7 +21792,7 @@
   },
   {
     "numero": 2270,
-    "libelle": "Ambarès Eglise",
+    "libelle": "Ambares Eglise",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -21806,7 +21806,7 @@
   },
   {
     "numero": 2271,
-    "libelle": "Mélac",
+    "libelle": "Melac",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -21820,7 +21820,7 @@
   },
   {
     "numero": 2273,
-    "libelle": "Mérignac Centre (Médiathèque)",
+    "libelle": "Merignac Centre (Mediatheque)",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -21938,7 +21938,7 @@
   },
   {
     "numero": 2286,
-    "libelle": "Allée de la Prairie",
+    "libelle": "Allee de la Prairie",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -22136,7 +22136,7 @@
   },
   {
     "numero": 2327,
-    "libelle": "Barrière d'Arès",
+    "libelle": "Barriere d'Ares",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -22150,7 +22150,7 @@
   },
   {
     "numero": 2328,
-    "libelle": "Barrière Judaïque",
+    "libelle": "Barriere Judaique",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -22193,7 +22193,7 @@
   },
   {
     "numero": 2330,
-    "libelle": "Barrière du Médoc",
+    "libelle": "Barriere du Medoc",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -22226,7 +22226,7 @@
   },
   {
     "numero": 2333,
-    "libelle": "Médoc (Place St Martial)",
+    "libelle": "Medoc (Place St Martial)",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -22311,7 +22311,7 @@
   },
   {
     "numero": 2340,
-    "libelle": "Barrière St Médard",
+    "libelle": "Barriere St Medard",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -22330,7 +22330,7 @@
   },
   {
     "numero": 2341,
-    "libelle": "Barrière Judaïque",
+    "libelle": "Barriere Judaique",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -22359,7 +22359,7 @@
   },
   {
     "numero": 2342,
-    "libelle": "Cité Administrative",
+    "libelle": "Cite Administrative",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -22388,7 +22388,7 @@
   },
   {
     "numero": 2343,
-    "libelle": "Barrière de Pessac",
+    "libelle": "Barriere de Pessac",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -22445,7 +22445,7 @@
   },
   {
     "numero": 2347,
-    "libelle": "Pont de Cauderès",
+    "libelle": "Pont de Cauderes",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -22498,7 +22498,7 @@
   },
   {
     "numero": 2349,
-    "libelle": "Barrière de Toulouse",
+    "libelle": "Barriere de Toulouse",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -22785,7 +22785,7 @@
   },
   {
     "numero": 2403,
-    "libelle": "Fonfrède",
+    "libelle": "Fonfrede",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -22833,7 +22833,7 @@
   },
   {
     "numero": 2411,
-    "libelle": "Martyrs de la Résistance",
+    "libelle": "Martyrs de la Resistance",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -22862,7 +22862,7 @@
   },
   {
     "numero": 2413,
-    "libelle": "Résidences du Domaine",
+    "libelle": "Residences du Domaine",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -22900,7 +22900,7 @@
   },
   {
     "numero": 2417,
-    "libelle": "Place Lopès",
+    "libelle": "Place Lopes",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -22942,7 +22942,7 @@
   },
   {
     "numero": 2420,
-    "libelle": "Cité administrative",
+    "libelle": "Cite administrative",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -22975,7 +22975,7 @@
   },
   {
     "numero": 2423,
-    "libelle": "Gambetta Mériadeck",
+    "libelle": "Gambetta Meriadeck",
     "vehicule": "BUS"
   },
   {
@@ -23008,7 +23008,7 @@
   },
   {
     "numero": 2430,
-    "libelle": "Archimède",
+    "libelle": "Archimede",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -23080,7 +23080,7 @@
   },
   {
     "numero": 2434,
-    "libelle": "La Médoquine",
+    "libelle": "La Medoquine",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -23181,7 +23181,7 @@
   },
   {
     "numero": 2446,
-    "libelle": "Cité Chantecrit",
+    "libelle": "Cite Chantecrit",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -23244,7 +23244,7 @@
   },
   {
     "numero": 2449,
-    "libelle": "Facultés Droit et Lettres",
+    "libelle": "Facultes Droit et Lettres",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -23292,7 +23292,7 @@
   },
   {
     "numero": 2452,
-    "libelle": "Rue du Médoc",
+    "libelle": "Rue du Medoc",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -23330,7 +23330,7 @@
   },
   {
     "numero": 2454,
-    "libelle": "Etchénique",
+    "libelle": "Etchenique",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -23368,7 +23368,7 @@
   },
   {
     "numero": 2456,
-    "libelle": "Mérignac Centre (Médiathèque)",
+    "libelle": "Merignac Centre (Mediatheque)",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -23402,12 +23402,12 @@
   },
   {
     "numero": 2457,
-    "libelle": "Mairie de Mérignac",
+    "libelle": "Mairie de Merignac",
     "vehicule": "BUS"
   },
   {
     "numero": 2458,
-    "libelle": "Avenue Château d'Eau",
+    "libelle": "Avenue Chateau d'Eau",
     "vehicule": "BUS"
   },
   {
@@ -23417,7 +23417,7 @@
   },
   {
     "numero": 2460,
-    "libelle": "Cité des Pins",
+    "libelle": "Cite des Pins",
     "vehicule": "BUS"
   },
   {
@@ -23436,12 +23436,12 @@
   },
   {
     "numero": 2463,
-    "libelle": "Avenue Château d'Eau",
+    "libelle": "Avenue Chateau d'Eau",
     "vehicule": "BUS"
   },
   {
     "numero": 2465,
-    "libelle": "Mairie de Mérignac",
+    "libelle": "Mairie de Merignac",
     "vehicule": "BUS"
   },
   {
@@ -23460,7 +23460,7 @@
   },
   {
     "numero": 2467,
-    "libelle": "Place Mondésir",
+    "libelle": "Place Mondesir",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -23484,7 +23484,7 @@
   },
   {
     "numero": 2468,
-    "libelle": "Allée des Pins",
+    "libelle": "Allee des Pins",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -23498,7 +23498,7 @@
   },
   {
     "numero": 2469,
-    "libelle": "Barrière d'Arès",
+    "libelle": "Barriere d'Ares",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -23580,7 +23580,7 @@
   },
   {
     "numero": 2473,
-    "libelle": "Jean Macé",
+    "libelle": "Jean Mace",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -23670,7 +23670,7 @@
   },
   {
     "numero": 2484,
-    "libelle": "Bénédigues",
+    "libelle": "Benedigues",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -23780,7 +23780,7 @@
   },
   {
     "numero": 2491,
-    "libelle": "Château Pontac",
+    "libelle": "Chateau Pontac",
     "vehicule": "BUS"
   },
   {
@@ -23847,7 +23847,7 @@
   },
   {
     "numero": 2499,
-    "libelle": "Lycée Daguin",
+    "libelle": "Lycee Daguin",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -23875,7 +23875,7 @@
   },
   {
     "numero": 2501,
-    "libelle": "Clairière de Mingot",
+    "libelle": "Clairiere de Mingot",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -23903,7 +23903,7 @@
   },
   {
     "numero": 2508,
-    "libelle": "L'Archevêque",
+    "libelle": "L'Archeveque",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -23969,7 +23969,7 @@
   },
   {
     "numero": 2513,
-    "libelle": "Bibliothèque",
+    "libelle": "Bibliotheque",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -23988,7 +23988,7 @@
   },
   {
     "numero": 2514,
-    "libelle": "Châtaigneraie",
+    "libelle": "Chataigneraie",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -24199,7 +24199,7 @@
   },
   {
     "numero": 2544,
-    "libelle": "Château Pomerol",
+    "libelle": "Chateau Pomerol",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -24260,7 +24260,7 @@
   },
   {
     "numero": 2548,
-    "libelle": "Clos du Prieuré",
+    "libelle": "Clos du Prieure",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -24302,7 +24302,7 @@
   },
   {
     "numero": 2551,
-    "libelle": "Collège Pablo Neruda",
+    "libelle": "College Pablo Neruda",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -24421,7 +24421,7 @@
   },
   {
     "numero": 2562,
-    "libelle": "St Bruno - Hôtel de Région",
+    "libelle": "St Bruno - Hotel de Region",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -24489,7 +24489,7 @@
   },
   {
     "numero": 2569,
-    "libelle": "Léon Blum",
+    "libelle": "Leon Blum",
     "vehicule": "BUS"
   },
   {
@@ -24518,7 +24518,7 @@
   },
   {
     "numero": 2573,
-    "libelle": "René Coty (Pasteur)",
+    "libelle": "Rene Coty (Pasteur)",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -24537,7 +24537,7 @@
   },
   {
     "numero": 2576,
-    "libelle": "Allée de Curé",
+    "libelle": "Allee de Cure",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -24575,7 +24575,7 @@
   },
   {
     "numero": 2579,
-    "libelle": "Résidence Chanteclerc",
+    "libelle": "Residence Chanteclerc",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -24599,12 +24599,12 @@
   },
   {
     "numero": 2583,
-    "libelle": "Les Gravières",
+    "libelle": "Les Gravieres",
     "vehicule": "BUS"
   },
   {
     "numero": 2584,
-    "libelle": "Agrières",
+    "libelle": "Agrieres",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -24647,7 +24647,7 @@
   },
   {
     "numero": 2586,
-    "libelle": "Route du Médoc",
+    "libelle": "Route du Medoc",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -24699,7 +24699,7 @@
   },
   {
     "numero": 2592,
-    "libelle": "Mairie de Bègles",
+    "libelle": "Mairie de Begles",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -24713,7 +24713,7 @@
   },
   {
     "numero": 2593,
-    "libelle": "Cimetière Nord",
+    "libelle": "Cimetiere Nord",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -24732,7 +24732,7 @@
   },
   {
     "numero": 2594,
-    "libelle": "Strélitzias",
+    "libelle": "Strelitzias",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -24746,7 +24746,7 @@
   },
   {
     "numero": 2596,
-    "libelle": "Résidence Chanteclerc",
+    "libelle": "Residence Chanteclerc",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -24836,12 +24836,12 @@
   },
   {
     "numero": 2604,
-    "libelle": "Cimetière de Bègles",
+    "libelle": "Cimetiere de Begles",
     "vehicule": "BUS"
   },
   {
     "numero": 2606,
-    "libelle": "Parc d'Activité du Grand Port",
+    "libelle": "Parc d'Activite du Grand Port",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -24855,12 +24855,12 @@
   },
   {
     "numero": 2607,
-    "libelle": "Collège Lapierre",
+    "libelle": "College Lapierre",
     "vehicule": "BUS"
   },
   {
     "numero": 2608,
-    "libelle": "Cimetière de Bègles",
+    "libelle": "Cimetiere de Begles",
     "vehicule": "BUS"
   },
   {
@@ -24879,12 +24879,12 @@
   },
   {
     "numero": 2610,
-    "libelle": "Seiglière",
+    "libelle": "Seigliere",
     "vehicule": "BUS"
   },
   {
     "numero": 2611,
-    "libelle": "Quatre Castéra",
+    "libelle": "Quatre Castera",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -24898,7 +24898,7 @@
   },
   {
     "numero": 2614,
-    "libelle": "Collège G.Rayet",
+    "libelle": "College G.Rayet",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -24912,7 +24912,7 @@
   },
   {
     "numero": 2615,
-    "libelle": "Châtaigneraie",
+    "libelle": "Chataigneraie",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -24931,7 +24931,7 @@
   },
   {
     "numero": 2617,
-    "libelle": "L'Orée du Bois",
+    "libelle": "L'Oree du Bois",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -24955,7 +24955,7 @@
   },
   {
     "numero": 2623,
-    "libelle": "Courréjean",
+    "libelle": "Courrejean",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -24984,7 +24984,7 @@
   },
   {
     "numero": 2628,
-    "libelle": "Le Dôme",
+    "libelle": "Le Dome",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -25027,7 +25027,7 @@
   },
   {
     "numero": 2630,
-    "libelle": "Collège Les Eyquems",
+    "libelle": "College Les Eyquems",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -25041,12 +25041,12 @@
   },
   {
     "numero": 2631,
-    "libelle": "Mérignac Centre",
+    "libelle": "Merignac Centre",
     "vehicule": "BUS"
   },
   {
     "numero": 2633,
-    "libelle": "Avenue de l'Université",
+    "libelle": "Avenue de l'Universite",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -25171,7 +25171,7 @@
   },
   {
     "numero": 2642,
-    "libelle": "Barrière du Médoc",
+    "libelle": "Barriere du Medoc",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -25190,7 +25190,7 @@
   },
   {
     "numero": 2643,
-    "libelle": "Temps Passé",
+    "libelle": "Temps Passe",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -25209,7 +25209,7 @@
   },
   {
     "numero": 2645,
-    "libelle": "Les Méridiennes",
+    "libelle": "Les Meridiennes",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -25261,7 +25261,7 @@
   },
   {
     "numero": 2651,
-    "libelle": "Lycée Jean Monnet",
+    "libelle": "Lycee Jean Monnet",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -25304,12 +25304,12 @@
   },
   {
     "numero": 2656,
-    "libelle": "Mendès France",
+    "libelle": "Mendes France",
     "vehicule": "BUS"
   },
   {
     "numero": 2657,
-    "libelle": "Collège de Blanquefort",
+    "libelle": "College de Blanquefort",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -25372,7 +25372,7 @@
   },
   {
     "numero": 2668,
-    "libelle": "Trébod",
+    "libelle": "Trebod",
     "vehicule": "BUS"
   },
   {
@@ -25410,7 +25410,7 @@
   },
   {
     "numero": 2672,
-    "libelle": "Eglise de Bègles",
+    "libelle": "Eglise de Begles",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -25453,7 +25453,7 @@
   },
   {
     "numero": 2678,
-    "libelle": "Douanes Françaises",
+    "libelle": "Douanes Francaises",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -25501,7 +25501,7 @@
   },
   {
     "numero": 2683,
-    "libelle": "Port Lopès",
+    "libelle": "Port Lopes",
     "vehicule": "BUS"
   },
   {
@@ -25535,7 +25535,7 @@
   },
   {
     "numero": 2689,
-    "libelle": "Barrière de Toulouse",
+    "libelle": "Barriere de Toulouse",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -25583,7 +25583,7 @@
   },
   {
     "numero": 2691,
-    "libelle": "Hôpital Robert Picqué",
+    "libelle": "Hopital Robert Picque",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -25602,7 +25602,7 @@
   },
   {
     "numero": 2692,
-    "libelle": "Maréchal Joffre",
+    "libelle": "Marechal Joffre",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -25655,12 +25655,12 @@
   },
   {
     "numero": 2694,
-    "libelle": "Château Bardins",
+    "libelle": "Chateau Bardins",
     "vehicule": "BUS"
   },
   {
     "numero": 2695,
-    "libelle": "Château Bouscaut",
+    "libelle": "Chateau Bouscaut",
     "vehicule": "BUS"
   },
   {
@@ -25722,12 +25722,12 @@
   },
   {
     "numero": 2701,
-    "libelle": "Château Bouscaut",
+    "libelle": "Chateau Bouscaut",
     "vehicule": "BUS"
   },
   {
     "numero": 2703,
-    "libelle": "Résidence Le Château",
+    "libelle": "Residence Le Chateau",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -25760,7 +25760,7 @@
   },
   {
     "numero": 2706,
-    "libelle": "Château Bardins",
+    "libelle": "Chateau Bardins",
     "vehicule": "BUS"
   },
   {
@@ -25817,7 +25817,7 @@
   },
   {
     "numero": 2711,
-    "libelle": "Château Pontac",
+    "libelle": "Chateau Pontac",
     "vehicule": "BUS"
   },
   {
@@ -25880,12 +25880,12 @@
   },
   {
     "numero": 2714,
-    "libelle": "Salle Georges Méliès",
+    "libelle": "Salle Georges Melies",
     "vehicule": "BUS"
   },
   {
     "numero": 2715,
-    "libelle": "Maréchal Joffre",
+    "libelle": "Marechal Joffre",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -25975,7 +25975,7 @@
   },
   {
     "numero": 2722,
-    "libelle": "Les Gravières",
+    "libelle": "Les Gravieres",
     "vehicule": "BUS"
   },
   {
@@ -25985,7 +25985,7 @@
   },
   {
     "numero": 2725,
-    "libelle": "Médiathèque",
+    "libelle": "Mediatheque",
     "vehicule": "BUS"
   },
   {
@@ -26038,7 +26038,7 @@
   },
   {
     "numero": 2728,
-    "libelle": "Collège Pont de la Maye",
+    "libelle": "College Pont de la Maye",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -26057,7 +26057,7 @@
   },
   {
     "numero": 2729,
-    "libelle": "Résidence Le Château",
+    "libelle": "Residence Le Chateau",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -26095,7 +26095,7 @@
   },
   {
     "numero": 2732,
-    "libelle": "Collège Noès",
+    "libelle": "College Noes",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -26123,7 +26123,7 @@
   },
   {
     "numero": 2734,
-    "libelle": "Poudrière",
+    "libelle": "Poudriere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -26166,7 +26166,7 @@
   },
   {
     "numero": 2736,
-    "libelle": "Pape Clément (Place Sellier)",
+    "libelle": "Pape Clement (Place Sellier)",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -26209,7 +26209,7 @@
   },
   {
     "numero": 2738,
-    "libelle": "Cimetière",
+    "libelle": "Cimetiere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -26237,7 +26237,7 @@
   },
   {
     "numero": 2740,
-    "libelle": "Barrière de Pessac",
+    "libelle": "Barriere de Pessac",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -26324,7 +26324,7 @@
   },
   {
     "numero": 2752,
-    "libelle": "Barrière de Pessac",
+    "libelle": "Barriere de Pessac",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -26400,7 +26400,7 @@
   },
   {
     "numero": 2756,
-    "libelle": "Cimetière",
+    "libelle": "Cimetiere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -26442,7 +26442,7 @@
   },
   {
     "numero": 2761,
-    "libelle": "Avenue Jean Jaurès",
+    "libelle": "Avenue Jean Jaures",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -26499,7 +26499,7 @@
   },
   {
     "numero": 2764,
-    "libelle": "Le Monteil (Cité Le Corbusier)",
+    "libelle": "Le Monteil (Cite Le Corbusier)",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -26560,7 +26560,7 @@
   },
   {
     "numero": 2768,
-    "libelle": "Poudrière",
+    "libelle": "Poudriere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -26621,7 +26621,7 @@
   },
   {
     "numero": 2772,
-    "libelle": "Les Prés de Toctoucau",
+    "libelle": "Les Pres de Toctoucau",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -26649,7 +26649,7 @@
   },
   {
     "numero": 2775,
-    "libelle": "Les Prés de Toctoucau",
+    "libelle": "Les Pres de Toctoucau",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -26794,7 +26794,7 @@
   },
   {
     "numero": 2785,
-    "libelle": "Maréchal Foch",
+    "libelle": "Marechal Foch",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -26808,7 +26808,7 @@
   },
   {
     "numero": 2786,
-    "libelle": "Le Monteil (Cité Le Corbusier)",
+    "libelle": "Le Monteil (Cite Le Corbusier)",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -26865,7 +26865,7 @@
   },
   {
     "numero": 2789,
-    "libelle": "Avenue Jean Jaurès",
+    "libelle": "Avenue Jean Jaures",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -26959,7 +26959,7 @@
   },
   {
     "numero": 2798,
-    "libelle": "Charles Péguy",
+    "libelle": "Charles Peguy",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -26993,7 +26993,7 @@
   },
   {
     "numero": 2803,
-    "libelle": "Phénix Haut Brion",
+    "libelle": "Phenix Haut Brion",
     "vehicule": "BUS"
   },
   {
@@ -27041,7 +27041,7 @@
   },
   {
     "numero": 2808,
-    "libelle": "Arago (Médiathèque)",
+    "libelle": "Arago (Mediatheque)",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -27079,7 +27079,7 @@
   },
   {
     "numero": 2810,
-    "libelle": "Orée du Bois",
+    "libelle": "Oree du Bois",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -27136,7 +27136,7 @@
   },
   {
     "numero": 2814,
-    "libelle": "Archimède",
+    "libelle": "Archimede",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -27174,7 +27174,7 @@
   },
   {
     "numero": 2816,
-    "libelle": "La Forge (Cité Le Corbusier)",
+    "libelle": "La Forge (Cite Le Corbusier)",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -27212,7 +27212,7 @@
   },
   {
     "numero": 2818,
-    "libelle": "Orée du Bois",
+    "libelle": "Oree du Bois",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -27231,7 +27231,7 @@
   },
   {
     "numero": 2819,
-    "libelle": "Dauphiné",
+    "libelle": "Dauphine",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -27278,7 +27278,7 @@
   },
   {
     "numero": 2822,
-    "libelle": "Général Leclerc",
+    "libelle": "General Leclerc",
     "vehicule": "BUS"
   },
   {
@@ -27321,7 +27321,7 @@
   },
   {
     "numero": 2825,
-    "libelle": "La Forge (Cité Le Corbusier)",
+    "libelle": "La Forge (Cite Le Corbusier)",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -27340,7 +27340,7 @@
   },
   {
     "numero": 2826,
-    "libelle": "Arago (Médiathèque)",
+    "libelle": "Arago (Mediatheque)",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -27359,7 +27359,7 @@
   },
   {
     "numero": 2827,
-    "libelle": "Macédo",
+    "libelle": "Macedo",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -27502,7 +27502,7 @@
   },
   {
     "numero": 2845,
-    "libelle": "Phénix Haut Brion",
+    "libelle": "Phenix Haut Brion",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -27530,7 +27530,7 @@
   },
   {
     "numero": 2847,
-    "libelle": "La Médoquine",
+    "libelle": "La Medoquine",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -27544,7 +27544,7 @@
   },
   {
     "numero": 2848,
-    "libelle": "Gare Routière",
+    "libelle": "Gare Routiere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -27658,7 +27658,7 @@
   },
   {
     "numero": 2854,
-    "libelle": "André Eustache",
+    "libelle": "Andre Eustache",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -27777,7 +27777,7 @@
   },
   {
     "numero": 2870,
-    "libelle": "Hôpital Xavier Arnozan",
+    "libelle": "Hopital Xavier Arnozan",
     "vehicule": "BUS"
   },
   {
@@ -27806,7 +27806,7 @@
   },
   {
     "numero": 2872,
-    "libelle": "Cap Métiers",
+    "libelle": "Cap Metiers",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -27844,7 +27844,7 @@
   },
   {
     "numero": 2874,
-    "libelle": "Poincaré",
+    "libelle": "Poincare",
     "vehicule": "BUS"
   },
   {
@@ -27887,7 +27887,7 @@
   },
   {
     "numero": 2878,
-    "libelle": "Poincaré",
+    "libelle": "Poincare",
     "vehicule": "BUS"
   },
   {
@@ -28102,7 +28102,7 @@
   },
   {
     "numero": 2895,
-    "libelle": "Réservoir Lavardens",
+    "libelle": "Reservoir Lavardens",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -28155,7 +28155,7 @@
   },
   {
     "numero": 2898,
-    "libelle": "Barrière du Médoc",
+    "libelle": "Barriere du Medoc",
     "vehicule": "BUS"
   },
   {
@@ -28228,7 +28228,7 @@
   },
   {
     "numero": 2903,
-    "libelle": "Hôpital Haut-Lévêque",
+    "libelle": "Hopital Haut-Leveque",
     "vehicule": "BUS"
   },
   {
@@ -28247,7 +28247,7 @@
   },
   {
     "numero": 2905,
-    "libelle": "Bénédigues",
+    "libelle": "Benedigues",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -28323,7 +28323,7 @@
   },
   {
     "numero": 2909,
-    "libelle": "Cap Métiers",
+    "libelle": "Cap Metiers",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -28403,7 +28403,7 @@
   },
   {
     "numero": 2922,
-    "libelle": "Jean Jaurès",
+    "libelle": "Jean Jaures",
     "vehicule": "BUS"
   },
   {
@@ -28413,7 +28413,7 @@
   },
   {
     "numero": 2926,
-    "libelle": "Hôpital Suburbain",
+    "libelle": "Hopital Suburbain",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -28432,7 +28432,7 @@
   },
   {
     "numero": 2929,
-    "libelle": "Général de Gaulle",
+    "libelle": "General de Gaulle",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -28451,7 +28451,7 @@
   },
   {
     "numero": 2930,
-    "libelle": "Général de Gaulle",
+    "libelle": "General de Gaulle",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -28514,12 +28514,12 @@
   },
   {
     "numero": 2935,
-    "libelle": "Collège Albert Camus",
+    "libelle": "College Albert Camus",
     "vehicule": "BUS"
   },
   {
     "numero": 2936,
-    "libelle": "Collège Albert Camus",
+    "libelle": "College Albert Camus",
     "vehicule": "BUS"
   },
   {
@@ -28534,7 +28534,7 @@
   },
   {
     "numero": 2939,
-    "libelle": "Cimetière d'Eysines",
+    "libelle": "Cimetiere d'Eysines",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -28553,7 +28553,7 @@
   },
   {
     "numero": 2942,
-    "libelle": "Avenue de la Boétie",
+    "libelle": "Avenue de la Boetie",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -28572,7 +28572,7 @@
   },
   {
     "numero": 2943,
-    "libelle": "Taillan Cimetière",
+    "libelle": "Taillan Cimetiere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -28615,12 +28615,12 @@
   },
   {
     "numero": 2945,
-    "libelle": "Aéroport",
+    "libelle": "Aeroport",
     "vehicule": "BUS"
   },
   {
     "numero": 2946,
-    "libelle": "Molière",
+    "libelle": "Moliere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -28649,7 +28649,7 @@
   },
   {
     "numero": 2947,
-    "libelle": "La Boétie",
+    "libelle": "La Boetie",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -28692,7 +28692,7 @@
   },
   {
     "numero": 2949,
-    "libelle": "Mairie de St Médard",
+    "libelle": "Mairie de St Medard",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -28706,7 +28706,7 @@
   },
   {
     "numero": 2950,
-    "libelle": "Libération",
+    "libelle": "Liberation",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -28730,7 +28730,7 @@
   },
   {
     "numero": 2952,
-    "libelle": "Sirtéma",
+    "libelle": "Sirtema",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -28744,7 +28744,7 @@
   },
   {
     "numero": 2953,
-    "libelle": "Cimetière d'Eysines",
+    "libelle": "Cimetiere d'Eysines",
     "vehicule": "BUS"
   },
   {
@@ -28916,7 +28916,7 @@
   },
   {
     "numero": 2962,
-    "libelle": "Frères Lumière",
+    "libelle": "Freres Lumiere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -28986,7 +28986,7 @@
   },
   {
     "numero": 2967,
-    "libelle": "Lycée St Michel",
+    "libelle": "Lycee St Michel",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -29005,12 +29005,12 @@
   },
   {
     "numero": 2972,
-    "libelle": "Rue de Caudéran",
+    "libelle": "Rue de Cauderan",
     "vehicule": "BUS"
   },
   {
     "numero": 2973,
-    "libelle": "Barrière St Médard",
+    "libelle": "Barriere St Medard",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -29101,7 +29101,7 @@
   },
   {
     "numero": 2979,
-    "libelle": "Parc d'échange du Caillou",
+    "libelle": "Parc d'echange du Caillou",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -29120,12 +29120,12 @@
   },
   {
     "numero": 2980,
-    "libelle": "Parc d'échange du Caillou",
+    "libelle": "Parc d'echange du Caillou",
     "vehicule": "BUS"
   },
   {
     "numero": 2981,
-    "libelle": "Rue Jean Jaurès",
+    "libelle": "Rue Jean Jaures",
     "vehicule": "BUS"
   },
   {
@@ -29249,7 +29249,7 @@
   },
   {
     "numero": 2992,
-    "libelle": "Avenue St Médard",
+    "libelle": "Avenue St Medard",
     "vehicule": "BUS"
   },
   {
@@ -29268,7 +29268,7 @@
   },
   {
     "numero": 2994,
-    "libelle": "Résidence Rostand",
+    "libelle": "Residence Rostand",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -29282,7 +29282,7 @@
   },
   {
     "numero": 2995,
-    "libelle": "Résidence Rostand",
+    "libelle": "Residence Rostand",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -29296,12 +29296,12 @@
   },
   {
     "numero": 2996,
-    "libelle": "Résidence Chanteclerc",
+    "libelle": "Residence Chanteclerc",
     "vehicule": "BUS"
   },
   {
     "numero": 2997,
-    "libelle": "Maréchal Foch",
+    "libelle": "Marechal Foch",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -29315,7 +29315,7 @@
   },
   {
     "numero": 2998,
-    "libelle": "Collège Emile Zola",
+    "libelle": "College Emile Zola",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -29367,7 +29367,7 @@
   },
   {
     "numero": 3001,
-    "libelle": "La Sablière",
+    "libelle": "La Sabliere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -29386,7 +29386,7 @@
   },
   {
     "numero": 3003,
-    "libelle": "Palais des Congrès",
+    "libelle": "Palais des Congres",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -29457,7 +29457,7 @@
   },
   {
     "numero": 3015,
-    "libelle": "Cimetière de Lormont",
+    "libelle": "Cimetiere de Lormont",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -29476,7 +29476,7 @@
   },
   {
     "numero": 3017,
-    "libelle": "Maréchal Foch",
+    "libelle": "Marechal Foch",
     "vehicule": "BUS"
   },
   {
@@ -29486,7 +29486,7 @@
   },
   {
     "numero": 3019,
-    "libelle": "Trégey",
+    "libelle": "Tregey",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -29510,7 +29510,7 @@
   },
   {
     "numero": 3022,
-    "libelle": "L'Orée du Bois",
+    "libelle": "L'Oree du Bois",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -29529,7 +29529,7 @@
   },
   {
     "numero": 3023,
-    "libelle": "Collège Victor Louis",
+    "libelle": "College Victor Louis",
     "vehicule": "BUS"
   },
   {
@@ -29563,7 +29563,7 @@
   },
   {
     "numero": 3027,
-    "libelle": "Résidence Chanteclerc",
+    "libelle": "Residence Chanteclerc",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -29655,7 +29655,7 @@
   },
   {
     "numero": 3031,
-    "libelle": "Rue du Médoc",
+    "libelle": "Rue du Medoc",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -29712,12 +29712,12 @@
   },
   {
     "numero": 3035,
-    "libelle": "Château Gajac",
+    "libelle": "Chateau Gajac",
     "vehicule": "BUS"
   },
   {
     "numero": 3036,
-    "libelle": "Château Gajac",
+    "libelle": "Chateau Gajac",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -29846,7 +29846,7 @@
   },
   {
     "numero": 3043,
-    "libelle": "République",
+    "libelle": "Republique",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -29890,7 +29890,7 @@
   },
   {
     "numero": 3044,
-    "libelle": "République",
+    "libelle": "Republique",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -29924,7 +29924,7 @@
   },
   {
     "numero": 3045,
-    "libelle": "Eglise de St Médard",
+    "libelle": "Eglise de St Medard",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -29953,7 +29953,7 @@
   },
   {
     "numero": 3046,
-    "libelle": "Eglise de St Médard",
+    "libelle": "Eglise de St Medard",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -30025,7 +30025,7 @@
   },
   {
     "numero": 3049,
-    "libelle": "Collège d'Hastignan",
+    "libelle": "College d'Hastignan",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -30044,7 +30044,7 @@
   },
   {
     "numero": 3050,
-    "libelle": "Collège d'Hastignan",
+    "libelle": "College d'Hastignan",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -30171,7 +30171,7 @@
   },
   {
     "numero": 3059,
-    "libelle": "Mairie de St Médard",
+    "libelle": "Mairie de St Medard",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -30275,7 +30275,7 @@
   },
   {
     "numero": 3069,
-    "libelle": "Résidence Coppélia",
+    "libelle": "Residence Coppelia",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -30322,7 +30322,7 @@
   },
   {
     "numero": 3073,
-    "libelle": "St Aubin Cimetière",
+    "libelle": "St Aubin Cimetiere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -30350,7 +30350,7 @@
   },
   {
     "numero": 3075,
-    "libelle": "Allée du Nord",
+    "libelle": "Allee du Nord",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -30364,7 +30364,7 @@
   },
   {
     "numero": 3076,
-    "libelle": "Mayne d'Estève",
+    "libelle": "Mayne d'Esteve",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -30420,7 +30420,7 @@
   },
   {
     "numero": 3080,
-    "libelle": "Allée du Nord",
+    "libelle": "Allee du Nord",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -30434,7 +30434,7 @@
   },
   {
     "numero": 3081,
-    "libelle": "Jean Jaurès",
+    "libelle": "Jean Jaures",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -30448,7 +30448,7 @@
   },
   {
     "numero": 3082,
-    "libelle": "Mayne d'Estève",
+    "libelle": "Mayne d'Esteve",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -30462,7 +30462,7 @@
   },
   {
     "numero": 3083,
-    "libelle": "Jean Jaurès",
+    "libelle": "Jean Jaures",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -30476,7 +30476,7 @@
   },
   {
     "numero": 3085,
-    "libelle": "Allée des Bécasses",
+    "libelle": "Allee des Becasses",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -30504,7 +30504,7 @@
   },
   {
     "numero": 3087,
-    "libelle": "Allée des Bécasses",
+    "libelle": "Allee des Becasses",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -30518,7 +30518,7 @@
   },
   {
     "numero": 3088,
-    "libelle": "Clairière de Mingot",
+    "libelle": "Clairiere de Mingot",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -30588,7 +30588,7 @@
   },
   {
     "numero": 3094,
-    "libelle": "Allée Vieille",
+    "libelle": "Allee Vieille",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -30616,7 +30616,7 @@
   },
   {
     "numero": 3096,
-    "libelle": "Maréchal Joffre",
+    "libelle": "Marechal Joffre",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -30663,12 +30663,12 @@
   },
   {
     "numero": 3099,
-    "libelle": "Collège Monjous",
+    "libelle": "College Monjous",
     "vehicule": "BUS"
   },
   {
     "numero": 3100,
-    "libelle": "Arts & Métiers",
+    "libelle": "Arts & Metiers",
     "vehicule": "BUS"
   },
   {
@@ -30687,7 +30687,7 @@
   },
   {
     "numero": 3104,
-    "libelle": "Collège Les Eyquems",
+    "libelle": "College Les Eyquems",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -30701,7 +30701,7 @@
   },
   {
     "numero": 3107,
-    "libelle": "Résidence Beausite",
+    "libelle": "Residence Beausite",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -30730,7 +30730,7 @@
   },
   {
     "numero": 3108,
-    "libelle": "Résidence Beausite",
+    "libelle": "Residence Beausite",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -30788,7 +30788,7 @@
   },
   {
     "numero": 3112,
-    "libelle": "Allée de la Prairie",
+    "libelle": "Allee de la Prairie",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -30840,7 +30840,7 @@
   },
   {
     "numero": 3115,
-    "libelle": "Résidence Coppélia",
+    "libelle": "Residence Coppelia",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -30897,7 +30897,7 @@
   },
   {
     "numero": 3118,
-    "libelle": "Rue du Réduit",
+    "libelle": "Rue du Reduit",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -30978,7 +30978,7 @@
   },
   {
     "numero": 3122,
-    "libelle": "Cimetière Nord",
+    "libelle": "Cimetiere Nord",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -31088,7 +31088,7 @@
   },
   {
     "numero": 3134,
-    "libelle": "Maréchal Gallieni",
+    "libelle": "Marechal Gallieni",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -31130,7 +31130,7 @@
   },
   {
     "numero": 3139,
-    "libelle": "Barrière de Bègles",
+    "libelle": "Barriere de Begles",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -31163,7 +31163,7 @@
   },
   {
     "numero": 3141,
-    "libelle": "Barrière de Toulouse (Bd Albert 1er)",
+    "libelle": "Barriere de Toulouse (Bd Albert 1er)",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -31235,7 +31235,7 @@
   },
   {
     "numero": 3146,
-    "libelle": "Collège Noès",
+    "libelle": "College Noes",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -31273,17 +31273,17 @@
   },
   {
     "numero": 3153,
-    "libelle": "Trébod",
+    "libelle": "Trebod",
     "vehicule": "BUS"
   },
   {
     "numero": 3157,
-    "libelle": "Poste de Caudéran",
+    "libelle": "Poste de Cauderan",
     "vehicule": "BUS"
   },
   {
     "numero": 3158,
-    "libelle": "Eglise de Caudéran",
+    "libelle": "Eglise de Cauderan",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -31302,7 +31302,7 @@
   },
   {
     "numero": 3159,
-    "libelle": "Stade Stéhélin",
+    "libelle": "Stade Stehelin",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -31377,7 +31377,7 @@
   },
   {
     "numero": 3164,
-    "libelle": "Strélitzias",
+    "libelle": "Strelitzias",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -31415,7 +31415,7 @@
   },
   {
     "numero": 3168,
-    "libelle": "Stade Stéhélin",
+    "libelle": "Stade Stehelin",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -31434,7 +31434,7 @@
   },
   {
     "numero": 3169,
-    "libelle": "Eglise de Caudéran",
+    "libelle": "Eglise de Cauderan",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -31472,7 +31472,7 @@
   },
   {
     "numero": 3171,
-    "libelle": "Poste de Caudéran",
+    "libelle": "Poste de Cauderan",
     "vehicule": "BUS"
   },
   {
@@ -31505,7 +31505,7 @@
   },
   {
     "numero": 3179,
-    "libelle": "Ségur",
+    "libelle": "Segur",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -31543,7 +31543,7 @@
   },
   {
     "numero": 3184,
-    "libelle": "Thorez Goélands",
+    "libelle": "Thorez Goelands",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -31562,17 +31562,17 @@
   },
   {
     "numero": 3186,
-    "libelle": "César Franck",
+    "libelle": "Cesar Franck",
     "vehicule": "BUS"
   },
   {
     "numero": 3187,
-    "libelle": "Collège Pablo Neruda",
+    "libelle": "College Pablo Neruda",
     "vehicule": "BUS"
   },
   {
     "numero": 3188,
-    "libelle": "Thorez Goélands",
+    "libelle": "Thorez Goelands",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -31610,7 +31610,7 @@
   },
   {
     "numero": 3190,
-    "libelle": "Kyrié",
+    "libelle": "Kyrie",
     "vehicule": "BUS"
   },
   {
@@ -31625,7 +31625,7 @@
   },
   {
     "numero": 3194,
-    "libelle": "Gare de Bègles",
+    "libelle": "Gare de Begles",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -31654,7 +31654,7 @@
   },
   {
     "numero": 3196,
-    "libelle": "Martyrs de la Résistance",
+    "libelle": "Martyrs de la Resistance",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -31668,7 +31668,7 @@
   },
   {
     "numero": 3197,
-    "libelle": "Liberté",
+    "libelle": "Liberte",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -31696,7 +31696,7 @@
   },
   {
     "numero": 3199,
-    "libelle": "Eglise de Bègles",
+    "libelle": "Eglise de Begles",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -31720,7 +31720,7 @@
   },
   {
     "numero": 3200,
-    "libelle": "Mairie de Bègles",
+    "libelle": "Mairie de Begles",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -31782,7 +31782,7 @@
   },
   {
     "numero": 3203,
-    "libelle": "Gare de Bègles",
+    "libelle": "Gare de Begles",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -31806,7 +31806,7 @@
   },
   {
     "numero": 3204,
-    "libelle": "Martyrs de la Résistance",
+    "libelle": "Martyrs de la Resistance",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -31853,7 +31853,7 @@
   },
   {
     "numero": 3211,
-    "libelle": "Passage à niveau",
+    "libelle": "Passage a niveau",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -31886,7 +31886,7 @@
   },
   {
     "numero": 3214,
-    "libelle": "Brémontier",
+    "libelle": "Bremontier",
     "vehicule": "BUS"
   },
   {
@@ -31920,7 +31920,7 @@
   },
   {
     "numero": 3217,
-    "libelle": "Pont de Cauderès",
+    "libelle": "Pont de Cauderes",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -31944,7 +31944,7 @@
   },
   {
     "numero": 3218,
-    "libelle": "Pont de Cauderès",
+    "libelle": "Pont de Cauderes",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -32068,7 +32068,7 @@
   },
   {
     "numero": 3226,
-    "libelle": "Château de Thouars",
+    "libelle": "Chateau de Thouars",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -32082,7 +32082,7 @@
   },
   {
     "numero": 3227,
-    "libelle": "Château de Thouars",
+    "libelle": "Chateau de Thouars",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -32134,7 +32134,7 @@
   },
   {
     "numero": 3230,
-    "libelle": "Collège A. Mauguin",
+    "libelle": "College A. Mauguin",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -32153,7 +32153,7 @@
   },
   {
     "numero": 3231,
-    "libelle": "Collège A. Mauguin",
+    "libelle": "College A. Mauguin",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -32256,7 +32256,7 @@
   },
   {
     "numero": 3238,
-    "libelle": "Barthès",
+    "libelle": "Barthes",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -32312,7 +32312,7 @@
   },
   {
     "numero": 3242,
-    "libelle": "Collège Ausone",
+    "libelle": "College Ausone",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -32331,7 +32331,7 @@
   },
   {
     "numero": 3243,
-    "libelle": "Facultés Droit et Lettres",
+    "libelle": "Facultes Droit et Lettres",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -32412,7 +32412,7 @@
   },
   {
     "numero": 3252,
-    "libelle": "Nancel Pénard",
+    "libelle": "Nancel Penard",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -32537,7 +32537,7 @@
   },
   {
     "numero": 3269,
-    "libelle": "Préfecture",
+    "libelle": "Prefecture",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -32556,13 +32556,13 @@
   },
   {
     "numero": 3270,
-    "libelle": "Gare Routière",
+    "libelle": "Gare Routiere",
     "vehicule": "BUS",
     "transport": {}
   },
   {
     "numero": 3271,
-    "libelle": "Nénuphars",
+    "libelle": "Nenuphars",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -32590,7 +32590,7 @@
   },
   {
     "numero": 3273,
-    "libelle": "Dorgelès",
+    "libelle": "Dorgeles",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -32671,12 +32671,12 @@
   },
   {
     "numero": 3280,
-    "libelle": "Marché de Brienne",
+    "libelle": "Marche de Brienne",
     "vehicule": "BUS"
   },
   {
     "numero": 3281,
-    "libelle": "Parc d'Activité du Grand Port",
+    "libelle": "Parc d'Activite du Grand Port",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -32690,7 +32690,7 @@
   },
   {
     "numero": 3283,
-    "libelle": "Collège G.Rayet",
+    "libelle": "College G.Rayet",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -32704,12 +32704,12 @@
   },
   {
     "numero": 3284,
-    "libelle": "Avenue St Médard",
+    "libelle": "Avenue St Medard",
     "vehicule": "BUS"
   },
   {
     "numero": 3285,
-    "libelle": "Nénuphars",
+    "libelle": "Nenuphars",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -32723,7 +32723,7 @@
   },
   {
     "numero": 3289,
-    "libelle": "Mairie de Bègles",
+    "libelle": "Mairie de Begles",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -32795,7 +32795,7 @@
   },
   {
     "numero": 3297,
-    "libelle": "Avenue de la Boétie",
+    "libelle": "Avenue de la Boetie",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -32842,7 +32842,7 @@
   },
   {
     "numero": 3302,
-    "libelle": "Taillan Cimetière",
+    "libelle": "Taillan Cimetiere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -32880,7 +32880,7 @@
   },
   {
     "numero": 3307,
-    "libelle": "Libération",
+    "libelle": "Liberation",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -32995,7 +32995,7 @@
   },
   {
     "numero": 3317,
-    "libelle": "Place Lopès",
+    "libelle": "Place Lopes",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -33118,7 +33118,7 @@
   },
   {
     "numero": 3325,
-    "libelle": "Libération",
+    "libelle": "Liberation",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -33142,7 +33142,7 @@
   },
   {
     "numero": 3326,
-    "libelle": "L'Archevêque",
+    "libelle": "L'Archeveque",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -33270,7 +33270,7 @@
   },
   {
     "numero": 3341,
-    "libelle": "Piscine Chambéry",
+    "libelle": "Piscine Chambery",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -33317,7 +33317,7 @@
   },
   {
     "numero": 3347,
-    "libelle": "Lycées de Mérignac",
+    "libelle": "Lycees de Merignac",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -33433,7 +33433,7 @@
   },
   {
     "numero": 3356,
-    "libelle": "Cimetière de St Médard",
+    "libelle": "Cimetiere de St Medard",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -33471,7 +33471,7 @@
   },
   {
     "numero": 3359,
-    "libelle": "Pôle emploi Bègles",
+    "libelle": "Pole emploi Begles",
     "vehicule": "BUS"
   },
   {
@@ -33519,34 +33519,34 @@
   },
   {
     "numero": 3390,
-    "libelle": "Théâtre des 4 Saisons",
+    "libelle": "Theatre des 4 Saisons",
     "vehicule": "BUS"
   },
   {
     "numero": 3391,
-    "libelle": "Théâtre des 4 Saisons",
+    "libelle": "Theatre des 4 Saisons",
     "vehicule": "BUS"
   },
   {
     "numero": 3395,
-    "libelle": "Arago (Médiathèque)",
+    "libelle": "Arago (Mediatheque)",
     "vehicule": "BUS",
     "transport": {}
   },
   {
     "numero": 3396,
-    "libelle": "Arago (Médiathèque)",
+    "libelle": "Arago (Mediatheque)",
     "vehicule": "BUS",
     "transport": {}
   },
   {
     "numero": 3397,
-    "libelle": "Lycée Agricole",
+    "libelle": "Lycee Agricole",
     "vehicule": "BUS"
   },
   {
     "numero": 3398,
-    "libelle": "Lycée Agricole",
+    "libelle": "Lycee Agricole",
     "vehicule": "BUS"
   },
   {
@@ -33600,12 +33600,12 @@
   },
   {
     "numero": 3415,
-    "libelle": "Libération",
+    "libelle": "Liberation",
     "vehicule": "BUS"
   },
   {
     "numero": 3416,
-    "libelle": "St Exupéry",
+    "libelle": "St Exupery",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -33624,7 +33624,7 @@
   },
   {
     "numero": 3419,
-    "libelle": "St Exupéry",
+    "libelle": "St Exupery",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -33638,7 +33638,7 @@
   },
   {
     "numero": 3420,
-    "libelle": "Lycée du Bâtiment",
+    "libelle": "Lycee du Batiment",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -33652,7 +33652,7 @@
   },
   {
     "numero": 3421,
-    "libelle": "Lycée du Bâtiment",
+    "libelle": "Lycee du Batiment",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -33750,12 +33750,12 @@
   },
   {
     "numero": 3446,
-    "libelle": "Stade Jean Jaurès",
+    "libelle": "Stade Jean Jaures",
     "vehicule": "BUS"
   },
   {
     "numero": 3447,
-    "libelle": "Stade Jean Jaurès",
+    "libelle": "Stade Jean Jaures",
     "vehicule": "BUS"
   },
   {
@@ -33775,7 +33775,7 @@
   },
   {
     "numero": 3453,
-    "libelle": "Mallarmé",
+    "libelle": "Mallarme",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -33789,7 +33789,7 @@
   },
   {
     "numero": 3454,
-    "libelle": "Mallarmé",
+    "libelle": "Mallarme",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -34128,7 +34128,7 @@
   },
   {
     "numero": 3529,
-    "libelle": "Réservoir Lavardens",
+    "libelle": "Reservoir Lavardens",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -34152,7 +34152,7 @@
   },
   {
     "numero": 3530,
-    "libelle": "Hôpital St André",
+    "libelle": "Hopital St Andre",
     "vehicule": "BUS"
   },
   {
@@ -34259,7 +34259,7 @@
   },
   {
     "numero": 3547,
-    "libelle": "République",
+    "libelle": "Republique",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -34288,7 +34288,7 @@
   },
   {
     "numero": 3548,
-    "libelle": "République",
+    "libelle": "Republique",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -34504,7 +34504,7 @@
   },
   {
     "numero": 3577,
-    "libelle": "Arts & Métiers",
+    "libelle": "Arts & Metiers",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -34528,7 +34528,7 @@
   },
   {
     "numero": 3578,
-    "libelle": "Arts & Métiers",
+    "libelle": "Arts & Metiers",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -34562,7 +34562,7 @@
   },
   {
     "numero": 3583,
-    "libelle": "Hôtel de Police",
+    "libelle": "Hotel de Police",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -34591,7 +34591,7 @@
   },
   {
     "numero": 3605,
-    "libelle": "Stalingrad (arrêt de Montée)",
+    "libelle": "Stalingrad (arret de Montee)",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -34605,7 +34605,7 @@
   },
   {
     "numero": 3606,
-    "libelle": "Buttinière",
+    "libelle": "Buttiniere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -34643,7 +34643,7 @@
   },
   {
     "numero": 3609,
-    "libelle": "Collège L. Lenoir",
+    "libelle": "College L. Lenoir",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -34780,17 +34780,17 @@
   },
   {
     "numero": 3626,
-    "libelle": "Jean Jaurès",
+    "libelle": "Jean Jaures",
     "vehicule": "BUS"
   },
   {
     "numero": 3627,
-    "libelle": "Jean Jaurès",
+    "libelle": "Jean Jaures",
     "vehicule": "BUS"
   },
   {
     "numero": 3630,
-    "libelle": "Collège Jean Jaurès",
+    "libelle": "College Jean Jaures",
     "vehicule": "BUS"
   },
   {
@@ -34807,7 +34807,7 @@
   },
   {
     "numero": 3634,
-    "libelle": "Buttinière",
+    "libelle": "Buttiniere",
     "vehicule": "BUS",
     "transport": {}
   },
@@ -34943,12 +34943,12 @@
   },
   {
     "numero": 3656,
-    "libelle": "Clémentel",
+    "libelle": "Clementel",
     "vehicule": "BUS"
   },
   {
     "numero": 3657,
-    "libelle": "Clémentel",
+    "libelle": "Clementel",
     "vehicule": "BUS"
   },
   {
@@ -35002,13 +35002,13 @@
   },
   {
     "numero": 3666,
-    "libelle": "Collège Simone Veil",
+    "libelle": "College Simone Veil",
     "vehicule": "BUS",
     "transport": {}
   },
   {
     "numero": 3667,
-    "libelle": "Collège Simone Veil",
+    "libelle": "College Simone Veil",
     "vehicule": "BUS"
   },
   {
@@ -35117,7 +35117,7 @@
   },
   {
     "numero": 3679,
-    "libelle": "Cimetière d'Eysines",
+    "libelle": "Cimetiere d'Eysines",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -35131,7 +35131,7 @@
   },
   {
     "numero": 3680,
-    "libelle": "Lycée Charles Peguy",
+    "libelle": "Lycee Charles Peguy",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -35145,7 +35145,7 @@
   },
   {
     "numero": 3681,
-    "libelle": "Bruges Daugère",
+    "libelle": "Bruges Daugere",
     "vehicule": "BUS"
   },
   {
@@ -36961,7 +36961,7 @@
   },
   {
     "numero": 3790,
-    "libelle": "Hôpital Suburbain",
+    "libelle": "Hopital Suburbain",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -37031,7 +37031,7 @@
   },
   {
     "numero": 3796,
-    "libelle": "Lycée Victor Louis",
+    "libelle": "Lycee Victor Louis",
     "vehicule": "BUS"
   },
   {
@@ -37262,7 +37262,7 @@
   },
   {
     "numero": 3826,
-    "libelle": "Musée d'Aquitaine",
+    "libelle": "Musee d'Aquitaine",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -37396,7 +37396,7 @@
   },
   {
     "numero": 3859,
-    "libelle": "G. Fauré",
+    "libelle": "G. Faure",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -37434,7 +37434,7 @@
   },
   {
     "numero": 3861,
-    "libelle": "Léon Blum",
+    "libelle": "Leon Blum",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -37453,7 +37453,7 @@
   },
   {
     "numero": 3862,
-    "libelle": "Léon Blum",
+    "libelle": "Leon Blum",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -37491,7 +37491,7 @@
   },
   {
     "numero": 3864,
-    "libelle": "G. Fauré",
+    "libelle": "G. Faure",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -37520,7 +37520,7 @@
   },
   {
     "numero": 3869,
-    "libelle": "Barrière du Médoc",
+    "libelle": "Barriere du Medoc",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -37539,7 +37539,7 @@
   },
   {
     "numero": 3878,
-    "libelle": "Collège Victor Louis",
+    "libelle": "College Victor Louis",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -37558,7 +37558,7 @@
   },
   {
     "numero": 3879,
-    "libelle": "Collège Victor Louis",
+    "libelle": "College Victor Louis",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -37577,7 +37577,7 @@
   },
   {
     "numero": 3880,
-    "libelle": "Lycée Hôtelier",
+    "libelle": "Lycee Hotelier",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -37596,7 +37596,7 @@
   },
   {
     "numero": 3881,
-    "libelle": "Lycée Hôtelier",
+    "libelle": "Lycee Hotelier",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -37753,7 +37753,7 @@
   },
   {
     "numero": 3894,
-    "libelle": "Castéra",
+    "libelle": "Castera",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -37777,7 +37777,7 @@
   },
   {
     "numero": 3895,
-    "libelle": "Castéra",
+    "libelle": "Castera",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -37819,7 +37819,7 @@
   },
   {
     "numero": 3898,
-    "libelle": "Péguy",
+    "libelle": "Peguy",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -37833,7 +37833,7 @@
   },
   {
     "numero": 3899,
-    "libelle": "Péguy",
+    "libelle": "Peguy",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -37861,7 +37861,7 @@
   },
   {
     "numero": 3901,
-    "libelle": "Cité Bel Air",
+    "libelle": "Cite Bel Air",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -37875,7 +37875,7 @@
   },
   {
     "numero": 3902,
-    "libelle": "Cité Bel Air",
+    "libelle": "Cite Bel Air",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -38196,7 +38196,7 @@
   },
   {
     "numero": 3959,
-    "libelle": "Malagène",
+    "libelle": "Malagene",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -38215,7 +38215,7 @@
   },
   {
     "numero": 3960,
-    "libelle": "Malagène",
+    "libelle": "Malagene",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -38234,7 +38234,7 @@
   },
   {
     "numero": 3961,
-    "libelle": "Lycée du Bâtiment (entrée)",
+    "libelle": "Lycee du Batiment (entree)",
     "vehicule": "BUS"
   },
   {
@@ -38339,7 +38339,7 @@
   },
   {
     "numero": 3977,
-    "libelle": "Collège F.Mauriac",
+    "libelle": "College F.Mauriac",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -38358,7 +38358,7 @@
   },
   {
     "numero": 3978,
-    "libelle": "Collège F.Mauriac",
+    "libelle": "College F.Mauriac",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -38372,7 +38372,7 @@
   },
   {
     "numero": 3979,
-    "libelle": "République (Boétie)",
+    "libelle": "Republique (Boetie)",
     "vehicule": "BUS"
   },
   {
@@ -38489,7 +38489,7 @@
   },
   {
     "numero": 3990,
-    "libelle": "Lycée de la Plaine",
+    "libelle": "Lycee de la Plaine",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -38503,7 +38503,7 @@
   },
   {
     "numero": 3991,
-    "libelle": "Lycée de la Plaine",
+    "libelle": "Lycee de la Plaine",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -38572,7 +38572,7 @@
   },
   {
     "numero": 4009,
-    "libelle": "La Boétie",
+    "libelle": "La Boetie",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -38729,7 +38729,7 @@
   },
   {
     "numero": 4026,
-    "libelle": "Lycée Agricole",
+    "libelle": "Lycee Agricole",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -38753,7 +38753,7 @@
   },
   {
     "numero": 4027,
-    "libelle": "Lycée Agricole",
+    "libelle": "Lycee Agricole",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -38908,7 +38908,7 @@
   },
   {
     "numero": 4042,
-    "libelle": "Cimetière Intercommunal",
+    "libelle": "Cimetiere Intercommunal",
     "vehicule": "BUS",
     "transport": {}
   },
@@ -38928,7 +38928,7 @@
   },
   {
     "numero": 4044,
-    "libelle": "Cimetière de Gradignan",
+    "libelle": "Cimetiere de Gradignan",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -39015,7 +39015,7 @@
   },
   {
     "numero": 4057,
-    "libelle": "Barrière St Genès",
+    "libelle": "Barriere St Genes",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -39138,7 +39138,7 @@
   },
   {
     "numero": 4084,
-    "libelle": "Collège Pont de la Maye",
+    "libelle": "College Pont de la Maye",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -39163,7 +39163,7 @@
   },
   {
     "numero": 4105,
-    "libelle": "Mésanges",
+    "libelle": "Mesanges",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -39177,7 +39177,7 @@
   },
   {
     "numero": 4106,
-    "libelle": "Mésanges",
+    "libelle": "Mesanges",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -39210,7 +39210,7 @@
   },
   {
     "numero": 4114,
-    "libelle": "Lycée Sud Médoc (Bois de Mont)",
+    "libelle": "Lycee Sud Medoc (Bois de Mont)",
     "vehicule": "BUS",
     "transport": {}
   },
@@ -39259,17 +39259,17 @@
   },
   {
     "numero": 4134,
-    "libelle": "Mégevie",
+    "libelle": "Megevie",
     "vehicule": "BUS"
   },
   {
     "numero": 4135,
-    "libelle": "Libération",
+    "libelle": "Liberation",
     "vehicule": "BUS"
   },
   {
     "numero": 4136,
-    "libelle": "Libération",
+    "libelle": "Liberation",
     "vehicule": "BUS"
   },
   {
@@ -39334,7 +39334,7 @@
   },
   {
     "numero": 4154,
-    "libelle": "Barrière St Genès",
+    "libelle": "Barriere St Genes",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -39420,17 +39420,17 @@
   },
   {
     "numero": 4206,
-    "libelle": "Frères Lumière",
+    "libelle": "Freres Lumiere",
     "vehicule": "BUS"
   },
   {
     "numero": 4207,
-    "libelle": "Frères Lumière",
+    "libelle": "Freres Lumiere",
     "vehicule": "BUS"
   },
   {
     "numero": 4215,
-    "libelle": "Collège F.Mauriac",
+    "libelle": "College F.Mauriac",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -39507,7 +39507,7 @@
   },
   {
     "numero": 4220,
-    "libelle": "Euromédoc",
+    "libelle": "Euromedoc",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -39535,7 +39535,7 @@
   },
   {
     "numero": 4224,
-    "libelle": "Lycée Sud Médoc",
+    "libelle": "Lycee Sud Medoc",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -39623,7 +39623,7 @@
   },
   {
     "numero": 4432,
-    "libelle": "Collège Blanqui",
+    "libelle": "College Blanqui",
     "vehicule": "BUS"
   },
   {
@@ -39676,7 +39676,7 @@
   },
   {
     "numero": 4514,
-    "libelle": "Fraternité",
+    "libelle": "Fraternite",
     "vehicule": "BUS"
   },
   {
@@ -39733,7 +39733,7 @@
   },
   {
     "numero": 4577,
-    "libelle": "Gambetta Mériadeck",
+    "libelle": "Gambetta Meriadeck",
     "vehicule": "BUS"
   },
   {
@@ -40004,7 +40004,7 @@
   },
   {
     "numero": 4641,
-    "libelle": "Lycée Daguin",
+    "libelle": "Lycee Daguin",
     "vehicule": "BUS"
   },
   {
@@ -40023,7 +40023,7 @@
   },
   {
     "numero": 4680,
-    "libelle": "Buttinière",
+    "libelle": "Buttiniere",
     "vehicule": "BUS",
     "transport": {}
   },
@@ -40048,7 +40048,7 @@
   },
   {
     "numero": 4730,
-    "libelle": "Clairière de Lormont",
+    "libelle": "Clairiere de Lormont",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -40132,13 +40132,13 @@
   },
   {
     "numero": 4736,
-    "libelle": "Buttinière",
+    "libelle": "Buttiniere",
     "vehicule": "BUS",
     "transport": {}
   },
   {
     "numero": 4740,
-    "libelle": "La Toque cuivrée",
+    "libelle": "La Toque cuivree",
     "vehicule": "BUS",
     "transport": {}
   },
@@ -40213,7 +40213,7 @@
   },
   {
     "numero": 4772,
-    "libelle": "Dauphiné",
+    "libelle": "Dauphine",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -40336,7 +40336,7 @@
   },
   {
     "numero": 4860,
-    "libelle": "Gambetta Mériadeck",
+    "libelle": "Gambetta Meriadeck",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -40412,7 +40412,7 @@
   },
   {
     "numero": 4911,
-    "libelle": "Mattéoti",
+    "libelle": "Matteoti",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -40431,7 +40431,7 @@
   },
   {
     "numero": 4940,
-    "libelle": "Pépinières",
+    "libelle": "Pepinieres",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -40445,7 +40445,7 @@
   },
   {
     "numero": 4941,
-    "libelle": "Pépinières",
+    "libelle": "Pepinieres",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -40459,7 +40459,7 @@
   },
   {
     "numero": 4950,
-    "libelle": "Lycée Sud Médoc",
+    "libelle": "Lycee Sud Medoc",
     "vehicule": "BUS",
     "transport": {}
   },
@@ -40560,12 +40560,12 @@
   },
   {
     "numero": 5100,
-    "libelle": "Eglise de Bègles",
+    "libelle": "Eglise de Begles",
     "vehicule": "BUS"
   },
   {
     "numero": 5101,
-    "libelle": "Eglise de Bègles",
+    "libelle": "Eglise de Begles",
     "vehicule": "BUS"
   },
   {
@@ -40627,7 +40627,7 @@
   },
   {
     "numero": 5162,
-    "libelle": "Hôpital Pellegrin",
+    "libelle": "Hopital Pellegrin",
     "vehicule": "BUS",
     "transport": {}
   },
@@ -40638,7 +40638,7 @@
   },
   {
     "numero": 5173,
-    "libelle": "Chemin de Créon",
+    "libelle": "Chemin de Creon",
     "vehicule": "BUS"
   },
   {
@@ -40698,7 +40698,7 @@
   },
   {
     "numero": 5185,
-    "libelle": "Allée de la Chambre",
+    "libelle": "Allee de la Chambre",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -40712,7 +40712,7 @@
   },
   {
     "numero": 5186,
-    "libelle": "Allée de la Chambre",
+    "libelle": "Allee de la Chambre",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -40726,7 +40726,7 @@
   },
   {
     "numero": 5187,
-    "libelle": "Genêts",
+    "libelle": "Genets",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -40740,7 +40740,7 @@
   },
   {
     "numero": 5188,
-    "libelle": "Genêts",
+    "libelle": "Genets",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -40787,7 +40787,7 @@
   },
   {
     "numero": 5192,
-    "libelle": "Four à Chaux",
+    "libelle": "Four a Chaux",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -40801,12 +40801,12 @@
   },
   {
     "numero": 5193,
-    "libelle": "Gelès",
+    "libelle": "Geles",
     "vehicule": "BUS"
   },
   {
     "numero": 5195,
-    "libelle": "Tanaïs",
+    "libelle": "Tanais",
     "vehicule": "BUS"
   },
   {
@@ -40816,7 +40816,7 @@
   },
   {
     "numero": 5198,
-    "libelle": "Lycée Jean Monnet",
+    "libelle": "Lycee Jean Monnet",
     "vehicule": "BUS"
   },
   {
@@ -40882,12 +40882,12 @@
   },
   {
     "numero": 5210,
-    "libelle": "Pôle Universitaire de Gestion",
+    "libelle": "Pole Universitaire de Gestion",
     "vehicule": "BUS"
   },
   {
     "numero": 5211,
-    "libelle": "Pôle Universitaire de Gestion",
+    "libelle": "Pole Universitaire de Gestion",
     "vehicule": "BUS"
   },
   {
@@ -41029,12 +41029,12 @@
   },
   {
     "numero": 5224,
-    "libelle": "Buttinière",
+    "libelle": "Buttiniere",
     "vehicule": "BUS"
   },
   {
     "numero": 5225,
-    "libelle": "Mérignac Centre",
+    "libelle": "Merignac Centre",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -41681,7 +41681,7 @@
   },
   {
     "numero": 5270,
-    "libelle": "Mérignac Soleil",
+    "libelle": "Merignac Soleil",
     "vehicule": "BUS"
   },
   {
@@ -41762,7 +41762,7 @@
   },
   {
     "numero": 5279,
-    "libelle": "Léonard de Vinci",
+    "libelle": "Leonard de Vinci",
     "vehicule": "BUS"
   },
   {
@@ -41996,7 +41996,7 @@
   },
   {
     "numero": 5298,
-    "libelle": "Lycée Pape Clément",
+    "libelle": "Lycee Pape Clement",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -42015,7 +42015,7 @@
   },
   {
     "numero": 5299,
-    "libelle": "Lycée Pape Clément",
+    "libelle": "Lycee Pape Clement",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -42319,7 +42319,7 @@
   },
   {
     "numero": 5331,
-    "libelle": "Sieyès",
+    "libelle": "Sieyes",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -42333,7 +42333,7 @@
   },
   {
     "numero": 5332,
-    "libelle": "Sieyès",
+    "libelle": "Sieyes",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -42352,7 +42352,7 @@
   },
   {
     "numero": 5334,
-    "libelle": "République (Boétie)",
+    "libelle": "Republique (Boetie)",
     "vehicule": "BUS"
   },
   {
@@ -42567,12 +42567,12 @@
   },
   {
     "numero": 5377,
-    "libelle": "François Mitterrand",
+    "libelle": "Francois Mitterrand",
     "vehicule": "BUS"
   },
   {
     "numero": 5378,
-    "libelle": "François Mitterrand",
+    "libelle": "Francois Mitterrand",
     "vehicule": "BUS"
   },
   {
@@ -42596,7 +42596,7 @@
   },
   {
     "numero": 5384,
-    "libelle": "Bassins à Flot",
+    "libelle": "Bassins a Flot",
     "vehicule": "BUS"
   },
   {
@@ -42616,7 +42616,7 @@
   },
   {
     "numero": 5390,
-    "libelle": "Mendès France",
+    "libelle": "Mendes France",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -42630,7 +42630,7 @@
   },
   {
     "numero": 5391,
-    "libelle": "Mendès France",
+    "libelle": "Mendes France",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -43012,12 +43012,12 @@
   },
   {
     "numero": 5416,
-    "libelle": "Collège Jules Ferry",
+    "libelle": "College Jules Ferry",
     "vehicule": "BUS"
   },
   {
     "numero": 5417,
-    "libelle": "Hôpital Pellegrin",
+    "libelle": "Hopital Pellegrin",
     "vehicule": "BUS",
     "transport": {}
   },
@@ -43356,7 +43356,7 @@
   },
   {
     "numero": 5457,
-    "libelle": "Cimetière de Lormont",
+    "libelle": "Cimetiere de Lormont",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -43412,12 +43412,12 @@
   },
   {
     "numero": 5463,
-    "libelle": "Lycée Beau de Rochas",
+    "libelle": "Lycee Beau de Rochas",
     "vehicule": "BUS"
   },
   {
     "numero": 5467,
-    "libelle": "Espace François Mitterrand",
+    "libelle": "Espace Francois Mitterrand",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -43436,7 +43436,7 @@
   },
   {
     "numero": 5468,
-    "libelle": "Espace François Mitterrand",
+    "libelle": "Espace Francois Mitterrand",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -43455,7 +43455,7 @@
   },
   {
     "numero": 5469,
-    "libelle": "Lycée St Michel",
+    "libelle": "Lycee St Michel",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -43566,7 +43566,7 @@
   },
   {
     "numero": 5485,
-    "libelle": "Alcide Lançon",
+    "libelle": "Alcide Lancon",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -43580,7 +43580,7 @@
   },
   {
     "numero": 5486,
-    "libelle": "Alcide Lançon",
+    "libelle": "Alcide Lancon",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -43594,7 +43594,7 @@
   },
   {
     "numero": 5487,
-    "libelle": "Latécoère",
+    "libelle": "Latecoere",
     "vehicule": "BUS"
   },
   {
@@ -43759,7 +43759,7 @@
   },
   {
     "numero": 5517,
-    "libelle": "Lannes (Collège Manon Cormier)",
+    "libelle": "Lannes (College Manon Cormier)",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -43773,7 +43773,7 @@
   },
   {
     "numero": 5518,
-    "libelle": "Lannes (Collège Manon Cormier)",
+    "libelle": "Lannes (College Manon Cormier)",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -43899,7 +43899,7 @@
   },
   {
     "numero": 5527,
-    "libelle": "Mérignac Capeyron",
+    "libelle": "Merignac Capeyron",
     "vehicule": "BUS"
   },
   {
@@ -44174,7 +44174,7 @@
   },
   {
     "numero": 5558,
-    "libelle": "Cité Numérique",
+    "libelle": "Cite Numerique",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -44188,7 +44188,7 @@
   },
   {
     "numero": 5559,
-    "libelle": "Cité Numérique",
+    "libelle": "Cite Numerique",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -44218,13 +44218,13 @@
   },
   {
     "numero": 5563,
-    "libelle": "Buttinière",
+    "libelle": "Buttiniere",
     "vehicule": "BUS",
     "transport": {}
   },
   {
     "numero": 5574,
-    "libelle": "Cicéron",
+    "libelle": "Ciceron",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -44248,7 +44248,7 @@
   },
   {
     "numero": 5575,
-    "libelle": "Cicéron",
+    "libelle": "Ciceron",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -44305,7 +44305,7 @@
   },
   {
     "numero": 5599,
-    "libelle": "Collège Chambéry",
+    "libelle": "College Chambery",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -44319,7 +44319,7 @@
   },
   {
     "numero": 5600,
-    "libelle": "Collège Chambéry",
+    "libelle": "College Chambery",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -44338,7 +44338,7 @@
   },
   {
     "numero": 5602,
-    "libelle": "Barrès",
+    "libelle": "Barres",
     "vehicule": "BUS"
   },
   {
@@ -44473,7 +44473,7 @@
   },
   {
     "numero": 5617,
-    "libelle": "Gare St Jean (arrêt de Descente)",
+    "libelle": "Gare St Jean (arret de Descente)",
     "vehicule": "BUS",
     "transport": {}
   },
@@ -44560,7 +44560,7 @@
   },
   {
     "numero": 5624,
-    "libelle": "Lycée Daguin",
+    "libelle": "Lycee Daguin",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -44579,7 +44579,7 @@
   },
   {
     "numero": 5625,
-    "libelle": "St Aubin Cimetière",
+    "libelle": "St Aubin Cimetiere",
     "vehicule": "BUS",
     "transport": {}
   },
@@ -44624,7 +44624,7 @@
   },
   {
     "numero": 5629,
-    "libelle": "La Paillère",
+    "libelle": "La Paillere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -44738,7 +44738,7 @@
   },
   {
     "numero": 5644,
-    "libelle": "René Coty",
+    "libelle": "Rene Coty",
     "vehicule": "BUS"
   },
   {
@@ -44862,17 +44862,17 @@
   },
   {
     "numero": 5659,
-    "libelle": "Léonard de Vinci",
+    "libelle": "Leonard de Vinci",
     "vehicule": "BUS"
   },
   {
     "numero": 5660,
-    "libelle": "Avenue de Canéjan",
+    "libelle": "Avenue de Canejan",
     "vehicule": "BUS"
   },
   {
     "numero": 5661,
-    "libelle": "Musée d'Aquitaine",
+    "libelle": "Musee d'Aquitaine",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -44953,7 +44953,7 @@
   },
   {
     "numero": 5672,
-    "libelle": "Médiathèque",
+    "libelle": "Mediatheque",
     "vehicule": "BUS"
   },
   {
@@ -45034,7 +45034,7 @@
   },
   {
     "numero": 5677,
-    "libelle": "Mérignac Soleil",
+    "libelle": "Merignac Soleil",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -45109,7 +45109,7 @@
   },
   {
     "numero": 5683,
-    "libelle": "Lycée Vaclav Havel",
+    "libelle": "Lycee Vaclav Havel",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -45123,7 +45123,7 @@
   },
   {
     "numero": 5684,
-    "libelle": "Lycée Vaclav Havel",
+    "libelle": "Lycee Vaclav Havel",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -45137,7 +45137,7 @@
   },
   {
     "numero": 5685,
-    "libelle": "Mendès France",
+    "libelle": "Mendes France",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -45161,7 +45161,7 @@
   },
   {
     "numero": 5686,
-    "libelle": "Mendès France",
+    "libelle": "Mendes France",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -45229,7 +45229,7 @@
   },
   {
     "numero": 5690,
-    "libelle": "Lycée Daguin",
+    "libelle": "Lycee Daguin",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -45243,17 +45243,17 @@
   },
   {
     "numero": 5691,
-    "libelle": "Blanquefort Cimetière",
+    "libelle": "Blanquefort Cimetiere",
     "vehicule": "BUS"
   },
   {
     "numero": 5692,
-    "libelle": "Blanquefort Cimetière",
+    "libelle": "Blanquefort Cimetiere",
     "vehicule": "BUS"
   },
   {
     "numero": 5694,
-    "libelle": "St François Xavier",
+    "libelle": "St Francois Xavier",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -45267,7 +45267,7 @@
   },
   {
     "numero": 5695,
-    "libelle": "St François Xavier",
+    "libelle": "St Francois Xavier",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -45319,7 +45319,7 @@
   },
   {
     "numero": 5701,
-    "libelle": "Prieuré de Cayac",
+    "libelle": "Prieure de Cayac",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -45333,7 +45333,7 @@
   },
   {
     "numero": 5702,
-    "libelle": "Prieuré de Cayac",
+    "libelle": "Prieure de Cayac",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -45455,7 +45455,7 @@
   },
   {
     "numero": 5714,
-    "libelle": "Courréjean",
+    "libelle": "Courrejean",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -45469,7 +45469,7 @@
   },
   {
     "numero": 5715,
-    "libelle": "Courréjean",
+    "libelle": "Courrejean",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -45710,7 +45710,7 @@
   },
   {
     "numero": 5735,
-    "libelle": "Lycée Václav Havel",
+    "libelle": "Lycee Vaclav Havel",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -45729,7 +45729,7 @@
   },
   {
     "numero": 5736,
-    "libelle": "Cité Chantecrit",
+    "libelle": "Cite Chantecrit",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -45895,7 +45895,7 @@
   },
   {
     "numero": 5747,
-    "libelle": "Quai Français",
+    "libelle": "Quai Francais",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -46024,7 +46024,7 @@
   },
   {
     "numero": 5760,
-    "libelle": "Beaudésert",
+    "libelle": "Beaudesert",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -46171,7 +46171,7 @@
   },
   {
     "numero": 5776,
-    "libelle": "Castéra",
+    "libelle": "Castera",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -46299,7 +46299,7 @@
   },
   {
     "numero": 5785,
-    "libelle": "Quai Français",
+    "libelle": "Quai Francais",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -46374,7 +46374,7 @@
   },
   {
     "numero": 5792,
-    "libelle": "Barrière de Bègles",
+    "libelle": "Barriere de Begles",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -46403,12 +46403,12 @@
   },
   {
     "numero": 5793,
-    "libelle": "Rue de Bègles",
+    "libelle": "Rue de Begles",
     "vehicule": "BUS"
   },
   {
     "numero": 5794,
-    "libelle": "Rue de Bègles",
+    "libelle": "Rue de Begles",
     "vehicule": "BUS"
   },
   {
@@ -46578,7 +46578,7 @@
   },
   {
     "numero": 5817,
-    "libelle": "Galliéni",
+    "libelle": "Gallieni",
     "vehicule": "BUS"
   },
   {
@@ -46602,12 +46602,12 @@
   },
   {
     "numero": 5820,
-    "libelle": "Gare de Caudéran",
+    "libelle": "Gare de Cauderan",
     "vehicule": "BUS"
   },
   {
     "numero": 5821,
-    "libelle": "Gare de Caudéran",
+    "libelle": "Gare de Cauderan",
     "vehicule": "BUS"
   },
   {
@@ -46622,12 +46622,12 @@
   },
   {
     "numero": 5824,
-    "libelle": "Collège Capeyron",
+    "libelle": "College Capeyron",
     "vehicule": "BUS"
   },
   {
     "numero": 5825,
-    "libelle": "Collège Capeyron",
+    "libelle": "College Capeyron",
     "vehicule": "BUS"
   },
   {
@@ -46662,12 +46662,12 @@
   },
   {
     "numero": 5834,
-    "libelle": "Gravières",
+    "libelle": "Gravieres",
     "vehicule": "BUS"
   },
   {
     "numero": 5835,
-    "libelle": "Gravières",
+    "libelle": "Gravieres",
     "vehicule": "BUS"
   },
   {
@@ -46727,7 +46727,7 @@
   },
   {
     "numero": 5851,
-    "libelle": "Mérignac Centre (René Coty)",
+    "libelle": "Merignac Centre (Rene Coty)",
     "vehicule": "BUS"
   },
   {
@@ -46765,7 +46765,7 @@
   },
   {
     "numero": 5857,
-    "libelle": "Hôpital St André",
+    "libelle": "Hopital St Andre",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -46789,7 +46789,7 @@
   },
   {
     "numero": 5860,
-    "libelle": "César Franck",
+    "libelle": "Cesar Franck",
     "vehicule": "BUS"
   },
   {
@@ -46804,12 +46804,12 @@
   },
   {
     "numero": 5864,
-    "libelle": "Hôpital Robert Picqué",
+    "libelle": "Hopital Robert Picque",
     "vehicule": "BUS"
   },
   {
     "numero": 5865,
-    "libelle": "Hôpital Robert Picqué",
+    "libelle": "Hopital Robert Picque",
     "vehicule": "BUS"
   },
   {
@@ -46834,7 +46834,7 @@
   },
   {
     "numero": 5870,
-    "libelle": "Bègles Poste",
+    "libelle": "Begles Poste",
     "vehicule": "BUS"
   },
   {
@@ -46864,7 +46864,7 @@
   },
   {
     "numero": 5876,
-    "libelle": "Collège Pablo Neruda",
+    "libelle": "College Pablo Neruda",
     "vehicule": "BUS"
   },
   {
@@ -46888,7 +46888,7 @@
   },
   {
     "numero": 5879,
-    "libelle": "Collège Ausone",
+    "libelle": "College Ausone",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -47029,7 +47029,7 @@
   },
   {
     "numero": 5888,
-    "libelle": "Eglise de Caudéran",
+    "libelle": "Eglise de Cauderan",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -47048,7 +47048,7 @@
   },
   {
     "numero": 5889,
-    "libelle": "Eglise de Caudéran",
+    "libelle": "Eglise de Cauderan",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -47110,12 +47110,12 @@
   },
   {
     "numero": 5894,
-    "libelle": "Bibliothèque",
+    "libelle": "Bibliotheque",
     "vehicule": "BUS"
   },
   {
     "numero": 5895,
-    "libelle": "Bibliothèque",
+    "libelle": "Bibliotheque",
     "vehicule": "BUS"
   },
   {
@@ -47148,7 +47148,7 @@
   },
   {
     "numero": 5899,
-    "libelle": "Résidence Crespy",
+    "libelle": "Residence Crespy",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -47162,7 +47162,7 @@
   },
   {
     "numero": 5900,
-    "libelle": "Résidence Crespy",
+    "libelle": "Residence Crespy",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -47225,7 +47225,7 @@
   },
   {
     "numero": 5909,
-    "libelle": "Place Lopès",
+    "libelle": "Place Lopes",
     "vehicule": "BUS"
   },
   {
@@ -47245,7 +47245,7 @@
   },
   {
     "numero": 5913,
-    "libelle": "St Saëns",
+    "libelle": "St Saens",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -47297,7 +47297,7 @@
   },
   {
     "numero": 5918,
-    "libelle": "St Saëns",
+    "libelle": "St Saens",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -47311,7 +47311,7 @@
   },
   {
     "numero": 5919,
-    "libelle": "G. Fauré",
+    "libelle": "G. Faure",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -47424,7 +47424,7 @@
   },
   {
     "numero": 5935,
-    "libelle": "Barrière de Toulouse (Bd Albert 1er)",
+    "libelle": "Barriere de Toulouse (Bd Albert 1er)",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -47565,7 +47565,7 @@
   },
   {
     "numero": 5944,
-    "libelle": "Préceinte",
+    "libelle": "Preceinte",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -47579,7 +47579,7 @@
   },
   {
     "numero": 5945,
-    "libelle": "Préceinte",
+    "libelle": "Preceinte",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -47607,7 +47607,7 @@
   },
   {
     "numero": 5947,
-    "libelle": "Parc Rivière",
+    "libelle": "Parc Riviere",
     "vehicule": "BUS"
   },
   {
@@ -47650,7 +47650,7 @@
   },
   {
     "numero": 5953,
-    "libelle": "Hôtel de Police",
+    "libelle": "Hotel de Police",
     "vehicule": "BUS"
   },
   {
@@ -47688,7 +47688,7 @@
   },
   {
     "numero": 5957,
-    "libelle": "Frères Portmann",
+    "libelle": "Freres Portmann",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -47702,7 +47702,7 @@
   },
   {
     "numero": 5958,
-    "libelle": "Frères Portmann",
+    "libelle": "Freres Portmann",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -47716,7 +47716,7 @@
   },
   {
     "numero": 5959,
-    "libelle": "Trinité",
+    "libelle": "Trinite",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -47730,7 +47730,7 @@
   },
   {
     "numero": 5960,
-    "libelle": "Trinité",
+    "libelle": "Trinite",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -47858,7 +47858,7 @@
   },
   {
     "numero": 5975,
-    "libelle": "Caychac La Rivière",
+    "libelle": "Caychac La Riviere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -47872,7 +47872,7 @@
   },
   {
     "numero": 5976,
-    "libelle": "Caychac La Rivière",
+    "libelle": "Caychac La Riviere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -47886,7 +47886,7 @@
   },
   {
     "numero": 5978,
-    "libelle": "Allée de Curé",
+    "libelle": "Allee de Cure",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -47905,17 +47905,17 @@
   },
   {
     "numero": 5980,
-    "libelle": "Cimetière d'Eysines",
+    "libelle": "Cimetiere d'Eysines",
     "vehicule": "BUS"
   },
   {
     "numero": 5981,
-    "libelle": "Lénine",
+    "libelle": "Lenine",
     "vehicule": "BUS"
   },
   {
     "numero": 5982,
-    "libelle": "Lénine",
+    "libelle": "Lenine",
     "vehicule": "BUS"
   },
   {
@@ -47991,12 +47991,12 @@
   },
   {
     "numero": 5990,
-    "libelle": "L'Archevêque",
+    "libelle": "L'Archeveque",
     "vehicule": "BUS"
   },
   {
     "numero": 5991,
-    "libelle": "L'Archevêque",
+    "libelle": "L'Archeveque",
     "vehicule": "BUS"
   },
   {
@@ -48029,7 +48029,7 @@
   },
   {
     "numero": 5994,
-    "libelle": "Bergonié",
+    "libelle": "Bergonie",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -48057,7 +48057,7 @@
   },
   {
     "numero": 6326,
-    "libelle": "Maréchal Juin",
+    "libelle": "Marechal Juin",
     "vehicule": "BUS"
   },
   {
@@ -48090,7 +48090,7 @@
   },
   {
     "numero": 6329,
-    "libelle": "G. Fauré",
+    "libelle": "G. Faure",
     "vehicule": "BUS"
   },
   {
@@ -48149,12 +48149,12 @@
   },
   {
     "numero": 6338,
-    "libelle": "Collège Claude Massé",
+    "libelle": "College Claude Masse",
     "vehicule": "BUS"
   },
   {
     "numero": 6339,
-    "libelle": "Collège Claude Massé",
+    "libelle": "College Claude Masse",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -48230,12 +48230,12 @@
   },
   {
     "numero": 6347,
-    "libelle": "Stade Daugère",
+    "libelle": "Stade Daugere",
     "vehicule": "BUS"
   },
   {
     "numero": 6348,
-    "libelle": "Stade Daugère",
+    "libelle": "Stade Daugere",
     "vehicule": "BUS"
   },
   {
@@ -48497,7 +48497,7 @@
   },
   {
     "numero": 6397,
-    "libelle": "Four à Chaux",
+    "libelle": "Four a Chaux",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -48511,7 +48511,7 @@
   },
   {
     "numero": 6398,
-    "libelle": "Gelès",
+    "libelle": "Geles",
     "vehicule": "BUS"
   },
   {
@@ -48573,12 +48573,12 @@
   },
   {
     "numero": 6404,
-    "libelle": "Aéroport",
+    "libelle": "Aeroport",
     "vehicule": "BUS"
   },
   {
     "numero": 6408,
-    "libelle": "René Coty",
+    "libelle": "Rene Coty",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -48606,7 +48606,7 @@
   },
   {
     "numero": 6421,
-    "libelle": "Sousa Mendès",
+    "libelle": "Sousa Mendes",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -48625,7 +48625,7 @@
   },
   {
     "numero": 6422,
-    "libelle": "Sousa Mendès",
+    "libelle": "Sousa Mendes",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -48725,7 +48725,7 @@
   },
   {
     "numero": 6433,
-    "libelle": "La Cité du Vin",
+    "libelle": "La Cite du Vin",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -48805,7 +48805,7 @@
   },
   {
     "numero": 6438,
-    "libelle": "Centre des Impôts",
+    "libelle": "Centre des Impots",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -48824,7 +48824,7 @@
   },
   {
     "numero": 6439,
-    "libelle": "Centre des Impôts",
+    "libelle": "Centre des Impots",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -48843,7 +48843,7 @@
   },
   {
     "numero": 6442,
-    "libelle": "Bègles Plage",
+    "libelle": "Begles Plage",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -48857,7 +48857,7 @@
   },
   {
     "numero": 6443,
-    "libelle": "Bègles Plage",
+    "libelle": "Begles Plage",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -48929,7 +48929,7 @@
   },
   {
     "numero": 6452,
-    "libelle": "Mérignac Soleil",
+    "libelle": "Merignac Soleil",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -49000,7 +49000,7 @@
   },
   {
     "numero": 6461,
-    "libelle": "La Glacière",
+    "libelle": "La Glaciere",
     "vehicule": "BUS"
   },
   {
@@ -49017,7 +49017,7 @@
   },
   {
     "numero": 6465,
-    "libelle": "Cours du Médoc",
+    "libelle": "Cours du Medoc",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -49031,7 +49031,7 @@
   },
   {
     "numero": 6466,
-    "libelle": "Cours du Médoc",
+    "libelle": "Cours du Medoc",
     "vehicule": "BUS"
   },
   {
@@ -49370,7 +49370,7 @@
   },
   {
     "numero": 6655,
-    "libelle": "Aimé Césaire",
+    "libelle": "Aime Cesaire",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -49384,7 +49384,7 @@
   },
   {
     "numero": 6656,
-    "libelle": "Aimé Césaire",
+    "libelle": "Aime Cesaire",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -49398,7 +49398,7 @@
   },
   {
     "numero": 6661,
-    "libelle": "Lycée Václav Havel",
+    "libelle": "Lycee Vaclav Havel",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -49547,7 +49547,7 @@
   },
   {
     "numero": 6694,
-    "libelle": "René Coty",
+    "libelle": "Rene Coty",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -49678,12 +49678,12 @@
   },
   {
     "numero": 6791,
-    "libelle": "Jallère",
+    "libelle": "Jallere",
     "vehicule": "BUS"
   },
   {
     "numero": 6792,
-    "libelle": "Jallère",
+    "libelle": "Jallere",
     "vehicule": "BUS"
   },
   {
@@ -49716,12 +49716,12 @@
   },
   {
     "numero": 6811,
-    "libelle": "Arrêt de Service",
+    "libelle": "Arret de Service",
     "vehicule": "BUS"
   },
   {
     "numero": 6825,
-    "libelle": "La Cité du Vin",
+    "libelle": "La Cite du Vin",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -49745,7 +49745,7 @@
   },
   {
     "numero": 6827,
-    "libelle": "La Cité du Vin",
+    "libelle": "La Cite du Vin",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -49817,7 +49817,7 @@
   },
   {
     "numero": 6835,
-    "libelle": "La Cité du Vin",
+    "libelle": "La Cite du Vin",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -49831,7 +49831,7 @@
   },
   {
     "numero": 6836,
-    "libelle": "La Cité du Vin",
+    "libelle": "La Cite du Vin",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -49965,7 +49965,7 @@
   },
   {
     "numero": 6871,
-    "libelle": "Bibliothèque",
+    "libelle": "Bibliotheque",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -50007,7 +50007,7 @@
   },
   {
     "numero": 6901,
-    "libelle": "Les Hangars (Médoc)",
+    "libelle": "Les Hangars (Medoc)",
     "vehicule": "BATEAU",
     "transport": {
       "BUS": [
@@ -50024,7 +50024,7 @@
   },
   {
     "numero": 6902,
-    "libelle": "Quinconces (Jean Jaurès)",
+    "libelle": "Quinconces (Jean Jaures)",
     "vehicule": "BATEAU",
     "transport": {
       "BUS": [
@@ -50183,7 +50183,7 @@
   },
   {
     "numero": 6925,
-    "libelle": "Maréchal Leclerc",
+    "libelle": "Marechal Leclerc",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -50197,7 +50197,7 @@
   },
   {
     "numero": 6926,
-    "libelle": "Maréchal Leclerc",
+    "libelle": "Marechal Leclerc",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -50253,7 +50253,7 @@
   },
   {
     "numero": 6930,
-    "libelle": "Pyrénées",
+    "libelle": "Pyrenees",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -50267,7 +50267,7 @@
   },
   {
     "numero": 6931,
-    "libelle": "Pyrénées",
+    "libelle": "Pyrenees",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -50281,7 +50281,7 @@
   },
   {
     "numero": 6932,
-    "libelle": "Collège Aliénor d'Aquitaine",
+    "libelle": "College Alienor d'Aquitaine",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -50295,7 +50295,7 @@
   },
   {
     "numero": 6933,
-    "libelle": "Collège Aliénor d'Aquitaine",
+    "libelle": "College Alienor d'Aquitaine",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -50491,7 +50491,7 @@
   },
   {
     "numero": 6981,
-    "libelle": "Mérignac Soleil (Porte 1)",
+    "libelle": "Merignac Soleil (Porte 1)",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -50624,7 +50624,7 @@
   },
   {
     "numero": 7002,
-    "libelle": "Pas de la Côte",
+    "libelle": "Pas de la Cote",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -50643,7 +50643,7 @@
   },
   {
     "numero": 7003,
-    "libelle": "Pas de la Côte",
+    "libelle": "Pas de la Cote",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -50752,7 +50752,7 @@
   },
   {
     "numero": 7013,
-    "libelle": "La Morandière",
+    "libelle": "La Morandiere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -50766,7 +50766,7 @@
   },
   {
     "numero": 7014,
-    "libelle": "La Morandière",
+    "libelle": "La Morandiere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -50808,7 +50808,7 @@
   },
   {
     "numero": 7017,
-    "libelle": "Jean Jaurès",
+    "libelle": "Jean Jaures",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -50822,7 +50822,7 @@
   },
   {
     "numero": 7018,
-    "libelle": "Jean Jaurès",
+    "libelle": "Jean Jaures",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -50940,7 +50940,7 @@
   },
   {
     "numero": 7081,
-    "libelle": "Lénine",
+    "libelle": "Lenine",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -50993,7 +50993,7 @@
   },
   {
     "numero": 7113,
-    "libelle": "Lénine",
+    "libelle": "Lenine",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -51069,7 +51069,7 @@
   },
   {
     "numero": 7141,
-    "libelle": "Aéroport",
+    "libelle": "Aeroport",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -51097,7 +51097,7 @@
   },
   {
     "numero": 7152,
-    "libelle": "Châtaigniers",
+    "libelle": "Chataigniers",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -51111,7 +51111,7 @@
   },
   {
     "numero": 7153,
-    "libelle": "Châtaigniers",
+    "libelle": "Chataigniers",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -51199,22 +51199,22 @@
   },
   {
     "numero": 7226,
-    "libelle": "Genêts",
+    "libelle": "Genets",
     "vehicule": "BUS"
   },
   {
     "numero": 7227,
-    "libelle": "Genêts",
+    "libelle": "Genets",
     "vehicule": "BUS"
   },
   {
     "numero": 7228,
-    "libelle": "La Chênaie",
+    "libelle": "La Chenaie",
     "vehicule": "BUS"
   },
   {
     "numero": 7229,
-    "libelle": "La Chênaie",
+    "libelle": "La Chenaie",
     "vehicule": "BUS"
   },
   {
@@ -51501,7 +51501,7 @@
   },
   {
     "numero": 7287,
-    "libelle": "Frères Robinson",
+    "libelle": "Freres Robinson",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -51515,7 +51515,7 @@
   },
   {
     "numero": 7288,
-    "libelle": "Frères Robinson",
+    "libelle": "Freres Robinson",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -51543,7 +51543,7 @@
   },
   {
     "numero": 7292,
-    "libelle": "Stade Daugère",
+    "libelle": "Stade Daugere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -51562,7 +51562,7 @@
   },
   {
     "numero": 7293,
-    "libelle": "Stade Daugère",
+    "libelle": "Stade Daugere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -52258,7 +52258,7 @@
   },
   {
     "numero": 7411,
-    "libelle": "Cicéron",
+    "libelle": "Ciceron",
     "vehicule": "BUS"
   },
   {
@@ -52491,13 +52491,13 @@
   },
   {
     "numero": 7461,
-    "libelle": "République",
+    "libelle": "Republique",
     "vehicule": "BUS",
     "transport": {}
   },
   {
     "numero": 7462,
-    "libelle": "République",
+    "libelle": "Republique",
     "vehicule": "BUS"
   },
   {
@@ -52526,7 +52526,7 @@
   },
   {
     "numero": 7491,
-    "libelle": "Mérignac Centre",
+    "libelle": "Merignac Centre",
     "vehicule": "BUS"
   },
   {
@@ -52578,7 +52578,7 @@
   },
   {
     "numero": 7495,
-    "libelle": "Moulin à Vent",
+    "libelle": "Moulin a Vent",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -52606,7 +52606,7 @@
   },
   {
     "numero": 7497,
-    "libelle": "Collège Albert Camus",
+    "libelle": "College Albert Camus",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -52620,7 +52620,7 @@
   },
   {
     "numero": 7498,
-    "libelle": "Gambetta Mériadeck",
+    "libelle": "Gambetta Meriadeck",
     "vehicule": "BUS"
   },
   {
@@ -52639,7 +52639,7 @@
   },
   {
     "numero": 7500,
-    "libelle": "Gambetta Mériadeck",
+    "libelle": "Gambetta Meriadeck",
     "vehicule": "BUS"
   },
   {
@@ -52885,7 +52885,7 @@
   },
   {
     "numero": 7518,
-    "libelle": "Faisan Doré",
+    "libelle": "Faisan Dore",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -52927,7 +52927,7 @@
   },
   {
     "numero": 7521,
-    "libelle": "Faisan Doré",
+    "libelle": "Faisan Dore",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -52941,7 +52941,7 @@
   },
   {
     "numero": 7522,
-    "libelle": "Moulin à Vent",
+    "libelle": "Moulin a Vent",
     "vehicule": "BUS"
   },
   {
@@ -52993,7 +52993,7 @@
   },
   {
     "numero": 7526,
-    "libelle": "Collège Albert Camus",
+    "libelle": "College Albert Camus",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -53402,12 +53402,12 @@
   },
   {
     "numero": 7571,
-    "libelle": "Buttinière",
+    "libelle": "Buttiniere",
     "vehicule": "BUS"
   },
   {
     "numero": 7572,
-    "libelle": "République",
+    "libelle": "Republique",
     "vehicule": "BUS"
   },
   {
@@ -53431,12 +53431,12 @@
   },
   {
     "numero": 7581,
-    "libelle": "Pyrénées",
+    "libelle": "Pyrenees",
     "vehicule": "BUS"
   },
   {
     "numero": 7582,
-    "libelle": "Pyrénées",
+    "libelle": "Pyrenees",
     "vehicule": "BUS"
   },
   {
@@ -53461,12 +53461,12 @@
   },
   {
     "numero": 7589,
-    "libelle": "Lycée Václav Havel",
+    "libelle": "Lycee Vaclav Havel",
     "vehicule": "BUS"
   },
   {
     "numero": 7590,
-    "libelle": "St Exupéry",
+    "libelle": "St Exupery",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -53659,12 +53659,12 @@
   },
   {
     "numero": 7631,
-    "libelle": "Chemin de Piétru",
+    "libelle": "Chemin de Pietru",
     "vehicule": "BUS"
   },
   {
     "numero": 7651,
-    "libelle": "Jallère",
+    "libelle": "Jallere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -53683,7 +53683,7 @@
   },
   {
     "numero": 7652,
-    "libelle": "Jallère",
+    "libelle": "Jallere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -53702,7 +53702,7 @@
   },
   {
     "numero": 7661,
-    "libelle": "Collège Rosa Bonheur",
+    "libelle": "College Rosa Bonheur",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -53735,12 +53735,12 @@
   },
   {
     "numero": 7672,
-    "libelle": "Centre Commercial Mériadeck",
+    "libelle": "Centre Commercial Meriadeck",
     "vehicule": "BUS"
   },
   {
     "numero": 7681,
-    "libelle": "Général de Gaulle",
+    "libelle": "General de Gaulle",
     "vehicule": "BUS"
   },
   {
@@ -53920,7 +53920,7 @@
   },
   {
     "numero": 7723,
-    "libelle": "Villenave Pyrénées",
+    "libelle": "Villenave Pyrenees",
     "vehicule": "TRAM",
     "transport": {
       "BUS": [
@@ -53934,7 +53934,7 @@
   },
   {
     "numero": 7724,
-    "libelle": "Villenave Pyrénées",
+    "libelle": "Villenave Pyrenees",
     "vehicule": "TRAM"
   },
   {
@@ -53972,7 +53972,7 @@
   },
   {
     "numero": 7728,
-    "libelle": "Barrière du Médoc",
+    "libelle": "Barriere du Medoc",
     "vehicule": "BUS"
   },
   {
@@ -54021,7 +54021,7 @@
   },
   {
     "numero": 7741,
-    "libelle": "Dorgelès",
+    "libelle": "Dorgeles",
     "vehicule": "BUS"
   },
   {
@@ -54054,7 +54054,7 @@
   },
   {
     "numero": 7751,
-    "libelle": "Nigès",
+    "libelle": "Niges",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -54068,7 +54068,7 @@
   },
   {
     "numero": 7752,
-    "libelle": "Nigès",
+    "libelle": "Niges",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -54087,7 +54087,7 @@
   },
   {
     "numero": 7772,
-    "libelle": "La Cité du Vin",
+    "libelle": "La Cite du Vin",
     "vehicule": "BATEAU",
     "transport": {
       "BUS": [
@@ -54198,7 +54198,7 @@
   },
   {
     "numero": 7801,
-    "libelle": "Médiathèque",
+    "libelle": "Mediatheque",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -54227,7 +54227,7 @@
   },
   {
     "numero": 7802,
-    "libelle": "Médiathèque",
+    "libelle": "Mediatheque",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -54304,7 +54304,7 @@
   },
   {
     "numero": 7813,
-    "libelle": "Aéroparc",
+    "libelle": "Aeroparc",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -54328,7 +54328,7 @@
   },
   {
     "numero": 7814,
-    "libelle": "Aéroparc",
+    "libelle": "Aeroparc",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -54478,7 +54478,7 @@
   },
   {
     "numero": 7871,
-    "libelle": "Collège Emile Zola",
+    "libelle": "College Emile Zola",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -54545,7 +54545,7 @@
   },
   {
     "numero": 7876,
-    "libelle": "Bernède",
+    "libelle": "Bernede",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -54559,7 +54559,7 @@
   },
   {
     "numero": 7877,
-    "libelle": "Bernède",
+    "libelle": "Bernede",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -54643,7 +54643,7 @@
   },
   {
     "numero": 7884,
-    "libelle": "Caychac La Rivière",
+    "libelle": "Caychac La Riviere",
     "vehicule": "BUS"
   },
   {
@@ -54733,7 +54733,7 @@
   },
   {
     "numero": 7911,
-    "libelle": "Trébod",
+    "libelle": "Trebod",
     "vehicule": "BUS"
   },
   {
@@ -54894,7 +54894,7 @@
   },
   {
     "numero": 7940,
-    "libelle": "Sirtéma",
+    "libelle": "Sirtema",
     "vehicule": "BUS"
   },
   {
@@ -54937,7 +54937,7 @@
   },
   {
     "numero": 7951,
-    "libelle": "Barrière du Médoc",
+    "libelle": "Barriere du Medoc",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -55148,7 +55148,7 @@
   },
   {
     "numero": 8051,
-    "libelle": "Ferme de Baugé",
+    "libelle": "Ferme de Bauge",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -55167,7 +55167,7 @@
   },
   {
     "numero": 8052,
-    "libelle": "Ferme de Baugé",
+    "libelle": "Ferme de Bauge",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -55371,7 +55371,7 @@
   },
   {
     "numero": 8121,
-    "libelle": "La Gravière",
+    "libelle": "La Graviere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -55432,7 +55432,7 @@
   },
   {
     "numero": 8141,
-    "libelle": "Lycée St Michel",
+    "libelle": "Lycee St Michel",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -55537,7 +55537,7 @@
   },
   {
     "numero": 8171,
-    "libelle": "Aéroparc",
+    "libelle": "Aeroparc",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -55702,7 +55702,7 @@
   },
   {
     "numero": 8243,
-    "libelle": "République",
+    "libelle": "Republique",
     "vehicule": "BUS"
   },
   {
@@ -55712,7 +55712,7 @@
   },
   {
     "numero": 8245,
-    "libelle": "Collège F.Mauriac",
+    "libelle": "College F.Mauriac",
     "vehicule": "BUS"
   },
   {
@@ -55727,7 +55727,7 @@
   },
   {
     "numero": 8248,
-    "libelle": "Gare Routière",
+    "libelle": "Gare Routiere",
     "vehicule": "BUS"
   },
   {
@@ -55742,7 +55742,7 @@
   },
   {
     "numero": 8253,
-    "libelle": "Collège Grand Parc",
+    "libelle": "College Grand Parc",
     "vehicule": "BUS"
   },
   {
@@ -55776,7 +55776,7 @@
   },
   {
     "numero": 8258,
-    "libelle": "Parc Rivière",
+    "libelle": "Parc Riviere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -55795,12 +55795,12 @@
   },
   {
     "numero": 8260,
-    "libelle": "La Sablière",
+    "libelle": "La Sabliere",
     "vehicule": "BUS"
   },
   {
     "numero": 8261,
-    "libelle": "La Sablière",
+    "libelle": "La Sabliere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -55814,7 +55814,7 @@
   },
   {
     "numero": 8271,
-    "libelle": "Collège Emile Zola",
+    "libelle": "College Emile Zola",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -55847,7 +55847,7 @@
   },
   {
     "numero": 8311,
-    "libelle": "Hôtel de Police",
+    "libelle": "Hotel de Police",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -56512,7 +56512,7 @@
   },
   {
     "numero": 8431,
-    "libelle": "Pyrénées",
+    "libelle": "Pyrenees",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -56531,7 +56531,7 @@
   },
   {
     "numero": 8432,
-    "libelle": "Pyrénées",
+    "libelle": "Pyrenees",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -56560,7 +56560,7 @@
   },
   {
     "numero": 8451,
-    "libelle": "Centre Aliénor",
+    "libelle": "Centre Alienor",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -56631,7 +56631,7 @@
   },
   {
     "numero": 8501,
-    "libelle": "Floirac Libération",
+    "libelle": "Floirac Liberation",
     "vehicule": "BUS"
   },
   {
@@ -56641,7 +56641,7 @@
   },
   {
     "numero": 8512,
-    "libelle": "Hôpital St André",
+    "libelle": "Hopital St Andre",
     "vehicule": "BUS"
   },
   {
@@ -56651,7 +56651,7 @@
   },
   {
     "numero": 8531,
-    "libelle": "Hôpital Pellegrin (Grand Maurian)",
+    "libelle": "Hopital Pellegrin (Grand Maurian)",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -56665,7 +56665,7 @@
   },
   {
     "numero": 8532,
-    "libelle": "Place Mondésir",
+    "libelle": "Place Mondesir",
     "vehicule": "BUS"
   },
   {
@@ -56675,7 +56675,7 @@
   },
   {
     "numero": 8541,
-    "libelle": "Jean Jaurès",
+    "libelle": "Jean Jaures",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -56699,7 +56699,7 @@
   },
   {
     "numero": 8542,
-    "libelle": "Jean Jaurès",
+    "libelle": "Jean Jaures",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -56776,7 +56776,7 @@
   },
   {
     "numero": 8551,
-    "libelle": "République",
+    "libelle": "Republique",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -56795,7 +56795,7 @@
   },
   {
     "numero": 8552,
-    "libelle": "République",
+    "libelle": "Republique",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -56814,7 +56814,7 @@
   },
   {
     "numero": 8553,
-    "libelle": "Quai Français",
+    "libelle": "Quai Francais",
     "vehicule": "BUS"
   },
   {
@@ -56824,7 +56824,7 @@
   },
   {
     "numero": 8562,
-    "libelle": "Martyrs de la Libération",
+    "libelle": "Martyrs de la Liberation",
     "vehicule": "BUS"
   },
   {
@@ -56909,7 +56909,7 @@
   },
   {
     "numero": 8584,
-    "libelle": "Cours du Médoc",
+    "libelle": "Cours du Medoc",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -57163,7 +57163,7 @@
   },
   {
     "numero": 8651,
-    "libelle": "Aéroparc",
+    "libelle": "Aeroparc",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -57187,12 +57187,12 @@
   },
   {
     "numero": 8661,
-    "libelle": "République",
+    "libelle": "Republique",
     "vehicule": "BUS"
   },
   {
     "numero": 8671,
-    "libelle": "Fondaudège Muséum",
+    "libelle": "Fondaudege Museum",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -57278,7 +57278,7 @@
   },
   {
     "numero": 8714,
-    "libelle": "St Bruno - Hôtel de Région",
+    "libelle": "St Bruno - Hotel de Region",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -57382,7 +57382,7 @@
   },
   {
     "numero": 8751,
-    "libelle": "Sirtéma",
+    "libelle": "Sirtema",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -57536,7 +57536,7 @@
   },
   {
     "numero": 8762,
-    "libelle": "Moulin à Vent",
+    "libelle": "Moulin a Vent",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -57806,7 +57806,7 @@
   },
   {
     "numero": 8863,
-    "libelle": "Lycée Charles Peguy",
+    "libelle": "Lycee Charles Peguy",
     "vehicule": "BUS",
     "transport": {}
   },
@@ -57832,7 +57832,7 @@
   },
   {
     "numero": 8891,
-    "libelle": "Quai Français",
+    "libelle": "Quai Francais",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -58007,7 +58007,7 @@
   },
   {
     "numero": 8953,
-    "libelle": "Léonard de Vinci",
+    "libelle": "Leonard de Vinci",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -58021,7 +58021,7 @@
   },
   {
     "numero": 8954,
-    "libelle": "Léonard de Vinci",
+    "libelle": "Leonard de Vinci",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -58035,12 +58035,12 @@
   },
   {
     "numero": 8955,
-    "libelle": "Léonard de Vinci",
+    "libelle": "Leonard de Vinci",
     "vehicule": "BUS"
   },
   {
     "numero": 8956,
-    "libelle": "Léonard de Vinci",
+    "libelle": "Leonard de Vinci",
     "vehicule": "BUS"
   },
   {
@@ -58078,7 +58078,7 @@
   },
   {
     "numero": 8972,
-    "libelle": "Bassins à Flot",
+    "libelle": "Bassins a Flot",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -58097,7 +58097,7 @@
   },
   {
     "numero": 8973,
-    "libelle": "Bassins à Flot",
+    "libelle": "Bassins a Flot",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -58111,7 +58111,7 @@
   },
   {
     "numero": 8981,
-    "libelle": "Cité Chantecrit",
+    "libelle": "Cite Chantecrit",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -58125,7 +58125,7 @@
   },
   {
     "numero": 8991,
-    "libelle": "Barrière du Médoc",
+    "libelle": "Barriere du Medoc",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -58238,12 +58238,12 @@
   },
   {
     "numero": 9009,
-    "libelle": "Lisière du Vignoble",
+    "libelle": "Lisiere du Vignoble",
     "vehicule": "BUS"
   },
   {
     "numero": 9011,
-    "libelle": "Cérons",
+    "libelle": "Cerons",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -58257,7 +58257,7 @@
   },
   {
     "numero": 9012,
-    "libelle": "Cérons",
+    "libelle": "Cerons",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -58295,12 +58295,12 @@
   },
   {
     "numero": 9031,
-    "libelle": "A. Paré",
+    "libelle": "A. Pare",
     "vehicule": "BUS"
   },
   {
     "numero": 9032,
-    "libelle": "Parc du Château",
+    "libelle": "Parc du Chateau",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -58314,7 +58314,7 @@
   },
   {
     "numero": 9033,
-    "libelle": "Parc du Château",
+    "libelle": "Parc du Chateau",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -58333,22 +58333,22 @@
   },
   {
     "numero": 9034,
-    "libelle": "Stade Stéhélin",
+    "libelle": "Stade Stehelin",
     "vehicule": "BUS"
   },
   {
     "numero": 9035,
-    "libelle": "Gabriel Léglise",
+    "libelle": "Gabriel Leglise",
     "vehicule": "BUS"
   },
   {
     "numero": 9036,
-    "libelle": "Pierre Mendès France",
+    "libelle": "Pierre Mendes France",
     "vehicule": "BUS"
   },
   {
     "numero": 9037,
-    "libelle": "Pierre Mendès France",
+    "libelle": "Pierre Mendes France",
     "vehicule": "BUS"
   },
   {
@@ -58434,7 +58434,7 @@
   },
   {
     "numero": 9047,
-    "libelle": "Gelès",
+    "libelle": "Geles",
     "vehicule": "BUS"
   },
   {
@@ -58444,7 +58444,7 @@
   },
   {
     "numero": 9049,
-    "libelle": "St Exupéry",
+    "libelle": "St Exupery",
     "vehicule": "BUS"
   },
   {
@@ -58549,7 +58549,7 @@
   },
   {
     "numero": 9057,
-    "libelle": "François Mitterrand",
+    "libelle": "Francois Mitterrand",
     "vehicule": "BUS"
   },
   {
@@ -58578,7 +58578,7 @@
   },
   {
     "numero": 9061,
-    "libelle": "Lycée du Bâtiment Terminus",
+    "libelle": "Lycee du Batiment Terminus",
     "vehicule": "BUS"
   },
   {
@@ -58657,7 +58657,7 @@
   },
   {
     "numero": 9071,
-    "libelle": "Arrêt temporaire Mésanges",
+    "libelle": "Arret temporaire Mesanges",
     "vehicule": "BUS"
   },
   {
@@ -58667,22 +58667,22 @@
   },
   {
     "numero": 9073,
-    "libelle": "Arrêt temporaire Mésanges",
+    "libelle": "Arret temporaire Mesanges",
     "vehicule": "BUS"
   },
   {
     "numero": 9074,
-    "libelle": "Arrêt temporaire Porte de Bourgogne",
+    "libelle": "Arret temporaire Porte de Bourgogne",
     "vehicule": "BUS"
   },
   {
     "numero": 9075,
-    "libelle": "Arrêt temporaire Les Plateaux",
+    "libelle": "Arret temporaire Les Plateaux",
     "vehicule": "BUS"
   },
   {
     "numero": 9076,
-    "libelle": "Arrêt temporaire Les Plateaux",
+    "libelle": "Arret temporaire Les Plateaux",
     "vehicule": "BUS"
   },
   {
@@ -58725,12 +58725,12 @@
   },
   {
     "numero": 9079,
-    "libelle": "Arrêt temporaire Clémentel",
+    "libelle": "Arret temporaire Clementel",
     "vehicule": "BUS"
   },
   {
     "numero": 9080,
-    "libelle": "Aéroport",
+    "libelle": "Aeroport",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -58749,7 +58749,7 @@
   },
   {
     "numero": 9081,
-    "libelle": "Aéroport",
+    "libelle": "Aeroport",
     "vehicule": "BUS"
   },
   {
@@ -59038,12 +59038,12 @@
   },
   {
     "numero": 9108,
-    "libelle": "Barrière St-Genès (rue St-Genès)",
+    "libelle": "Barriere St-Genes (rue St-Genes)",
     "vehicule": "BUS"
   },
   {
     "numero": 9109,
-    "libelle": "Bergonié (rue St-Genès)",
+    "libelle": "Bergonie (rue St-Genes)",
     "vehicule": "BUS"
   },
   {
@@ -59072,7 +59072,7 @@
   },
   {
     "numero": 9111,
-    "libelle": "Jean Jaurès",
+    "libelle": "Jean Jaures",
     "vehicule": "BUS"
   },
   {
@@ -59119,7 +59119,7 @@
   },
   {
     "numero": 9115,
-    "libelle": "Gaviniès",
+    "libelle": "Gavinies",
     "vehicule": "BUS"
   },
   {
@@ -59208,7 +59208,7 @@
   },
   {
     "numero": 9122,
-    "libelle": "Gaviniès",
+    "libelle": "Gavinies",
     "vehicule": "BUS"
   },
   {
@@ -59232,7 +59232,7 @@
   },
   {
     "numero": 9124,
-    "libelle": "Mériadeck",
+    "libelle": "Meriadeck",
     "vehicule": "BUS"
   },
   {
@@ -59293,7 +59293,7 @@
   },
   {
     "numero": 9129,
-    "libelle": "Mériadeck",
+    "libelle": "Meriadeck",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -59307,7 +59307,7 @@
   },
   {
     "numero": 9193,
-    "libelle": "Gambetta Mériadeck",
+    "libelle": "Gambetta Meriadeck",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -59331,7 +59331,7 @@
   },
   {
     "numero": 9194,
-    "libelle": "Gambetta Mériadeck",
+    "libelle": "Gambetta Meriadeck",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -59434,7 +59434,7 @@
   },
   {
     "numero": 9209,
-    "libelle": "Cadéra-Issartier",
+    "libelle": "Cadera-Issartier",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -59448,7 +59448,7 @@
   },
   {
     "numero": 9210,
-    "libelle": "Cadéra-Issartier",
+    "libelle": "Cadera-Issartier",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -59462,13 +59462,13 @@
   },
   {
     "numero": 9211,
-    "libelle": "Rivière",
+    "libelle": "Riviere",
     "vehicule": "BUS",
     "transport": {}
   },
   {
     "numero": 9212,
-    "libelle": "Ecoparc (Pérouse)",
+    "libelle": "Ecoparc (Perouse)",
     "vehicule": "BUS",
     "transport": {}
   },
@@ -59668,7 +59668,7 @@
   },
   {
     "numero": 9231,
-    "libelle": "Ferrière",
+    "libelle": "Ferriere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -59682,7 +59682,7 @@
   },
   {
     "numero": 9232,
-    "libelle": "Ferrière",
+    "libelle": "Ferriere",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -59724,7 +59724,7 @@
   },
   {
     "numero": 9235,
-    "libelle": "St Géry",
+    "libelle": "St Gery",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -59738,7 +59738,7 @@
   },
   {
     "numero": 9236,
-    "libelle": "St Géry",
+    "libelle": "St Gery",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -59752,7 +59752,7 @@
   },
   {
     "numero": 9237,
-    "libelle": "Collège Monjous",
+    "libelle": "College Monjous",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -59766,7 +59766,7 @@
   },
   {
     "numero": 9238,
-    "libelle": "Collège Monjous",
+    "libelle": "College Monjous",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -59780,7 +59780,7 @@
   },
   {
     "numero": 9239,
-    "libelle": "Cimetière de Gradignan",
+    "libelle": "Cimetiere de Gradignan",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -59794,7 +59794,7 @@
   },
   {
     "numero": 9240,
-    "libelle": "Barrière St Augustin",
+    "libelle": "Barriere St Augustin",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -59808,7 +59808,7 @@
   },
   {
     "numero": 9241,
-    "libelle": "Barrière St Augustin",
+    "libelle": "Barriere St Augustin",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -59869,7 +59869,7 @@
   },
   {
     "numero": 9250,
-    "libelle": "Collège Pablo Neruda",
+    "libelle": "College Pablo Neruda",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -60015,7 +60015,7 @@
   },
   {
     "numero": 9260,
-    "libelle": "Gambetta Mériadeck",
+    "libelle": "Gambetta Meriadeck",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -60096,7 +60096,7 @@
   },
   {
     "numero": 9264,
-    "libelle": "Amédée St Germain",
+    "libelle": "Amedee St Germain",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -60115,7 +60115,7 @@
   },
   {
     "numero": 9265,
-    "libelle": "Amédée St Germain",
+    "libelle": "Amedee St Germain",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -60182,7 +60182,7 @@
   },
   {
     "numero": 9268,
-    "libelle": "MÉCA",
+    "libelle": "MECA",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -60206,7 +60206,7 @@
   },
   {
     "numero": 9269,
-    "libelle": "MÉCA",
+    "libelle": "MECA",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -60340,13 +60340,13 @@
   },
   {
     "numero": 9286,
-    "libelle": "Châtaigneraie",
+    "libelle": "Chataigneraie",
     "vehicule": "BUS",
     "transport": {}
   },
   {
     "numero": 9287,
-    "libelle": "Châtaigneraie",
+    "libelle": "Chataigneraie",
     "vehicule": "BUS",
     "transport": {}
   },
@@ -60378,7 +60378,7 @@
   },
   {
     "numero": 9296,
-    "libelle": "Gare de Caudéran",
+    "libelle": "Gare de Cauderan",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -60392,7 +60392,7 @@
   },
   {
     "numero": 9297,
-    "libelle": "Gare de Caudéran",
+    "libelle": "Gare de Cauderan",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -60630,7 +60630,7 @@
   },
   {
     "numero": 9316,
-    "libelle": "Collège Chambéry",
+    "libelle": "College Chambery",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -60672,7 +60672,7 @@
   },
   {
     "numero": 9320,
-    "libelle": "Les Gravières",
+    "libelle": "Les Gravieres",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -60686,7 +60686,7 @@
   },
   {
     "numero": 9321,
-    "libelle": "Les Gravières",
+    "libelle": "Les Gravieres",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -60700,7 +60700,7 @@
   },
   {
     "numero": 9322,
-    "libelle": "45ème Parallèle",
+    "libelle": "45eme Parallele",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -60719,7 +60719,7 @@
   },
   {
     "numero": 9323,
-    "libelle": "Aéroport",
+    "libelle": "Aeroport",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -60813,7 +60813,7 @@
   },
   {
     "numero": 9330,
-    "libelle": "Rue du Médoc",
+    "libelle": "Rue du Medoc",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -60827,7 +60827,7 @@
   },
   {
     "numero": 9331,
-    "libelle": "Rue du Médoc",
+    "libelle": "Rue du Medoc",
     "vehicule": "BUS",
     "transport": {
       "BUS": [
@@ -60956,7 +60956,7 @@
   },
   {
     "numero": 9680,
-    "libelle": "Rivière",
+    "libelle": "Riviere",
     "vehicule": "BUS",
     "transport": {}
   },
@@ -60978,47 +60978,47 @@
   },
   {
     "numero": 10000,
-    "libelle": "Dépôt Lescure",
+    "libelle": "Depot Lescure",
     "vehicule": "BUS"
   },
   {
     "numero": 10001,
-    "libelle": "Dépôt du Lac",
+    "libelle": "Depot du Lac",
     "vehicule": "BUS"
   },
   {
     "numero": 10030,
-    "libelle": "Dépôt Ambarès S",
+    "libelle": "Depot Ambares S",
     "vehicule": "BUS"
   },
   {
     "numero": 10031,
-    "libelle": "Dépôt Ambarès E",
+    "libelle": "Depot Ambares E",
     "vehicule": "BUS"
   },
   {
     "numero": 10033,
-    "libelle": "Dépôt Bastide",
+    "libelle": "Depot Bastide",
     "vehicule": "BUS"
   },
   {
     "numero": 10050,
-    "libelle": "Dépôt St Médard",
+    "libelle": "Depot St Medard",
     "vehicule": "BUS"
   },
   {
     "numero": 10051,
-    "libelle": "Dépôt de Bruges",
+    "libelle": "Depot de Bruges",
     "vehicule": "BUS"
   },
   {
     "numero": 10056,
-    "libelle": "Dépôt Vaquier",
+    "libelle": "Depot Vaquier",
     "vehicule": "BUS"
   },
   {
     "numero": 10057,
-    "libelle": "Dépôt Evadys",
+    "libelle": "Depot Evadys",
     "vehicule": "BUS"
   },
   {
@@ -61066,7 +61066,7 @@
   },
   {
     "numero": 15000,
-    "libelle": "Mérignac Centre",
+    "libelle": "Merignac Centre",
     "vehicule": "BUS"
   },
   {
@@ -61116,17 +61116,17 @@
   },
   {
     "numero": 15010,
-    "libelle": "La Cité du Vin",
+    "libelle": "La Cite du Vin",
     "vehicule": "BUS"
   },
   {
     "numero": 15012,
-    "libelle": "Cours du Médoc",
+    "libelle": "Cours du Medoc",
     "vehicule": "BUS"
   },
   {
     "numero": 15013,
-    "libelle": "Cours du Médoc",
+    "libelle": "Cours du Medoc",
     "vehicule": "BUS"
   },
   {
@@ -61151,12 +61151,12 @@
   },
   {
     "numero": 15018,
-    "libelle": "Béthanie",
+    "libelle": "Bethanie",
     "vehicule": "BUS"
   },
   {
     "numero": 15019,
-    "libelle": "Béthanie",
+    "libelle": "Bethanie",
     "vehicule": "BUS"
   },
   {
@@ -61196,7 +61196,7 @@
   },
   {
     "numero": 15030,
-    "libelle": "Mérignac Arlac",
+    "libelle": "Merignac Arlac",
     "vehicule": "BUS"
   },
   {
@@ -61231,32 +61231,32 @@
   },
   {
     "numero": 15037,
-    "libelle": "Hôpital Pellegrin",
+    "libelle": "Hopital Pellegrin",
     "vehicule": "BUS"
   },
   {
     "numero": 15038,
-    "libelle": "Hôpital Pellegrin",
+    "libelle": "Hopital Pellegrin",
     "vehicule": "BUS"
   },
   {
     "numero": 15039,
-    "libelle": "Hôpital Pellegrin",
+    "libelle": "Hopital Pellegrin",
     "vehicule": "BUS"
   },
   {
     "numero": 15040,
-    "libelle": "Gaviniès",
+    "libelle": "Gavinies",
     "vehicule": "BUS"
   },
   {
     "numero": 15041,
-    "libelle": "Hôtel de Police",
+    "libelle": "Hotel de Police",
     "vehicule": "BUS"
   },
   {
     "numero": 15042,
-    "libelle": "Hôtel de Police",
+    "libelle": "Hotel de Police",
     "vehicule": "BUS"
   },
   {
@@ -61271,7 +61271,7 @@
   },
   {
     "numero": 15046,
-    "libelle": "Mériadeck",
+    "libelle": "Meriadeck",
     "vehicule": "BUS"
   },
   {
@@ -61286,12 +61286,12 @@
   },
   {
     "numero": 15049,
-    "libelle": "Jean Jaurès",
+    "libelle": "Jean Jaures",
     "vehicule": "BUS"
   },
   {
     "numero": 15050,
-    "libelle": "Jean Jaurès",
+    "libelle": "Jean Jaures",
     "vehicule": "BUS"
   },
   {
@@ -61316,12 +61316,12 @@
   },
   {
     "numero": 15055,
-    "libelle": "Marègue",
+    "libelle": "Maregue",
     "vehicule": "BUS"
   },
   {
     "numero": 15056,
-    "libelle": "Marègue",
+    "libelle": "Maregue",
     "vehicule": "BUS"
   },
   {
@@ -61336,12 +61336,12 @@
   },
   {
     "numero": 15059,
-    "libelle": "Gravières",
+    "libelle": "Gravieres",
     "vehicule": "BUS"
   },
   {
     "numero": 15060,
-    "libelle": "Gravières",
+    "libelle": "Gravieres",
     "vehicule": "BUS"
   },
   {
@@ -61366,7 +61366,7 @@
   },
   {
     "numero": 15070,
-    "libelle": "Musée d'Aquitaine",
+    "libelle": "Musee d'Aquitaine",
     "vehicule": "BUS"
   },
   {
@@ -61416,12 +61416,12 @@
   },
   {
     "numero": 15086,
-    "libelle": "St Genès",
+    "libelle": "St Genes",
     "vehicule": "BUS"
   },
   {
     "numero": 15087,
-    "libelle": "Bre St Genès",
+    "libelle": "Bre St Genes",
     "vehicule": "BUS"
   },
   {
@@ -61511,12 +61511,12 @@
   },
   {
     "numero": 15107,
-    "libelle": "Cap Métiers",
+    "libelle": "Cap Metiers",
     "vehicule": "BUS"
   },
   {
     "numero": 15108,
-    "libelle": "Cap Métiers",
+    "libelle": "Cap Metiers",
     "vehicule": "BUS"
   },
   {
@@ -61551,7 +61551,7 @@
   },
   {
     "numero": 15122,
-    "libelle": "Barrière du Médoc",
+    "libelle": "Barriere du Medoc",
     "vehicule": "BUS"
   },
   {
