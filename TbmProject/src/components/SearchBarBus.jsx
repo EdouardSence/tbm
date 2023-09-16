@@ -11,10 +11,13 @@ function SearchBarBus() {
   function handleInputChange(event) {
     const newSearchTerm = event.target.value;
     setSearchTerm(newSearchTerm);
-
+    if (newSearchTerm.length < 1) {
+      setSearchResults([]);
+      return;
+    }
     const filteredResults = NouveauTbmData.filter((item) =>
       item.libelle.toLowerCase().includes(newSearchTerm.toLowerCase())
-    );
+    ).slice(0, 10);
 
     setSearchResults(filteredResults);
   }
@@ -36,24 +39,31 @@ function SearchBarBus() {
         <div className="listBus">
           {searchResults.map((result) => (
             <div key={result.numero}>
-              <Link
-                to={`/tbm/viewBus?ligne=${result.transport?.BUS?.[0]?.lineId}&numero=${result.numero}`}
-                style={{ color: "white" }}
-                onClick={() => handleResultClick(result)}
-              >
-                {result.transport?.["BUS"]?.[0]?.image && (
-                  <img
-                    src={`/${result.transport["BUS"][0].image}`}
-                    alt="logo"
-                    style={{ width: 50, height: 50, verticalAlign: "middle", padding: 10 }}
-                  />
-                )}
-                {result.transport?.BUS?.[0]?.destination_name && (
-                  <>
-                    {result.libelle} - {result.transport["BUS"][0].destination_name}
-                  </>
-                )}
-              </Link>
+              {result.transport?.BUS?.length > 0 && (
+                <Link
+                  to={`/tbm/viewBus?ligne=${result.transport?.BUS?.[0]?.lineId}&numero=${result.numero}`}
+                  style={{ color: "white" }}
+                  onClick={() => handleResultClick(result)}
+                >
+                  {result.transport?.["BUS"]?.[0]?.image && (
+                    <img
+                      src={`/${result.transport["BUS"][0].image}`}
+                      alt="logo"
+                      style={{ width: 50, height: 50, verticalAlign: "middle", padding: 10 }}
+                    />
+                  )}
+
+                  {/* Extract the common part (e.g., "MÉCA") */}
+                  {result.libelle} -{" "}
+                  {result.transport?.BUS
+                    ?.map((destination) => destination.destination_name)
+                    .filter((destination, index, self) => self.indexOf(destination) === index)
+                    .join(", ")}
+
+                </Link>
+              )}
+
+
             </div>
           ))}
         </div>
