@@ -35,6 +35,8 @@ function ViewBus() {
         <div>
             {busData ? (
                 <>
+                    <img src={`/ImagesBus/${ligne}.svg`} alt="logo" style={{ width: 50, height: 50, verticalAlign: "middle", padding: 10 }} />
+
                     {Object.keys(busData.destinations).map((destinationId, index) => (
                         <div key={index}>
                             <h2>{busData.destinations[destinationId][0].destination_name}</h2>
@@ -64,9 +66,9 @@ function updateWaitTime(departureTime) {
     const now = new Date();
     const timeDifference = Math.floor((new Date(departureTime) - now) / 1000);
     const hours = Math.floor(timeDifference / 3600);
-    const minutes = Math.floor((timeDifference % 3600) / 60);
+    const minutes = Math.floor((timeDifference % 3600) / 60) + hours * 60;
     const seconds = timeDifference % 60;
-    return `${hours} heures, ${minutes} minutes, ${seconds} secondes`;
+    if (seconds < 0) return "Bus à l'arrêt !";
+    return `${minutes} minutes, ${seconds} secondes`;
 }
-
 export default ViewBus;
