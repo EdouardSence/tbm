@@ -53,11 +53,16 @@ function SearchBarBus() {
       </div>
 
     </>
-  )
+  );
 }
 
 
 
 
 
-export default SearchBarBus
+
+
+
+
+export default SearchBarBus;
+
