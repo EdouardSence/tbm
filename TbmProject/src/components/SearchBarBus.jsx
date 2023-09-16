@@ -1,12 +1,12 @@
 import { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, /*useNavigate*/ } from 'react-router-dom';
 
 import NouveauTbmData from '../assets/json/NouveauTbm.json';
 
 function SearchBarBus() {
   const [searchTerm, setSearchTerm] = useState('');
   const [searchResults, setSearchResults] = useState([]);
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   function handleInputChange(event) {
     const newSearchTerm = event.target.value;
@@ -19,9 +19,9 @@ function SearchBarBus() {
     setSearchResults(filteredResults);
   }
 
-  function handleResultClick(result) {
-    navigate(`/tbm/viewBus?numero=${result.numero}&ligne=${result.transport?.BUS?.[0]?.lineId}`);
-  }
+  // function handleResultClick(result) {
+  //   navigate(`/tbm/viewBus?numero=${result.numero}&ligne=${result.transport?.BUS?.[0]?.lineId}`);
+  // }
 
   return (
     <>
@@ -37,9 +37,9 @@ function SearchBarBus() {
           {searchResults.map((result) => (
             <div key={result.numero}>
               <Link
-                to={`/tbm/viewBus?ligne=${result.transport?.BUS?.[0]?.lineId}&numero=${result.numero}`}
+                to={`/tbm/viewBus?numero=${result.numero}&ligne=${result.transport?.BUS?.[0]?.lineId}`}
                 style={{ color: "white" }}
-                onClick={() => handleResultClick(result)}
+                // onClick={() => handleResultClick(result)}
               >
                 {result.transport?.["BUS"]?.[0]?.image && (
                   <img

@@ -8,21 +8,44 @@ function ViewBus() {
     const ligne = params.get("ligne");
     const [busData, setBusData] = useState(null);
 
-    useEffect(() => {
+    // Fonction pour effectuer une nouvelle requête toutes les secondes
+    const fetchData = () => {
         fetch(`https://ws.infotbm.com/ws/1.0/get-realtime-pass/${numero}/${ligne}`)
             .then((response) => response.json())
             .then((data) => setBusData(data))
             .catch((error) => console.error('Error fetching bus data', error));
+    };
+
+    useEffect(() => {
+        // Effectuez la première requête lorsque le composant est monté
+        fetchData();
+
+        // Définir l'intervalle pour actualiser les données chaque seconde
+        const intervalId = setInterval(() => {
+            fetchData();
+        }, 1000);
+
+        // Nettoyer l'intervalle lorsque le composant est démonté
+        return () => {
+            clearInterval(intervalId);
+        };
     });
 
     return (
         <div>
             {busData ? (
                 <>
-                    <h2>Bus Information</h2>
-                    {/* <p>Destination: {busData.destinations[0]?.destination_name}</p>
-                    <p>Prochain départ dans: {calculateTime(busData.departure)}</p> */}
-                    {/* Render other bus-related information */}
+                    {Object.keys(busData.destinations).map((destinationId, index) => (
+                        <div key={index}>
+                            <h2>{busData.destinations[destinationId][0].destination_name}</h2>
+                            {busData.destinations[destinationId].map((entry, entryIndex) => (
+                                <div key={entryIndex}>
+                                    <p>Prochain départ: {formatTime(entry.departure)}</p>
+                                    <p>Attente: {updateWaitTime(entry.departure)}</p>
+                                </div>
+                            ))}
+                        </div>
+                    ))}
                 </>
             ) : (
                 <p>Loading...</p>
@@ -32,14 +55,18 @@ function ViewBus() {
     );
 }
 
-// function calculateTime(departureTime) {
-//     const now = new Date();
-//     const timeDifference = Math.floor((departureTime - now) / 1000);
-//     const hours = Math.floor(timeDifference / 3600);
-//     const minutes = Math.floor((timeDifference % 3600) / 60);
-//     const seconds = timeDifference % 60;
+function formatTime(dateString) {
+    const options = { day: 'numeric', month: 'long', year: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric' };
+    return new Date(dateString).toLocaleDateString('fr-FR', options);
+}
 
-//     return `${hours} heures, ${minutes} minutes, ${seconds} secondes`;
-// }
+function updateWaitTime(departureTime) {
+    const now = new Date();
+    const timeDifference = Math.floor((new Date(departureTime) - now) / 1000);
+    const hours = Math.floor(timeDifference / 3600);
+    const minutes = Math.floor((timeDifference % 3600) / 60);
+    const seconds = timeDifference % 60;
+    return `${hours} heures, ${minutes} minutes, ${seconds} secondes`;
+}
 
 export default ViewBus;
