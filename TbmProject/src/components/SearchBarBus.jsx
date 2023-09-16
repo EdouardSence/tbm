@@ -41,7 +41,7 @@ function SearchBarBus() {
             <div key={result.numero}>
               {result.transport?.BUS?.length > 0 && (
                 <Link
-                  to={`/tbm/viewBus?numero=${result.numero}&ligne=${result.transport?.BUS?.[0]?.lineId}`}
+                  to={`./tbm/viewBus?numero=${result.numero}&ligne=${result.transport?.BUS?.[0]?.lineId}`}
                   style={{ color: "white" }}
                   // onClick={() => handleResultClick(result)}
                 >

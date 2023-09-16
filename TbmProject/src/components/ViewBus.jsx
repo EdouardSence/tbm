@@ -35,7 +35,7 @@ function ViewBus() {
         <div>
             {busData ? (
                 <>
-                    <img src={`/ImagesBus/${ligne}.svg`} alt="logo" style={{ width: 50, height: 50, verticalAlign: "middle", padding: 10 }} />
+                    <img src={`./ImagesBus/${ligne}.svg`} alt="logo" style={{ width: 50, height: 50, verticalAlign: "middle", padding: 10 }} />
 
                     {Object.keys(busData.destinations).map((destinationId, index) => (
                         <div key={index}>
