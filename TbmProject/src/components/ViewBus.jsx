@@ -52,7 +52,7 @@ function ViewBus() {
             ) : (
                 <p>Loading...</p>
             )}
-            <Link to="/tbm">Retour à la page principale</Link>
+            <Link to="/tbm/">Retour à la page principale</Link>
         </div>
     );
 }

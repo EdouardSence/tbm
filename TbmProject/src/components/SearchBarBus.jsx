@@ -1,12 +1,11 @@
 import { useState } from 'react';
-import { Link, /*useNavigate*/ } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import NouveauTbmData from '../assets/json/NouveauTbm.json';
 
 function SearchBarBus() {
   const [searchTerm, setSearchTerm] = useState('');
   const [searchResults, setSearchResults] = useState([]);
-  // const navigate = useNavigate();
 
   function handleInputChange(event) {
     const newSearchTerm = event.target.value;
@@ -37,11 +36,6 @@ function SearchBarBus() {
     setSearchResults(filteredResults);
   }
 
-
-  // function handleResultClick(result) {
-  //   navigate(`/tbm/viewBus?numero=${result.numero}&ligne=${result.transport?.BUS?.[0]?.lineId}`);
-  // }
-
   return (
     <>
       <div className="searchBar">
@@ -59,7 +53,6 @@ function SearchBarBus() {
                 <Link
                   to={`viewBus?numero=${result.numero}&ligne=${result.transport?.BUS?.[0]?.lineId}`}
                   style={{ color: "white" }}
-                // onClick={() => handleResultClick(result)}
                 >
                   {result.transport?.["BUS"]?.[0]?.image && (
                     <img
@@ -69,7 +62,6 @@ function SearchBarBus() {
                     />
                   )}
 
-                  {/* Extract the common part (e.g., "MÉCA") */}
                   {result.libelle} -{" "}
                   {result.transport?.BUS
                     ?.map((destination) => destination.destination_name)
