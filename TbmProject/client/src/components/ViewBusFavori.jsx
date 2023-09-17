@@ -2,6 +2,8 @@ import { useState } from 'react';
 import { useLocation, Link } from 'react-router-dom';
 import SearchBarBus from './SearchBarBus';
 import ListeBusFavori from './ListeBusFavori';
+import axios from 'axios';
+axios.defaults.baseURL = 'http://localhost:3000'; // Remplacez par l'URL de votre backend
 
 function ViewBusFavori() {
   const location = useLocation();
@@ -20,6 +22,19 @@ function ViewBusFavori() {
     setButtonText(showSearchBar ? "Ajouter un bus" : "Voir les bus favoris");
   };
 
+  const supprimerProfil = async () => {
+    try {
+      // Utilisez une requête POST pour supprimer le profil
+      await axios.post(`/api/supprimer-profil`, { nom: profile });
+      window.location.href = "/tbm/favori";
+    } catch (error) {
+      console.error('Erreur lors de la suppression du profil', error);
+    }
+  };
+    
+  
+  
+  
   return (
     <>
       <div>
@@ -32,6 +47,9 @@ function ViewBusFavori() {
 
       {/* Afficher la liste des bus favoris si showSearchBar est faux */}
       {!showSearchBar && <ListeBusFavori profile={profile} />}
+
+        <button onClick={supprimerProfil}>Supprimer le profil</button>
+        <br />
 
       <Link to="/tbm/favori">Retour</Link>
     </>

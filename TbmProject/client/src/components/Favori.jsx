@@ -54,6 +54,14 @@ function Favori() {
     }
   };
 
+  // Gestionnaire d'événements pour la touche "Entrée" sur l'input
+  const handleKeyPress = (event) => {
+    if (event.key === 'Enter') {
+      // Appel de la fonction pour ajouter un compte si la touche "Entrée" est pressée
+      handleAjouterCompte();
+    }
+  };
+
   return (
     <>
       <h3>Liste des profils</h3>
@@ -73,8 +81,9 @@ function Favori() {
         placeholder="Nom du profil"
         value={newNom}
         onChange={(e) => setNewNom(e.target.value)}
+        onKeyPress={handleKeyPress} // Ajoutez le gestionnaire d'événements pour "Enter"
       />
-            <br />
+      <br />
       <button onClick={handleAjouterCompte}>Ajouter un compte</button>
       <br />
       {erreur && <span style={{ color: 'red' }}>{erreur}</span>} 
