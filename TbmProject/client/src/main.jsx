@@ -15,8 +15,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Routes>
         <Route exact path="/tbm/" element={<Menu />} />
         <Route exact path="/tbm/favori/" element={<Favori />} />
-        <Route path="tbm/viewBus/" element={<ViewBus />} />
-        <Route path="tbm/favori/viewbus/" element={<ViewBusFavori />} />
+        <Route path="/tbm/viewBus/" element={<ViewBus />} />
+        <Route path="/tbm/favori/viewbus/" element={<ViewBusFavori />} />
       </Routes>
     </Router>
   </React.StrictMode>
