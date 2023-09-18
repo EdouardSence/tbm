@@ -13,7 +13,7 @@ function Favori() {
   // Fonction pour charger la liste des favoris depuis le backend
   const chargerFavoris = async () => {
     try {
-      const response = await axios.get('/api/favoris'); // Utilisez la route relative
+      const response = await axios.get('/api/favori/listeUser'); // Utilisez la route relative
       setFavoris(response.data);
     } catch (error) {
       console.error('Erreur lors du chargement des favoris', error);
@@ -33,7 +33,7 @@ function Favori() {
       return;
     }
 
-    if (favoris.some((favori) => favori.nom === newNom)) {
+    if (favoris.find((favori) => favori.nom === newNom)) {
       // Vérifiez si le compte existe déjà
       setErreur('Le compte existe déjà.'); // Définir le message d'erreur
       return;
