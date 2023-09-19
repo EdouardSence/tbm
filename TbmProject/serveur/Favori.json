@@ -1,0 +1,89 @@
+[
+  {
+    "nom": "le J",
+    "bus": [
+      {
+        "numero": 3323,
+        "libelle": "Village 6 IUT",
+        "vehicule": "BUS",
+        "transport": {
+          "BUS": [
+            {
+              "destination_name": "St Exupéry",
+              "lineId": 31,
+              "image": "ImagesBus/31.svg"
+            },
+            {
+              "destination_name": "Quai Français",
+              "lineId": 31,
+              "image": "ImagesBus/31.svg"
+            },
+            {
+              "destination_name": "Base sous-marine",
+              "lineId": 58,
+              "image": "ImagesBus/58.svg"
+            }
+          ]
+        }
+      },
+      {
+        "numero": 8791,
+        "libelle": "Peixotto",
+        "vehicule": "BUS",
+        "transport": {
+          "BUS": [
+            {
+              "destination_name": "Beausoleil",
+              "lineId": 31,
+              "image": "ImagesBus/31.svg"
+            },
+            {
+              "destination_name": "Photonique",
+              "lineId": 31,
+              "image": "ImagesBus/31.svg"
+            },
+            {
+              "destination_name": "Village 5",
+              "lineId": 58,
+              "image": "ImagesBus/58.svg"
+            }
+          ]
+        }
+      },
+      {
+        "numero": 681,
+        "libelle": "Hopital Pellegrin (entree Est)",
+        "vehicule": "BUS",
+        "transport": {
+          "BUS": [
+            {
+              "destination_name": "Gradignan Centre (Gradignan)",
+              "lineId": "08",
+              "image": "ImagesBus/08.svg"
+            },
+            {
+              "destination_name": "Brulatour (Bordeaux)",
+              "lineId": 20,
+              "image": "ImagesBus/20.svg"
+            },
+            {
+              "destination_name": "ZA Magellan (Pessac)",
+              "lineId": 55,
+              "image": "ImagesBus/55.svg"
+            },
+            {
+              "destination_name": "Rives d'Arcins (Bègles)",
+              "lineId": 73,
+              "image": "ImagesBus/73.svg"
+            },
+            {
+              "destination_name": "Stade Ornon (Gradignan)",
+              "lineId": 80,
+              "image": "ImagesBus/80.svg"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]
