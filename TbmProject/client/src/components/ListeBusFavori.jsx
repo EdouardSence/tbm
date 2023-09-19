@@ -12,22 +12,25 @@ function ListeBusFavori(props) {
         const response = await axios.get(`/api/favori/getbusfavori?nom=${props.profile}`);
         const favorisData = response.data;
 
-        const formattedFavoris = {
-          bus: favorisData.bus.map((bus) => ({
-            numero: bus.numero,
-            libelle: bus.libelle,
-            vehicule: bus.vehicule,
-            transport: {
-              BUS: bus.transport.BUS.map((transport) => ({
-                destination_name: transport.destination_name,
-                lineId: transport.lineId,
-                image: `ImagesBus/${transport.lineId}.svg`,
-              })),
-            },
-          })),
-        };
+        if (favorisData.bus) {
+          const formattedFavoris = {
+            bus: favorisData.bus.map((bus) => ({
+              numero: bus.numero,
+              libelle: bus.libelle,
+              vehicule: bus.vehicule,
+              transport: {
+                BUS: bus.transport.BUS.map((transport) => ({
+                  destination_name: transport.destination_name,
+                  lineId: transport.lineId,
+                  image: `ImagesBus/${transport.lineId}.svg`,
+                })),
+              },
+            })),
+          };
 
-        setFavoris(formattedFavoris);
+          setFavoris(formattedFavoris);
+        }
+
         setIsLoading(false);
       } catch (error) {
         console.error('Erreur lors du chargement des bus favoris', error);
@@ -53,19 +56,21 @@ function ListeBusFavori(props) {
 
   useEffect(() => {
     const fetchHoraires = async () => {
-      const horaires = await Promise.all(
-        favoris.bus.map(async (bus) => {
-          const horairesBus = await obtenirHorairesBus(bus.numero, bus.transport.BUS[0].lineId);
-          return { numero: bus.numero, horaires: horairesBus };
-        })
-      );
+      if (favoris.bus && favoris.bus.length > 0) {
+        const horaires = await Promise.all(
+          favoris.bus.map(async (bus) => {
+            const horairesBus = await obtenirHorairesBus(bus.numero, bus.transport.BUS[0].lineId);
+            return { numero: bus.numero, horaires: horairesBus };
+          })
+        );
 
-      const horairesObj = {};
-      horaires.forEach((item) => {
-        horairesObj[item.numero] = item.horaires;
-      });
+        const horairesObj = {};
+        horaires.forEach((item) => {
+          horairesObj[item.numero] = item.horaires;
+        });
 
-      setHorairesBus(horairesObj);
+        setHorairesBus(horairesObj);
+      }
     };
 
     fetchHoraires();
@@ -77,10 +82,10 @@ function ListeBusFavori(props) {
     return () => clearInterval(intervalId);
   }, [favoris]);
 
-//   function formatTime(dateString) {
-//     const options = { day: 'numeric', month: 'long', year: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric' };
-//     return new Date(dateString).toLocaleDateString('fr-FR', options);
-//   }
+  // function formatTime(dateString) {
+  //   const options = { day: 'numeric', month: 'long', year: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric' };
+  //   return new Date(dateString).toLocaleDateString('fr-FR', options);
+  // }
 
   function updateWaitTime(departureTime) {
     const now = new Date();
@@ -96,8 +101,9 @@ function ListeBusFavori(props) {
     <>
       <h3>Liste des Bus Favoris</h3>
       {isLoading && <p>Chargement en cours...</p>}
-      {!isLoading && favoris.bus.length === 0 && <p>Aucun bus favori</p>}
-      {!isLoading &&
+      {!isLoading && (!favoris.bus || favoris.bus.length === 0) ? (
+        <p>Aucun bus en favoris</p>
+      ) : (
         Object.keys(horairesBus).length > 0 &&
         Object.keys(horairesBus).map((numeroBus) => {
           const busData = horairesBus[numeroBus];
@@ -114,7 +120,7 @@ function ListeBusFavori(props) {
 
               {Object.keys(busData.destinations).map((destinationId, index) => (
                 <div key={index}>
-                  <h2>{libelle + "-->"  + busData.destinations[destinationId][0].destination_name}</h2>
+                  <h2>{libelle + "-->" + busData.destinations[destinationId][0].destination_name}</h2>
                   {busData.destinations[destinationId].map((entry, entryIndex) => (
                     <div key={entryIndex}>
                       <p>Attente: {updateWaitTime(entry.departure)}</p>
@@ -124,7 +130,8 @@ function ListeBusFavori(props) {
               ))}
             </div>
           );
-        })}
+        })
+      )}
     </>
   );
 }

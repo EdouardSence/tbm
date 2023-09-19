@@ -5,8 +5,42 @@ import PropTypes from 'prop-types';
 import axios from 'axios';
 axios.defaults.baseURL = 'http://localhost:3000';
 
-// Définissez la fonction handleInputChange en dehors de SearchBarBus
+function SearchBarBus(props) {
+  const { viewbus, profile } = props;
+  const [searchTerm, setSearchTerm] = useState('');
+  const [searchResults, setSearchResults] = useState([]);
+  const [busAlreadyInFavorites, setBusAlreadyInFavorites] = useState(false);
+  const [busAddedInFavorites, setbusAddedInFavorites] = useState(false);
+
+  async function handleAddToFavorites(result) {
+    if (!props.profile) {
+      return;
+    }
+
+    try {
+      setbusAddedInFavorites(false);
+      // Regardez si le bus est déjà dans les favoris
+      const response = await axios.get(`/api/favori/getbusfavori?nom=${props.profile}`);
+      const favoris = response.data;
+      if (favoris && Array.isArray(favoris.bus) && favoris.bus.some((bus) => bus.numero === result.numero)) {
+        setBusAlreadyInFavorites(true);
+        return;
+      }
+      
+      await axios.post(`/api/addbusfavori`, { nom: props.profile, busInfo : result });
+      setBusAlreadyInFavorites(false);
+      setbusAddedInFavorites(true);
+
+      console.log('Bus ajouté aux favoris :', result);
+    } catch (error) {
+      console.error('Erreur lors de l\'ajout du bus aux favoris', error);
+    }
+  }
+
+  // Définissez la fonction handleInputChange en dehors de SearchBarBus
 function handleInputChange(newSearchTerm, setSearchTerm, setSearchResults) {
+  setBusAlreadyInFavorites(false);
+  setbusAddedInFavorites(false);
   setSearchTerm(newSearchTerm);
 
   if (newSearchTerm.length < 1) {
@@ -34,35 +68,6 @@ function handleInputChange(newSearchTerm, setSearchTerm, setSearchResults) {
   setSearchResults(filteredResults);
 }
 
-function SearchBarBus(props) {
-  const { viewbus, profile } = props;
-  const [searchTerm, setSearchTerm] = useState('');
-  const [searchResults, setSearchResults] = useState([]);
-  const [busAlreadyInFavorites, setBusAlreadyInFavorites] = useState(false);
-
-  async function handleAddToFavorites(result) {
-    if (!props.profile) {
-      return;
-    }
-
-    try {
-      // Regardez si le bus est déjà dans les favoris
-      const response = await axios.get(`/api/favori/getbusfavori?nom=${props.profile}`);
-      const favoris = response.data;
-      if (favoris && Array.isArray(favoris.bus) && favoris.bus.some((bus) => bus.numero === result.numero)) {
-        setBusAlreadyInFavorites(true);
-        return;
-      }
-      
-      await axios.post(`/api/addbusfavori`, { nom: props.profile, busInfo : result });
-      setBusAlreadyInFavorites(false);
-
-      console.log('Bus ajouté aux favoris :', result);
-    } catch (error) {
-      console.error('Erreur lors de l\'ajout du bus aux favoris', error);
-    }
-  }
-
   return (
     <>
       <div className="searchBar">
@@ -72,7 +77,8 @@ function SearchBarBus(props) {
           value={searchTerm}
           onChange={(event) => handleInputChange(event.target.value, setSearchTerm, setSearchResults)} // Utilisez la fonction handleInputChange définie en dehors de SearchBarBus
         />
-        {busAlreadyInFavorites && <p style={{ color: 'red' }}>Ce bus est déjà en favori</p>}
+        {busAlreadyInFavorites && <p style={{ color: 'red' }}>Ce bus est déjà en favori</p>} 
+        {busAddedInFavorites && <p style={{ color: 'green' }}>Bus ajouté aux favoris</p>}
         <div className="listBus">
           {searchResults.map((result) => (
             <div key={result.numero}>
