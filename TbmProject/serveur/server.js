@@ -89,6 +89,35 @@ app.get('/api/favori/getbusfavori', (req, res) => {
   res.status(200).json({ bus: profil.bus });
 });
 
+app.post('/api/supprimer-bus-favori', (req, res) => {
+  const { nom, numero } = req.body;
+
+  // Charger les favoris actuels
+  const favoris = chargerFavoris();
+
+  // Recherche du profil correspondant
+  const profil = favoris.find((favori) => favori.nom === nom);
+
+  if (!profil) {
+    return res.status(400).json({ message: 'Profil introuvable' });
+  }
+
+  // Recherche du bus correspondant
+  const busIndex = profil.bus.findIndex((bus) => bus.numero === numero);
+
+  if (busIndex === -1) {
+    return res.status(400).json({ message: 'Bus introuvable' });
+  }
+
+  // Supprimer le bus
+  profil.bus.splice(busIndex, 1);
+
+  // Écrire les favoris mis à jour dans le fichier JSON
+  fs.writeFileSync('./Favori.json', JSON.stringify(favoris, null, 2));
+
+  res.status(200).json({ message: 'Bus supprimé avec succès' });
+}
+);
 
 
 app.post('/api/supprimer-profil', (req, res) => {
