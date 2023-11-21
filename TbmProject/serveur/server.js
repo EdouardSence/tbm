@@ -94,9 +94,12 @@ app.post('/api/supprimer-bus-favori', (req, res) => {
 
   // Charger les favoris actuels
   const favoris = chargerFavoris();
-
+  console.log("TEST");
   // Recherche du profil correspondant
   const profil = favoris.find((favori) => favori.nom === nom);
+  console.log("(2)");
+  console.log(profil);  
+  console.log(numero);
 
   if (!profil) {
     return res.status(400).json({ message: 'Profil introuvable' });
@@ -104,16 +107,25 @@ app.post('/api/supprimer-bus-favori', (req, res) => {
 
   // Recherche du bus correspondant
   const busIndex = profil.bus.findIndex((bus) => bus.numero === numero);
+  console.log("(3)");
+  console.log(busIndex);
 
   if (busIndex === -1) {
     return res.status(400).json({ message: 'Bus introuvable' });
   }
 
+  console.log("(4)");
+
+
   // Supprimer le bus
   profil.bus.splice(busIndex, 1);
 
+  console.log("(5)");
+
+
   // Écrire les favoris mis à jour dans le fichier JSON
   fs.writeFileSync('./Favori.json', JSON.stringify(favoris, null, 2));
+  console.log("(6)");
 
   res.status(200).json({ message: 'Bus supprimé avec succès' });
 }

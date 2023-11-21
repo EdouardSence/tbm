@@ -237,48 +237,5 @@
         }
       }
     ]
-  },
-  {
-    "nom": "test",
-    "bus": [
-      {
-        "numero": 8791,
-        "libelle": "Peixotto",
-        "vehicule": "BUS",
-        "transport": {
-          "BUS": [
-            {
-              "destination_name": "Beausoleil",
-              "lineId": 31,
-              "image": "ImagesBus/31.svg"
-            },
-            {
-              "destination_name": "Photonique",
-              "lineId": 31,
-              "image": "ImagesBus/31.svg"
-            },
-            {
-              "destination_name": "Village 5",
-              "lineId": 58,
-              "image": "ImagesBus/58.svg"
-            }
-          ]
-        }
-      },
-      {
-        "numero": 9055,
-        "libelle": "Village 6 IUT",
-        "vehicule": "BUS",
-        "transport": {
-          "BUS": [
-            {
-              "destination_name": "Beausoleil",
-              "lineId": 31,
-              "image": "ImagesBus/31.svg"
-            }
-          ]
-        }
-      }
-    ]
   }
 ]

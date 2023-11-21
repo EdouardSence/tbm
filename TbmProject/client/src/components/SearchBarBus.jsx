@@ -28,6 +28,7 @@ function SearchBarBus(props) {
       }
       
       await axios.post(`/api/addbusfavori`, { nom: props.profile, busInfo : result });
+      console.log(result);
       setBusAlreadyInFavorites(false);
       setbusAddedInFavorites(true);
 

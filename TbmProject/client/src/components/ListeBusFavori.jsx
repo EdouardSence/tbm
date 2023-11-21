@@ -41,6 +41,16 @@ function ListeBusFavori(props) {
     chargerBusFavoris();
   }, [props.profile]);
 
+  const supprimerBusFavori = async (numero) => {
+    try {
+      console.log(numero);
+      // Utilisez une requête POST pour supprimer le profil
+      await axios.post(`/api/supprimer-bus-favori`, { nom: props.profile, numero: numero });
+    } catch (error) {
+      console.error('Erreur lors de la suppression du bus', error);
+    }
+  };
+
   const obtenirHorairesBus = async (numero, ligne) => {
     try {
       const response = await fetch(`https://ws.infotbm.com/ws/1.0/get-realtime-pass/${numero}/${ligne}`);
@@ -120,6 +130,7 @@ function ListeBusFavori(props) {
 
               {Object.keys(busData.destinations).map((destinationId, index) => (
                 <div key={index}>
+                  <button onClick={() => supprimerBusFavori(numeroBus)}>Supprimer</button>
                   <h2>{libelle + "-->" + busData.destinations[destinationId][0].destination_name}</h2>
                   {busData.destinations[destinationId].map((entry, entryIndex) => (
                     <div key={entryIndex}>
