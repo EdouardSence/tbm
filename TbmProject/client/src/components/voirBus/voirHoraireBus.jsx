@@ -39,18 +39,27 @@ function ViewBus() {
             {busData ? (
                 <>
                     <img src={`./ImagesBus/${lineID}.svg`} alt="logo" style={{ width: 50, height: 50, verticalAlign: "middle", padding: 10 }} />
+                
+                    {busData.destinations.length !== 0 ? (
+                        <>
+                            {
+                                Object.keys(busData.destinations).map((destinationId, index) => (
+                                    <div key={index}>
+                                        <h2>{busData.destinations[destinationId][0].destination_name}</h2>
+                                        {busData.destinations[destinationId].map((entry, entryIndex) => (
+                                            <div key={entryIndex}>
+                                                <p>Prochain départ: {formatTime(entry.departure)}</p>
+                                                <p>Attente: {updateWaitTime(entry.departure)}</p>
+                                            </div>
+                                        ))}
+                                    </div>
+                                ))
+                            }
+                        </>
+                    ) : (
+                        <p>Pas de bus en circulation</p>
+                    )}
 
-                    {Object.keys(busData.destinations).map((destinationId, index) => (
-                        <div key={index}>
-                            <h2>{busData.destinations[destinationId][0].destination_name}</h2>
-                            {busData.destinations[destinationId].map((entry, entryIndex) => (
-                                <div key={entryIndex}>
-                                    <p>Prochain départ: {formatTime(entry.departure)}</p>
-                                    <p>Attente: {updateWaitTime(entry.departure)}</p>
-                                </div>
-                            ))}
-                        </div>
-                    ))}
                 </>
             ) : (
                 <p>Loading...</p>
