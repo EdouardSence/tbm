@@ -99,7 +99,7 @@ function ResercheBus() {
                       >
                         <p>
                           <img
-                            src={`/ImagesBus/${extractValue(route.line)}.svg`}
+                            src={`./ImagesBus/${extractValue(route.line)}.svg`}
                             alt="logo"
                             style={{ width: 50, height: 50, verticalAlign: "middle", padding: 10 }}
                           />
