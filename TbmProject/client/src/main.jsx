@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Menu from './components/Menu';
 import VoirHoraires from './components/voirBus/voirHoraireBus';
+import ListeUser from './components/Favori/ListeUser';
+import ProfileInfo from './components/Favori/profileInfo';
 import './assets/Css/index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -12,6 +14,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Routes>
         <Route exact path="/tbm/" element={<Menu />} />
         <Route path="/tbm/voir-horaires/" element={<VoirHoraires />} />
+        <Route path="/tbm/profile/:profile" element={<ProfileInfo />} />
+        <Route path="/tbm/profiles/" element={<ListeUser />} />
       </Routes>
     </Router>
     <p>V1.1</p>

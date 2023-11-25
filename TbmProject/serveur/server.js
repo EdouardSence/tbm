@@ -13,7 +13,7 @@ app.listen(port, () => {
 });
 
 // Charger la liste de favoris depuis le fichier JSON
-const chargerFavoris = () => {
+const getListeUsers = () => {
   try {
     const favorisData = fs.readFileSync('./Favori.json', 'utf-8');
     return JSON.parse(favorisData);
@@ -23,21 +23,23 @@ const chargerFavoris = () => {
   }
 };
 
-// Route pour obtenir la liste de favoris
-app.get('/api/favori/listeUser', (req, res) => {
-  const favoris = chargerFavoris();
+// ----------------- USER ----------------- //
+
+// GET liste des users
+app.get('/api/user/liste-user', (req, res) => {
+  const favoris = getListeUsers();
   res.json(favoris);
 });
 
-// Route pour ajouter un nouveau favori
-app.post('/api/ajouter-nom', (req, res) => {
-  const { nom } = req.body;
+// POST ajouter un user
+app.post('/api/user/ajouter-user', (req, res) => {
+  const { nom } = req.query;
+  const nomDecode = decodeURI(nom);
 
-  // Charger les favoris actuels
-  const favoris = chargerFavoris();
+  const listUser = getListeUsers();
 
   // Ajouter le nouveau nom aux favoris
-  favoris.push({ nom });
+  listUser.push(nomDecode);
 
   // Écrire les favoris mis à jour dans le fichier JSON
   fs.writeFileSync('./Favori.json', JSON.stringify(favoris, null, 2));
@@ -45,11 +47,50 @@ app.post('/api/ajouter-nom', (req, res) => {
   res.status(200).json({ message: 'Nom ajouté avec succès' });
 });
 
-app.post('/api/addbusfavori', (req, res) => {
+// DELETE supprimer un user
+app.delete('/api/user/supprimer-user', (req, res) => {
+  const { nom } = req.query;
+  const nomDecode = decodeURI(nom);
+
+  const listUser = getListeUsers();
+  
+  const profil = listUser.find((user) => user.nom === nomDecode);
+
+  if (!profil) {
+    return res.status(400).json({ message: 'Profil introuvable' });
+  }
+
+  // Supprimer le profil
+  listUser.splice(profil, 1);
+
+  // Écrire les favoris mis à jour dans le fichier JSON
+  fs.writeFileSync('./Favori.json', JSON.stringify(listUser, null, 2));
+
+  res.status(200).json({ message: 'Profil supprimé avec succès' });
+});
+
+// GET les infos d'un user
+app.get('/api/user/info-user', (req, res) => {
+  const { nom } = req.query; 
+  const nomDecode = decodeURI(nom);
+
+  const listUser = getListeUsers();
+  
+  const profil = listUser.find((user) => user.nom === nomDecode);
+
+  if (!profil) {
+    return res.status(400).json({ message: 'Profil introuvable' });
+  }
+
+  res.status(200).json(profil);
+});
+
+// ----------------- BUS ----------------- //
+app.post('/api/bus/ajouter-bus-favori', (req, res) => {
   const { nom, busInfo } = req.body;
 
   // Charger les favoris actuels
-  const favoris = chargerFavoris();
+  const favoris = getListeUsers();
 
   // Recherche du profil correspondant
   const profilIndex = favoris.findIndex((favori) => favori.nom === nom);
@@ -73,11 +114,11 @@ app.post('/api/addbusfavori', (req, res) => {
 });
 
 // get les bus favoris
-app.get('/api/favori/getbusfavori', (req, res) => {
+app.get('/api/bus/liste-bus-favoris', (req, res) => {
   const { nom } = req.query; // Utilisez req.query pour obtenir les paramètres de requête
 
   // Charger les favoris actuels
-  const favoris = chargerFavoris();
+  const favoris = getListeUsers();
 
   // Recherche du profil correspondant
   const profil = favoris.find((favori) => favori.nom === nom);
@@ -89,17 +130,14 @@ app.get('/api/favori/getbusfavori', (req, res) => {
   res.status(200).json({ bus: profil.bus });
 });
 
-app.post('/api/supprimer-bus-favori', (req, res) => {
+app.post('/api/bus/supprimer-bus-favori', (req, res) => {
   const { nom, numero } = req.body;
 
   // Charger les favoris actuels
-  const favoris = chargerFavoris();
-  console.log("TEST");
+  const favoris = getListeUsers();
+
   // Recherche du profil correspondant
   const profil = favoris.find((favori) => favori.nom === nom);
-  console.log("(2)");
-  console.log(profil);  
-  console.log(numero);
 
   if (!profil) {
     return res.status(400).json({ message: 'Profil introuvable' });
@@ -107,52 +145,20 @@ app.post('/api/supprimer-bus-favori', (req, res) => {
 
   // Recherche du bus correspondant
   const busIndex = profil.bus.findIndex((bus) => bus.numero === numero);
-  console.log("(3)");
-  console.log(busIndex);
 
   if (busIndex === -1) {
     return res.status(400).json({ message: 'Bus introuvable' });
   }
 
-  console.log("(4)");
-
-
   // Supprimer le bus
   profil.bus.splice(busIndex, 1);
 
-  console.log("(5)");
-
-
   // Écrire les favoris mis à jour dans le fichier JSON
   fs.writeFileSync('./Favori.json', JSON.stringify(favoris, null, 2));
-  console.log("(6)");
 
   res.status(200).json({ message: 'Bus supprimé avec succès' });
 }
 );
-
-
-app.post('/api/supprimer-profil', (req, res) => {
-  const { nom } = req.body;
-
-  // Charger les favoris actuels
-  const favoris = chargerFavoris();
-
-  // Recherche du profil correspondant
-  const profil = favoris.find((favori) => favori.nom === nom);
-
-  if (!profil) {
-    return res.status(400).json({ message: 'Profil introuvable' });
-  }
-
-  // Supprimer le profil
-  favoris.splice(favoris.indexOf(profil), 1);
-
-  // Écrire les favoris mis à jour dans le fichier JSON
-  fs.writeFileSync('./Favori.json', JSON.stringify(favoris, null, 2));
-
-  res.status(200).json({ message: 'Profil supprimé avec succès' });
-});
 
 
 
