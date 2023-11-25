@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useLocation, Link } from 'react-router-dom';
 
-function ViewBus() {
+const busScreen = () => {
     const location = useLocation();
     const params = new URLSearchParams(location.search);
     const line = params.get("line");
@@ -69,12 +69,12 @@ function ViewBus() {
     );
 }
 
-function formatTime(dateString) {
+const formatTime = (dateString) => {
     const options = { day: 'numeric', month: 'long', year: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric' };
     return new Date(dateString).toLocaleDateString('fr-FR', options);
 }
 
-function updateWaitTime(departureTime) {
+const updateWaitTime = (departureTime) => {
     const now = new Date();
     const timeDifference = Math.floor((new Date(departureTime) - now) / 1000);
     const hours = Math.floor(timeDifference / 3600);
@@ -83,4 +83,4 @@ function updateWaitTime(departureTime) {
     if (seconds < 0) return "Bus à l'arrêt !";
     return `${minutes} minutes, ${seconds} secondes`;
 }
-export default ViewBus;
+export default busScreen;

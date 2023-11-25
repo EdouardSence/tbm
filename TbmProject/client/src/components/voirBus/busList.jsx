@@ -1,14 +1,12 @@
 import { useState, useEffect } from 'react';
-import PropTypes from 'prop-types';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 axios.defaults.baseURL = 'http://localhost:3000';
 
-function RechercheBus() {
-  const [searchTerm, setSearchTerm] = useState('');
+const BusList = ({searchValue}) => {
   const [searchResults, setSearchResults] = useState([]);
 
-  function extractValue(line) {
+  const extractValue = (line) => {
     // si le nom de la ligne commence par Flex'Night, renvoyer la valeur du caractere juste apres
     if (line.name && line.name.startsWith('Flex\'Night')) {
       return `TBN${line.name.charAt(11)}`;
@@ -35,13 +33,13 @@ function RechercheBus() {
 
   useEffect(() => {
     const delayDebounceFn = setTimeout(async () => {
-      if (searchTerm.length < 1) {
+      if (searchValue.length < 3) {
         setSearchResults([]);
         return;
       }
 
       let listBus = [];
-      const response = await axios.get(`https://ws.infotbm.com/ws/1.0/get-schedule/${searchTerm}?referer=www`);
+      const response = await axios.get(`https://ws.infotbm.com/ws/1.0/get-schedule/${searchValue}?referer=www`);
       if (response.data.length === 0) {
         setSearchResults([]);
         return;
@@ -74,17 +72,10 @@ function RechercheBus() {
 
     // Nettoyer le timeout précédent à chaque changement de terme de recherche
     return () => clearTimeout(delayDebounceFn);
-  }, [searchTerm]);
+  }, [searchValue]);
 
   return (
     <>
-      <div className="searchBar">
-        <input
-          type="text"
-          placeholder="Search"
-          value={searchTerm}
-          onChange={(event) => setSearchTerm(event.target.value)}
-        />
         <div className="listBus">
           {searchResults.map((result) => (
             <div key={result.id}>
@@ -112,29 +103,8 @@ function RechercheBus() {
             </div>
           ))}
         </div>
-      </div>
     </>
   );
 }
 
-RechercheBus.propTypes = {
-  viewbus: PropTypes.bool,
-  profile: PropTypes.string,
-};
-
-export default RechercheBus;
-
-
-
-{/* <>
-<Link
-  to={`viewBus?numero=${result.numero}&ligne=${result.transport?.BUS?.[0]?.lineId}`}
-  style={{ color: "white" }}
->
-  <div className="bus">
-    <div className="busInfo">
-      <p>{result.name}</p>
-      </div>
-    </div>
-</Link>
-</> */}
+export default BusList;
