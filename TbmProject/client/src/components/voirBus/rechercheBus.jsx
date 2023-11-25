@@ -4,7 +4,7 @@ import axios from 'axios';
 import { Link } from 'react-router-dom';
 axios.defaults.baseURL = 'http://localhost:3000';
 
-function ResercheBus() {
+function RechercheBus() {
   const [searchTerm, setSearchTerm] = useState('');
   const [searchResults, setSearchResults] = useState([]);
 
@@ -118,12 +118,12 @@ function ResercheBus() {
   );
 }
 
-ResercheBus.propTypes = {
+RechercheBus.propTypes = {
   viewbus: PropTypes.bool,
   profile: PropTypes.string,
 };
 
-export default ResercheBus;
+export default RechercheBus;
 
 
 
