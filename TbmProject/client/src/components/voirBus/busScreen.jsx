@@ -1,7 +1,8 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useState } from 'react';
 import { useLocation, Link } from 'react-router-dom';
 
-function ViewBus() {
+const BusScreen = () => {
     const location = useLocation();
     const params = new URLSearchParams(location.search);
     const line = params.get("line");
@@ -20,26 +21,21 @@ function ViewBus() {
     };
 
     useEffect(() => {
-        // Effectuez la première requête lorsque le composant est monté
         fetchData();
-
-        // Définir l'intervalle pour actualiser les données chaque seconde
-        const intervalId = setInterval(() => {
+        const interval = setInterval(() => {
             fetchData();
         }, 1000);
 
-        // Nettoyer l'intervalle lorsque le composant est démonté
-        return () => {
-            clearInterval(intervalId);
-        };
-    });
+        return () => clearInterval(interval);
+    }, []);
+
 
     return (
         <div>
             {busData ? (
                 <>
                     <img src={`./ImagesBus/${lineID}.svg`} alt="logo" style={{ width: 50, height: 50, verticalAlign: "middle", padding: 10 }} />
-                
+
                     {busData.destinations.length !== 0 ? (
                         <>
                             {
@@ -69,12 +65,12 @@ function ViewBus() {
     );
 }
 
-function formatTime(dateString) {
+const formatTime = (dateString) => {
     const options = { day: 'numeric', month: 'long', year: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric' };
     return new Date(dateString).toLocaleDateString('fr-FR', options);
 }
 
-function updateWaitTime(departureTime) {
+const updateWaitTime = (departureTime) => {
     const now = new Date();
     const timeDifference = Math.floor((new Date(departureTime) - now) / 1000);
     const hours = Math.floor(timeDifference / 3600);
@@ -83,4 +79,4 @@ function updateWaitTime(departureTime) {
     if (seconds < 0) return "Bus à l'arrêt !";
     return `${minutes} minutes, ${seconds} secondes`;
 }
-export default ViewBus;
+export default BusScreen;
