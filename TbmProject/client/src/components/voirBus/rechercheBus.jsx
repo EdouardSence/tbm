@@ -14,7 +14,7 @@ function RechercheBus() {
       return `TBN${line.name.charAt(11)}`;
     }
     if (line.name && line.name.includes(' ')) {
-      // S'il y a un espace dans le nom, extrayez la valeur après le dernier espace
+      // S'il y a un espace dans le nom, prendre la valeur après le dernier espace
       const lastSpaceIndex = line.name.lastIndexOf(' ');
       const valueAfterSpace = line.name.substring(lastSpaceIndex + 1);
 
@@ -24,13 +24,12 @@ function RechercheBus() {
       }
     }
 
-    // Si la valeur après l'espace n'est pas un chiffre, ou si sa taille est égale à 1,
-    // extrayez les chiffres après le dernier ":"
+    // Si la valeur après l'espace n'est pas un chiffre ou si sa taille est egale à 1, prendre la valeur des chiffres après le dernier ":"
     if (line.id && line.id.includes(':')) {
       const lastColonIndex = line.id.lastIndexOf(':');
       return line.id.substring(lastColonIndex + 1);
     }
-
+    // surprise
     return 'gragawan';
   }
 
