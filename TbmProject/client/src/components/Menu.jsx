@@ -1,11 +1,13 @@
-import SearchBarBus from "./SearchBarBus";
-    import { Link } from "react-router-dom";
+// import SearchBarBus from ".vraiTBHess/SearchBarBus";
+import RechercheBus from "./voirBus/rechercheBus";
+import '../assets/Css/App.css'
+// import { Link } from "react-router-dom";
 
 function Menu() {
     return (
         <>
-        <SearchBarBus viewbus= { true } />
-        <Link to="/tbm/favori/">Favori</Link>
+        <RechercheBus/>
+        {/* <Link to="/tbm/favori/">Favori</Link> */}
         </>
     );
     }
