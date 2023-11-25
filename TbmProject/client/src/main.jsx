@@ -14,5 +14,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/tbm/voir-horaires/" element={<VoirHoraires />} />
       </Routes>
     </Router>
+    <p>V1.1</p>
   </React.StrictMode>
 );

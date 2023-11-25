@@ -61,7 +61,7 @@ function ResercheBus() {
             for (let j = 0; j < response2.data.stopPoints.length; j++) {
               const stopPoint = response2.data.stopPoints[j].id;
               // on enleve les bus scolaires et les trains pcq ca fait chier
-              if (stopPoint.substring(11, 14) !== 'TBS' && stopPoint.substring(11, 14) !== 'BTD') {
+              if (stopPoint.substring(11, 14) !== 'TBS' && stopPoint.substring(11, 14) !== 'BTD' && stopPoint.substring(11, 14) !== 'SNC') {
                 responseTMP.stopPoints.push(response2.data.stopPoints[j]);
               }
             }
