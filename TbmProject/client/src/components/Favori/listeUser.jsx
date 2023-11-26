@@ -1,47 +1,40 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
-import { Link, useParams  } from 'react-router-dom';
-import toast, { Toaster } from 'react-hot-toast';
+import { Link } from 'react-router-dom';
+import AjouterProfil from './ajouterProfil';
 
 function ListeUser() {
-    const [infoUser, setInfoUser] = useState([]);
-    const { profile } = useParams();
+    const [listUser, setListUser] = useState([]);
 
+    const chargerListUser = async () => {
+        try {
+            const response = await axios.get(`/api/user/liste-user`);
+            setListUser(response.data);
+        } catch (error) {
+            console.error('Erreur lors du chargement des profiles', error);
+        }
+    };
 
     useEffect(() => {
-        const chargerInfoUser = async () => {
-            try {
-                const response = await axios.get(`/api/user/info-user?nom=${profile}`);
-                setInfoUser(response.data);
-            } catch (error) {
-                console.error('Erreur lors du chargement des profiles', error);
-            }
-        };
+        chargerListUser();
+        const interval = setInterval(() => {
+            chargerListUser();
+        }, 1000);
 
-        chargerInfoUser();
-    }, [profile]); 
-
-    const supprimerUser = async () => {
-        try {
-            await axios.delete(`/api/user/supprimer-user?nom=${profile}`);
-            toast.success('Le profile a bien été supprimé');
-            window.location.href = '/tbm/profiles/';
-        } catch (error) {
-            toast.error('Erreur lors de la suppression du profile');
-            console.error('Erreur lors de la suppression du profile', error);
-        }
-    }
+        return () => clearInterval(interval);
+    }, []);
 
     return (
         <>
-            <h3>Wsh {infoUser.nom}</h3>
+            <ul>
+                {listUser.map((user) => (
+                    <li key={user.nom}>
+                        <Link to={`/tbm/profile/${user.nom}`}>{user.nom}</Link>
+                    </li>
+                ))}
+            </ul>
+            <AjouterProfil />
             <Link to="/tbm/">Retour à la page principale</Link>
-            <button onClick={supprimerUser}>Supprimer le profil</button>
-            <Toaster 
-              position="top-right"
-              reverseOrder={false}
-            />
-
         </>
     );
 }

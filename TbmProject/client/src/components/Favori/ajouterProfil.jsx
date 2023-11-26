@@ -1,45 +1,31 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import axios from 'axios';
-import { Link, useParams  } from 'react-router-dom';
 import toast, { Toaster } from 'react-hot-toast';
+import SearchBarBus from "../voirBus/searchBar.jsx";
 
 function ListeUser() {
-    const [infoUser, setInfoUser] = useState([]);
-    const { profile } = useParams();
-
-
-    useEffect(() => {
-        const chargerInfoUser = async () => {
-            try {
-                const response = await axios.get(`/api/user/info-user?nom=${profile}`);
-                setInfoUser(response.data);
-            } catch (error) {
-                console.error('Erreur lors du chargement des profiles', error);
-            }
-        };
-
-        chargerInfoUser();
-    }, [profile]); 
+    const [searchValue, setSearchValue] = useState("")
+    const handleSearchInputChange = (searchValue) => {
+        setSearchValue(searchValue);
+    };
 
     const ajouterUser = async () => {
         try {
-            await axios.post(`/api/user/ajouter-user?nom=${profile}`);
+            await axios.post(`/api/user/ajouter-user?nom=${searchValue}`);
             toast.success('Le profile a bien été supprimé');
-            window.location.href = '/tbm/profiles/';
+            window.location.href = `/tbm/profile/${searchValue}`;
         } catch (error) {
-            toast.error('Erreur lors de la suppression du profile');
-            console.error('Erreur lors de la suppression du profile', error);
+            toast.error(error.response.data.message);
         }
     }
 
     return (
         <>
-            <h3>Wsh {infoUser.nom}</h3>
-            <Link to="/tbm/">Retour à la page principale</Link>
+            <SearchBarBus onSearchInputChange={handleSearchInputChange} placeholder="Ajouter un profil"/>
             <button onClick={ajouterUser}>Ajouter le profil</button>
-            <Toaster 
-              position="top-right"
-              reverseOrder={false}
+            <Toaster
+                position="top-right"
+                reverseOrder={false}
             />
 
         </>

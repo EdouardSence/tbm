@@ -12,7 +12,7 @@ const Menu = () => {
     };
     return (
         <>
-            <SearchBarBus onSearchInputChange={handleSearchInputChange}/>
+            <SearchBarBus onSearchInputChange={handleSearchInputChange} placeholder="Rechercher un arrêt"/>
             <BusList searchValue={searchValue} />
             <Link to="/tbm/profiles/">Liste des profiles</Link>
         </>

@@ -14,7 +14,7 @@ function ListeUser() {
                 const response = await axios.get(`/api/user/info-user?nom=${profile}`);
                 setInfoUser(response.data);
             } catch (error) {
-                console.error('Erreur lors du chargement des profiles', error);
+                toast.error(error.response.data.message);
             }
         };
 
@@ -27,8 +27,7 @@ function ListeUser() {
             toast.success('Le profile a bien été supprimé');
             window.location.href = '/tbm/profiles/';
         } catch (error) {
-            toast.error('Erreur lors de la suppression du profile');
-            console.error('Erreur lors de la suppression du profile', error);
+            toast.error(error.response.data.message);
         }
     }
 
@@ -38,7 +37,7 @@ function ListeUser() {
             <div>  
             <button onClick={supprimerUser}>Supprimer le profil</button>
             </div>
-            <Link to="/tbm/">Retour à la page principale</Link>
+            <Link to="/tbm/profiles">Retour à la liste des profils</Link>
             <Toaster 
               position="top-right"
               reverseOrder={false}

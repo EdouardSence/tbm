@@ -1,9 +1,10 @@
+/* eslint-disable react/prop-types */
 import axios from 'axios';
 import {useState} from "react";
 axios.defaults.baseURL = 'http://localhost:3000';
 
 
-const SearchBar = ({onSearchInputChange})  => {
+const SearchBar = ({onSearchInputChange,placeholder})  => {
     const [searchInput, setSearchInput] = useState("")
     const handleInputChange= (e) => {
         setSearchInput(e.target.value)
@@ -13,7 +14,7 @@ const SearchBar = ({onSearchInputChange})  => {
         <div className="search-bar">
             <div className="input">
                 <input className="text-wrapper"
-                       placeholder={"Rechercher un arrêt"}
+                       placeholder={placeholder}
                        type="text"
                        value={searchInput}
                        onChange={handleInputChange}
