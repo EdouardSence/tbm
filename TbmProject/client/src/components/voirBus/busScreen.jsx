@@ -29,13 +29,35 @@ const BusScreen = () => {
         return () => clearInterval(interval);
     }, []);
 
+    const formatTime = (dateString) => {
+        const options = { day: 'numeric', month: 'long', year: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric' };
+        return new Date(dateString).toLocaleDateString('fr-FR', options);
+    }
+    
+    const updateWaitTime = (departureTime) => {
+        const now = new Date();
+        const timeDifference = Math.floor((new Date(departureTime) - now) / 1000);
+        const hours = Math.floor(timeDifference / 3600);
+        const minutes = Math.floor((timeDifference % 3600) / 60);
+        const seconds = timeDifference % 60;
+        let moyenDeTransport = "Bus";
+        if (lineID === "59" || lineID === "60" || lineID === "61" || lineID === "62") moyenDeTransport = "Tram";
+        if (seconds < 0) return `${moyenDeTransport} à l'arrêt !`;
+        if (hours > 0) return `${hours}h ${minutes}min ${seconds}s`;
+        if (minutes > 0 && minutes <= 1 && seconds <= 1) return `${minutes} minute ${seconds} seconde`;
+        if (minutes > 0 && minutes <= 1) return `${minutes} minute ${seconds} secondes`;
+        if (minutes > 0 && seconds <= 1) return `${minutes} minutes ${seconds} seconde`;
+        if (minutes > 0) return `${minutes} minutes ${seconds} secondes`;
+        if (seconds <= 1) return `${seconds} seconde`;
+        return `${seconds} secondes`;
+    }
+
 
     return (
         <div>
             {busData ? (
                 <>
                     <img src={`./ImagesBus/${lineID}.svg`} alt="logo" style={{ width: 50, height: 50, verticalAlign: "middle", padding: 10 }} />
-
                     {busData.destinations.length !== 0 ? (
                         <>
                             {
@@ -63,20 +85,5 @@ const BusScreen = () => {
             <Link to="/tbm/">Retour à la page principale</Link>
         </div>
     );
-}
-
-const formatTime = (dateString) => {
-    const options = { day: 'numeric', month: 'long', year: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric' };
-    return new Date(dateString).toLocaleDateString('fr-FR', options);
-}
-
-const updateWaitTime = (departureTime) => {
-    const now = new Date();
-    const timeDifference = Math.floor((new Date(departureTime) - now) / 1000);
-    const hours = Math.floor(timeDifference / 3600);
-    const minutes = Math.floor((timeDifference % 3600) / 60) + hours * 60;
-    const seconds = timeDifference % 60;
-    if (seconds < 0) return "Bus à l'arrêt !";
-    return `${minutes} minutes, ${seconds} secondes`;
 }
 export default BusScreen;

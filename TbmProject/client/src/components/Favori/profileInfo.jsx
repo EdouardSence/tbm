@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Link, useParams  } from 'react-router-dom';
 import toast, { Toaster } from 'react-hot-toast';
+import AjouterBusFavori from './ajouterBusFavori';
 
 function ListeUser() {
     const [infoUser, setInfoUser] = useState([]);
@@ -35,6 +36,7 @@ function ListeUser() {
         <>
             <h3>Wsh {infoUser.nom}</h3>
             <div>  
+            <AjouterBusFavori nom={infoUser.nom} />
             <button onClick={supprimerUser}>Supprimer le profil</button>
             </div>
             <Link to="/tbm/profiles">Retour à la liste des profils</Link>
