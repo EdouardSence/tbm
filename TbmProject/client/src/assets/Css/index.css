@@ -55,20 +55,25 @@ button:focus-visible {
 
 
 .search-bar {
-  align-items: center;
   background-color: #1c1f28;
+  align-items: center;
   display: flex;
   flex-direction: column;
+  border-radius: 30px;
+  border: 2px solid #646cff;
+  box-shadow: 0 0 0 4px #1c1f28;
   gap: 10px;
+
+  /* gap: 10px;
   justify-content: center;
   position: relative;
-  border-radius: 30px;
   padding: 10px 30px;
   height: 85px;
-  width: 600px;
+  width: 600px; */
 
 }
-.search-bar::before {
+
+/* .search-bar::before {
   content:"";
   position: absolute;
   inset: 0;
@@ -76,8 +81,8 @@ button:focus-visible {
   border-radius: 30px;
   background: linear-gradient(to left, #EC83BB, #B664DB);
   -webkit-mask: linear-gradient(#fff 0 0) padding-box,  linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor; /*5'*/
-  mask-composite: exclude; /*5*/
+  -webkit-mask-composite: xor; 
+  mask-composite: exclude;
 
 }
 .search-bar .input {
@@ -94,11 +99,11 @@ button:focus-visible {
   position: relative;
   width: 50px;
 }
-
+*/
 .search-bar .text-wrapper {
   color: #ffffff;
   font-family: "Poppins-Regular", Helvetica, system-ui;
-  font-size: 37px;
+  font-size: 25px;
   font-weight: 400;
   letter-spacing: 0;
   line-height: normal;
@@ -106,6 +111,7 @@ button:focus-visible {
   position: relative;
   border: none;
   width: 100%;
+  left: 10%;
   background-color: transparent;
   outline: none;
   display: inline-flex;
@@ -119,7 +125,7 @@ button:focus-visible {
   height: 70px;
   position: relative;
   width: 71px;
-}
+} 
 .imageContainer {
   height: 70px;
   width: 70px;
