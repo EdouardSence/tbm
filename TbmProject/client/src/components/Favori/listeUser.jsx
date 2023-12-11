@@ -3,7 +3,7 @@ import axios from 'axios';
 import { Link } from 'react-router-dom';
 import AjouterProfil from './ajouterProfil';
 
-function ListeUser() {
+export function ListeUser() {
     const [listUser, setListUser] = useState([]);
 
     const chargerListUser = async () => {
@@ -38,5 +38,3 @@ function ListeUser() {
         </>
     );
 }
-
-export default ListeUser;
