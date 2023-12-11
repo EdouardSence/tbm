@@ -18,6 +18,8 @@ export function SearchBar({ onSearchInputChange }: SearchBarType) {
 	return (
 		<div className="flex w-full justify-center md:flex-nowrap">
 			<Input
+				isClearable
+				onClear={() => setSearchInput("")}
 				size="md"
 				placeholder="Ex: Village 6"
 				className="w-72 flex justify-center"
@@ -27,11 +29,11 @@ export function SearchBar({ onSearchInputChange }: SearchBarType) {
 				labelPlacement="outside"
 				onChange={handleInputChange}
 				value={searchInput}
-				endContent={
-					<Button size="sm" color="primary" className="text-white font-medium rounded-xl -mr-2">
-						Recherche
-					</Button>
-				}
+				// endContent={
+				// 	<Button size="sm" color="primary" className="text-white font-medium rounded-xl -mr-2">
+				// 		Recherche
+				// 	</Button>
+				// }
 			/>
 		</div>
 	);

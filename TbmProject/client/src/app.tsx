@@ -32,7 +32,7 @@ const rootElement: HTMLElement | null = document.getElementById("root") as HTMLE
 ReactDOM.createRoot(rootElement).render(
 	<React.StrictMode>
 		<NextUIProvider>
-			<div className="relative border-gray border-small p-6 rounded-xl flex flex-col items-center w-auto gap-10">
+			<div className="relative border-gray border-small p-20 m-6 rounded-xl flex flex-col items-center min-w-full gap-10">
 				<img src={logo} className="h-20" />
 				<RouterProvider router={router} />
 				<VersionLabel version="1.0.1" />
