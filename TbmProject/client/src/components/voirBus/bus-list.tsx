@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import { Link } from "react-router-dom";
+import { BusType, StopPointType } from "../../BusTypes";
+import { StopPoint } from "./stop-point-item";
 axios.defaults.baseURL = "http://localhost:3000";
 
 type BusListProps = {
@@ -8,32 +9,7 @@ type BusListProps = {
 };
 
 export const BusList = ({ searchValue }: BusListProps) => {
-	const [searchResults, setSearchResults] = useState<any>([]);
-
-	const extractValue = (line: any) => {
-		// si le nom de la ligne commence par Flex'Night, renvoyer la valeur du caractere juste apres
-		if (line.name && line.name.startsWith("Flex'Night")) {
-			return `TBN${line.name.charAt(11)}`;
-		}
-		if (line.name && line.name.includes(" ")) {
-			// S'il y a un espace dans le nom, prendre la valeur après le dernier espace
-			const lastSpaceIndex = line.name.lastIndexOf(" ");
-			const valueAfterSpace = line.name.substring(lastSpaceIndex + 1);
-
-			// Vérifiez si la valeur après l'espace est un chiffre et sa taille n'est pas égale à 1
-			if (/^\d+$/.test(valueAfterSpace) && valueAfterSpace.length !== 1) {
-				return valueAfterSpace;
-			}
-		}
-
-		// Si la valeur après l'espace n'est pas un chiffre ou si sa taille est egale à 1, prendre la valeur des chiffres après le dernier ":"
-		if (line.id && line.id.includes(":")) {
-			const lastColonIndex = line.id.lastIndexOf(":");
-			return line.id.substring(lastColonIndex + 1);
-		}
-		// surprise
-		return "gragawan";
-	};
+	const [searchResults, setSearchResults] = useState<BusType[]>([]);
 
 	useEffect(() => {
 		const delayDebounceFn = setTimeout(async () => {
@@ -42,8 +18,10 @@ export const BusList = ({ searchValue }: BusListProps) => {
 				return;
 			}
 
-			let listBus: any[] = [];
-			const response = await axios.get(`https://ws.infotbm.com/ws/1.0/get-schedule/${searchValue}?referer=www`);
+			const listBus: BusType[] = [];
+			const response = await axios.get(
+				`https://ws.infotbm.com/ws/1.0/get-schedule/${searchValue}?referer=www`
+			);
 			if (response.data.length === 0) {
 				setSearchResults([]);
 				return;
@@ -52,25 +30,34 @@ export const BusList = ({ searchValue }: BusListProps) => {
 				const stop = response.data[i].url;
 				const response2 = await axios.get(stop);
 				if (response2.data.length !== 0) {
-					let responseTMP = {
+					const responseTMP: BusType = {
 						id: response2.data.id,
 						name: response2.data.name,
 						stopPoints: [],
 					};
 					if (response2.data.stopPoints) {
-						for (let j = 0; j < response2.data.stopPoints.length; j++) {
+						for (
+							let j = 0;
+							j < response2.data.stopPoints.length;
+							j++
+						) {
 							const stopPoint = response2.data.stopPoints[j].id;
 							// on enleve les bus scolaires et les trains pcq ca fait chier
-							if (stopPoint.substring(11, 14) !== "TBS" && stopPoint.substring(11, 14) !== "BTD" && stopPoint.substring(11, 14) !== "SNC") {
-								// @ts-ignore
-								responseTMP.stopPoints.push(response2.data.stopPoints[j]);
+							if (
+								stopPoint.substring(11, 14) !== "TBS" &&
+								stopPoint.substring(11, 14) !== "BTD" &&
+								stopPoint.substring(11, 14) !== "SNC"
+							) {
+								responseTMP.stopPoints.push(
+									response2.data.stopPoints[j]
+								);
 							}
 						}
 					}
 					listBus.push(responseTMP);
 				}
 			}
-
+			console.log(listBus);
 			setSearchResults(listBus);
 		}, 400);
 
@@ -80,27 +67,17 @@ export const BusList = ({ searchValue }: BusListProps) => {
 
 	return (
 		<>
-			<div className="listBus">
-				{searchResults.map((result: any) => (
+			<div>
+				{searchResults.map((result: BusType) => (
 					<div key={result.id}>
 						{result.stopPoints &&
-							result.stopPoints.map((stopPoint: any) => (
-								<div key={stopPoint.id}>
-									{stopPoint.routes &&
-										stopPoint.routes.map((route: any) => (
-											<div key={route.id}>
-												<Link
-													to={`voir-horaires?line=${route.line.id}&stop_point=${stopPoint.id}&lineID=${extractValue(route.line)}&route=${route.id}`}
-													style={{ color: "black" }}>
-													<p>
-														<img src={`./ImagesBus/${extractValue(route.line)}.svg`} alt="logo" style={{ width: 50, height: 50, verticalAlign: "middle", padding: 10 }} />
-														{result.name} - {route.name}
-													</p>
-												</Link>
-											</div>
-										))}
-								</div>
-							))}
+							result.stopPoints.map(
+								(stopPoint: StopPointType) => (
+									<div key={stopPoint.id}>
+										<StopPoint stopPoint={stopPoint} />
+									</div>
+								)
+							)}
 					</div>
 				))}
 			</div>

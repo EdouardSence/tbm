@@ -1,4 +1,4 @@
-import { Button, Input } from "@nextui-org/react";
+import { Input } from "@nextui-org/react";
 import axios from "axios";
 import { useState } from "react";
 import { Icons } from "../icons";
@@ -10,16 +10,18 @@ type SearchBarType = {
 
 export function SearchBar({ onSearchInputChange }: SearchBarType) {
 	const [searchInput, setSearchInput] = useState("");
-	const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-		setSearchInput(event.target.value);
-		onSearchInputChange(event.target.value);
+	const handleInputChange = (
+		event: React.ChangeEvent<HTMLInputElement> | null
+	) => {
+		setSearchInput(event?.target.value ?? "");
+		onSearchInputChange(event?.target.value ?? "");
 	};
 
 	return (
 		<div className="flex w-full justify-center md:flex-nowrap">
 			<Input
 				isClearable
-				onClear={() => setSearchInput("")}
+				onClear={() => handleInputChange(null)}
 				size="md"
 				placeholder="Ex: Village 6"
 				className="w-72 flex justify-center"
@@ -29,11 +31,9 @@ export function SearchBar({ onSearchInputChange }: SearchBarType) {
 				labelPlacement="outside"
 				onChange={handleInputChange}
 				value={searchInput}
-				// endContent={
-				// 	<Button size="sm" color="primary" className="text-white font-medium rounded-xl -mr-2">
-				// 		Recherche
-				// 	</Button>
-				// }
+				startContent={
+					<Icons.search color="gray" className="m-1" size={16} />
+				}
 			/>
 		</div>
 	);

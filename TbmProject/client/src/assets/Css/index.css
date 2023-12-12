@@ -5,15 +5,28 @@
 /* Reset CSS */
 :root {
 	font-size: small;
+	background-image: url("background.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
 }
 
 body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	@apply min-h-screen flex items-center justify-center;
+	@apply min-h-screen;
 }
 
 .input-icon {
 	@apply text-default-400 h-5 flex flex-row;
+}
+
+.blur-background {
+	@apply bg-white bg-opacity-50 backdrop-blur-sm;
+}
+
+.thin-border {
+	@apply border-small rounded-xl;
 }
