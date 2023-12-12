@@ -5,6 +5,7 @@ import Menu from './components/Menu';
 import ListeUser from './components/Favori/ListeUser';
 import ProfileInfo from './components/Favori/profileInfo';
 import BusScreen from './components/voirBus/busScreen.jsx';
+import Secret from './components/Secret/Secret.jsx';
 import './assets/Css/index.css';
 import './assets/Css/App.css';
 
@@ -19,6 +20,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/tbm/voir-horaires/" element={<BusScreen />} />
       </Routes>
     </Router>
+    <Secret />
     <p>V1.1</p>
   </React.StrictMode>
 );
