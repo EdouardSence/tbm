@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
-import AjouterProfil from './ajouterProfil';
+import AjouterProfil from '../../../src/components/Favori/ajouterProfil';
 
 function ListeUser() {
     const [listUser, setListUser] = useState([]);
@@ -19,7 +19,7 @@ function ListeUser() {
         chargerListUser();
         const interval = setInterval(() => {
             chargerListUser();
-        }, 1000);
+        }, 10000);
 
         return () => clearInterval(interval);
     }, []);
@@ -29,12 +29,12 @@ function ListeUser() {
             <ul>
                 {listUser.map((user) => (
                     <li key={user.nom}>
-                        <Link to={`/tbm/profile/${user.nom}`}>{user.nom}</Link>
+                        <Link to={`/profile/${user.nom}`}>{user.nom}</Link>
                     </li>
                 ))}
             </ul>
             <AjouterProfil />
-            <Link to="/tbm/">Retour à la page principale</Link>
+            <Link to="/">Retour à la page principale</Link>
         </>
     );
 }

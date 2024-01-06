@@ -1,7 +1,5 @@
 /* eslint-disable react/prop-types */
-import axios from 'axios';
 import {useState} from "react";
-axios.defaults.baseURL = 'http://localhost:3000';
 
 
 const SearchBar = ({onSearchInputChange,placeholder})  => {

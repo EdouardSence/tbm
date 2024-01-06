@@ -2,7 +2,6 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
-axios.defaults.baseURL = 'http://localhost:3000';
 
 const BusList = ({searchValue}) => {
   const [searchResults, setSearchResults] = useState([]);

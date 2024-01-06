@@ -82,7 +82,7 @@ const BusScreen = () => {
             ) : (
                 <p>Loading...</p>
             )}
-            <Link to="/tbm/">Retour à la page principale</Link>
+            <Link to="/">Retour à la page principale</Link>
         </div>
     );
 }

@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Link, useParams  } from 'react-router-dom';
 import toast, { Toaster } from 'react-hot-toast';
-import AjouterBusFavori from './ajouterBusFavori';
+import AjouterBusFavori from '../../../src/components/Favori/ajouterBusFavori';
 
 function ListeUser() {
     const [infoUser, setInfoUser] = useState([]);
@@ -26,7 +26,7 @@ function ListeUser() {
         try {
             await axios.delete(`/api/user/supprimer-user?nom=${profile}`);
             toast.success('Le profile a bien été supprimé');
-            window.location.href = '/tbm/profiles/';
+            window.location.href = '/profiles/';
         } catch (error) {
             toast.error(error.response.data.message);
         }
@@ -39,7 +39,7 @@ function ListeUser() {
             <AjouterBusFavori nom={infoUser.nom} />
             <button onClick={supprimerUser}>Supprimer le profil</button>
             </div>
-            <Link to="/tbm/profiles">Retour à la liste des profils</Link>
+            <Link to="/profiles">Retour à la liste des profils</Link>
             <Toaster 
               position="top-right"
               reverseOrder={false}
