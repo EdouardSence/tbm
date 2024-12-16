@@ -1,32 +1,16 @@
-import { Link } from "react-router-dom";
-import { Route, StopPointType } from "../../BusTypes";
+import { Line } from "../../BusTypes";
 import { BusLine } from "./bus-line";
 
-export type StopPointProps = {
-	stopPoint: StopPointType;
+export type LinesProps = {
+	lines: Line[];
 };
 
-export function StopPoint({ stopPoint }: StopPointProps) {
+export function StopPoint({ lines }: LinesProps) {
 	return (
-		<div>
-			{stopPoint.routes &&
-				stopPoint.routes.map((route: Route) => (
-					<div key={route.id} className="my-8">
-						<Link
-							to={`voir-horaires?line=${
-								route.line.id
-							}&stop_point=${stopPoint.id}&lineID=${
-								route.line.name.split(" ")[1]
-							}&route=${route.id}`}
-							style={{
-								color: "black",
-							}}>
-							<p className="flex flex-row">
-								<BusLine busLine={route.line} />
-								{stopPoint.name} - {route.name}
-							</p>
-						</Link>
-					</div>
+		<div className="flex flex-row flex-wrap my-3">
+			{lines &&
+				lines.map((line: Line) => (
+						<BusLine busLine={line} />
 				))}
 		</div>
 	);

@@ -4,7 +4,9 @@ import { NextUIProvider } from "@nextui-org/react";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { Home } from "./components/home";
+import BusScreen from "./components/voirBus/bus-screen";
 import { TBMOutlet } from "./components/tbm-outlet";
+import StopScreen from "./components/voirBus/stop-screen";
 
 const router = createBrowserRouter([
 	{
@@ -24,8 +26,12 @@ const router = createBrowserRouter([
 				// element: <ListeUser />,
 			},
 			{
-				path: "/voir-horaires/",
-				// element: <BusScreen />,
+				path: "/voir-horaires/bus/",
+				element: <BusScreen />,
+			},
+			{
+				path: "/voir-horaires/stop/:stop_area",
+				element: <StopScreen />,
 			},
 		],
 	},
